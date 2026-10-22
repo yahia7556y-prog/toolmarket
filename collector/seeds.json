@@ -1,0 +1,12 @@
+[
+{"repo":"github/github-mcp-server","type":"أداة","dom":"كود","cmd":"docker run -i ghcr.io/github/github-mcp-server","desc":"ربط المساعد بمستودعات GitHub"},
+{"repo":"microsoft/playwright-mcp","type":"أداة","dom":"اختبار","npm":"@playwright/mcp","cmd":"npx -y @playwright/mcp","desc":"تشغيل المتصفح والتفاعل مع الصفحات"},
+{"repo":"upstash/context7","type":"أداة","dom":"وثائق","npm":"@upstash/context7-mcp","cmd":"npx -y @upstash/context7-mcp","desc":"جلب وثائق المكتبات الحديثة"},
+{"repo":"modelcontextprotocol/servers","type":"أداة","dom":"ملفات","npm":"@modelcontextprotocol/server-filesystem","cmd":"npx -y @modelcontextprotocol/server-filesystem","desc":"خوادم MCP الرسمية"},
+{"repo":"anthropics/skills","type":"مهارة","dom":"مستندات","cmd":"git clone https://github.com/anthropics/skills","desc":"مهارات رسمية: Word وPDF وExcel وغيرها"},
+{"repo":"browser-use/browser-use","type":"وكيل","dom":"أتمتة","pypi":"browser-use","cmd":"pip install browser-use","desc":"وكيل يتصفح الويب وينفذ المهام"},
+{"repo":"All-Hands-AI/OpenHands","type":"وكيل","dom":"كود","pypi":"openhands-ai","cmd":"pip install openhands-ai","desc":"وكيل برمجي كامل"},
+{"repo":"mendableai/firecrawl-mcp-server","type":"أداة","dom":"بيانات","npm":"firecrawl-mcp","cmd":"npx -y firecrawl-mcp","desc":"استخراج محتوى المواقع"},
+{"repo":"semgrep/mcp","type":"أداة","dom":"أمان","pypi":"semgrep-mcp","cmd":"pip install semgrep-mcp","desc":"فحص الكود بحثاً عن ثغرات"},
+{"repo":"makenotion/notion-mcp-server","type":"أداة","dom":"إنتاجية","npm":"@notionhq/notion-mcp-server","cmd":"npx -y @notionhq/notion-mcp-server","desc":"قراءة صفحات Notion وتحريرها"}
+]

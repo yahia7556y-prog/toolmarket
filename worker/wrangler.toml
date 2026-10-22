@@ -1,0 +1,4 @@
+name = "toolmarket-telemetry"
+main = "worker.js"
+compatibility_date = "2024-11-01"
+kv_namespaces = [{ binding = "KV", id = "ضع_معرف_KV_هنا" }]
