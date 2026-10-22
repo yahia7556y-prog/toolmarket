@@ -1,27 +1,23 @@
-# سوق الأدوات والمهارات
+# ToolMarket
 
-لوحة اكتشاف للأدوات والمهارات والوكلاء الأكثر استخداماً، مستضافة مجاناً على GitHub Pages، بلا خادم.
+A live-style dashboard of the most used AI tools, skills and agents. English by default with an Arabic toggle, light and dark themes. Hosted free on GitHub Pages, no server.
 
-## التشغيل المحلي
-    python collector/collect.py --demo   # بيانات تجريبية بلا إنترنت
-    python collector/collect.py          # بيانات حقيقية (يفضل ضبط GITHUB_TOKEN)
+## Run locally
+    python collector/collect.py --demo   # fake data, no network
+    python collector/collect.py          # real data (set GITHUB_TOKEN to avoid rate limits)
     cd web && python -m http.server 8000
 
-## النشر
-1. Settings ← Pages ← Source: GitHub Actions.
-2. Actions ← update ← Run workflow. يتجدد بعدها يومياً تلقائياً.
+## Deploy
+Settings > Pages > Source: GitHub Actions, then Actions > update > Run workflow. It refreshes daily.
 
-## إضافة عنصر
-أضف سطراً في collector/seeds.json (repo, type, dom, cmd، واختيارياً npm أو pypi).
+## Add an item
+Add a line to collector/seeds.txt: repo|type|domain|name|npm|pypi|install command|description|arabic description. Types: tool, skill, agent.
 
-## الاستخدام
-التحميلات اليومية من npm أو PyPI إن وجدت، وإلا عدد النجوم. التغير 24س يقارن بلقطة اليوم السابق في data/history.json.
+## How usage is measured
+Daily downloads from npm or PyPI when a package is given, otherwise the star count. 24h change compares with yesterday snapshot in data/history.json.
 
-## الاكتشاف التلقائي
-collector/discover.py يبحث يومياً عن مستودعات بوسوم mcp-server وclaude-skills وagent-skills وai-agent (أكثر من 200 نجمة، نشاط خلال 180 يوماً، رخصة، ليست fork) ويدمجها collect.py مع seeds.json.
+## Auto-discovery
+collector/discover.py finds repos tagged mcp-server, claude-skills, agent-skills, ai-agent (200+ stars, active in 180 days, licensed, not forks).
 
-## تليمتري زر التثبيت (اختياري)
-يعد ضغطات "نسخ أمر التثبيت" بلا بيانات شخصية.
-1. أنشئ حساب Cloudflare مجاني ثم: `cd worker && npx wrangler kv namespace create KV` وضع المعرف في wrangler.toml.
-2. `npx wrangler deploy` وانسخ رابط الـ Worker.
-3. في المستودع: Settings ← Variables ← Actions، أضف TELEMETRY_URL بقيمة الرابط.
+## Install telemetry (optional)
+worker/ is a Cloudflare Worker that counts install-button clicks with no personal data. Deploy it, then set the Actions variable TELEMETRY_URL.

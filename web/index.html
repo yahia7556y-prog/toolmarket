@@ -1,87 +1,139 @@
 <!DOCTYPE html>
-<html lang="ar" dir="rtl">
+<html lang='en' dir='ltr'>
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>سوق الأدوات</title>
-<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@400;500;700&display=swap" rel="stylesheet">
+<meta charset='utf-8'>
+<meta name='viewport' content='width=device-width, initial-scale=1, viewport-fit=cover'>
+<title>ToolMarket - Top AI tools, skills and agents</title>
+<meta name='description' content='Discover the most used AI tools, skills and agents, ranked like a market.'>
+<link href='https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@400;500;700&family=Inter:wght@400;500;600;700&display=swap' rel='stylesheet'>
+<script>(function(){var t=null;try{t=localStorage.getItem('theme')}catch(e){}if(!t)t=matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light';document.documentElement.dataset.theme=t})()</script>
 <style>
-:root{--bg:#f3f5f2;--surf:#fff;--ink:#14201b;--mut:#66736c;--line:#dde3de;--up:#0a8a55;--dn:#cf3b3b;--acc:#0f6b4f;--accink:#fff;--chip:#e8ede9;
-box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
-@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#0c1210;--surf:#141c19;--ink:#e6eee9;--mut:#8b9a92;--line:#25312c;--up:#2fd18a;--dn:#ff6b6b;--acc:#2fd18a;--accink:#06140e;--chip:#1d2823;color-scheme:dark}}
-:root[data-theme="dark"]{--bg:#0c1210;--surf:#141c19;--ink:#e6eee9;--mut:#8b9a92;--line:#25312c;--up:#2fd18a;--dn:#ff6b6b;--acc:#2fd18a;--accink:#06140e;--chip:#1d2823;color-scheme:dark}
-html{scroll-padding-top:env(safe-area-inset-top,0px)}
+:root{--bg:#f6f7f9;--surf:#fff;--ink:#0f172a;--mut:#64748b;--line:#e5e7eb;--acc:#4f46e5;--accink:#fff;--chip:#eef0f4;--up:#059669;--upbg:#d1fae5;--dn:#dc2626;--dnbg:#fee2e2;--sh:0 1px 2px rgba(15,23,42,.06),0 8px 24px rgba(15,23,42,.06);color-scheme:light}
+:root[data-theme='dark']{--bg:#0b0f17;--surf:#121826;--ink:#e8ecf4;--mut:#93a0b8;--line:#232c3f;--acc:#818cf8;--accink:#0b0f17;--chip:#1a2233;--up:#34d399;--upbg:#0f3a2c;--dn:#f87171;--dnbg:#3d1618;--sh:0 8px 24px rgba(0,0,0,.4);color-scheme:dark}
 *{box-sizing:border-box}
-body{margin:0;background:var(--bg);color:var(--ink);font-family:"IBM Plex Sans Arabic",system-ui,sans-serif;font-size:14px}
-.wrap{max-width:1000px;margin:0 auto;padding:12px}
-h1{font-size:20px;margin:6px 0 2px}
-.sub{color:var(--mut);margin:0 0 10px;font-size:13px}
-.tick{display:flex;gap:8px;overflow-x:auto;padding-bottom:6px}
-.tk{flex:0 0 auto;background:var(--surf);border:1px solid var(--line);border-radius:8px;padding:8px 12px;min-width:140px}
-.tk small{color:var(--mut);display:block;font-size:11px}
-.tk b{font-size:15px}
-.bar{display:flex;gap:8px;flex-wrap:wrap;margin:10px 0}
-.tabs{display:flex;gap:4px;background:var(--chip);padding:3px;border-radius:8px}
-.tabs button,select,input{font:inherit;color:var(--ink)}
-.tabs button{border:0;background:none;padding:6px 12px;border-radius:6px;cursor:pointer}
-.tabs button.on{background:var(--surf);font-weight:700;box-shadow:0 0 0 1px var(--line)}
-input,select{background:var(--surf);border:1px solid var(--line);border-radius:8px;padding:7px 10px}
-input{flex:1;min-width:140px}
-.tw{overflow-x:auto;background:var(--surf);border:1px solid var(--line);border-radius:10px}
-table{border-collapse:collapse;width:100%;min-width:720px}
-th,td{padding:10px;text-align:right;border-bottom:1px solid var(--line);white-space:nowrap}
+body{margin:0;background:var(--bg);color:var(--ink);font:14px/1.5 Inter,'IBM Plex Sans Arabic',system-ui,sans-serif}
+:root[lang='ar'] body{font-family:'IBM Plex Sans Arabic',Inter,system-ui,sans-serif}
+.wrap{max-width:1080px;margin:0 auto;padding:0 14px}
+header{position:sticky;top:0;z-index:5;background:var(--surf);border-bottom:1px solid var(--line);padding-top:env(safe-area-inset-top,0px)}
+.hd{display:flex;align-items:center;justify-content:space-between;height:56px}
+.brand{display:flex;align-items:center;gap:8px;font-weight:700;font-size:17px;color:var(--acc)}
+.brand span{color:var(--ink)}
+.ctl{display:flex;gap:8px}
+h1{font-size:clamp(22px,4vw,32px);line-height:1.2;margin:26px 0 6px;letter-spacing:-.02em}
+.sub{color:var(--mut);margin:0 0 18px}
+.stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(170px,1fr));gap:10px}
+.card{background:var(--surf);border:1px solid var(--line);border-radius:12px;padding:12px 14px;box-shadow:var(--sh)}
+.card small{color:var(--mut);display:block;font-size:12px}
+.card b{font-size:16px;display:block;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.bar{display:flex;gap:8px;flex-wrap:wrap;margin:18px 0 10px}
+.tabs{display:flex;gap:2px;background:var(--chip);padding:3px;border-radius:10px}
+.tabs button{border:0;background:none;color:var(--mut);font:inherit;font-weight:500;padding:6px 12px;border-radius:8px;cursor:pointer}
+.tabs button small{opacity:.7;margin-inline-start:4px}
+.tabs button.on{background:var(--surf);color:var(--ink);box-shadow:0 0 0 1px var(--line)}
+input,select{font:inherit;color:var(--ink);background:var(--surf);border:1px solid var(--line);border-radius:10px;padding:8px 12px}
+input{flex:1;min-width:160px}
+.tw{overflow-x:auto;background:var(--surf);border:1px solid var(--line);border-radius:14px;box-shadow:var(--sh)}
+table{border-collapse:collapse;width:100%;min-width:760px}
+th,td{padding:11px 12px;text-align:start;border-bottom:1px solid var(--line);white-space:nowrap}
+tbody tr:last-child td{border-bottom:0}
 th{color:var(--mut);font-weight:500;font-size:12px;cursor:pointer;user-select:none}
+th:hover{color:var(--ink)}
 tbody tr{cursor:pointer}
 tbody tr:hover{background:var(--chip)}
-.n{font-weight:700}
-.d{color:var(--mut);font-size:12px;max-width:220px;overflow:hidden;text-overflow:ellipsis}
-.ty{font-size:11px;background:var(--chip);border-radius:20px;padding:2px 8px}
-.up{color:var(--up)}.dn{color:var(--dn)}
+.mut{color:var(--mut)}
+.nm{display:flex;align-items:center;gap:10px}
+.av{width:32px;height:32px;border-radius:50%;display:grid;place-items:center;color:#fff;font-weight:700;font-size:13px;flex:none}
+.d{color:var(--mut);font-size:12px;max-width:300px;overflow:hidden;text-overflow:ellipsis}
+.ty{font-size:11px;background:var(--chip);color:var(--mut);border-radius:20px;padding:2px 9px;font-weight:500}
 .num{font-variant-numeric:tabular-nums}
-.ins{background:var(--acc);color:var(--accink);border:0;border-radius:6px;padding:5px 10px;font:inherit;cursor:pointer;font-size:12px}
-.pn{position:fixed;inset:auto 0 0 0;background:var(--surf);border-top:1px solid var(--line);padding:14px 14px calc(14px + env(safe-area-inset-bottom,0px));display:none;z-index:5}
-.pn.show{display:block}
-.pn code{display:block;direction:ltr;text-align:left;background:var(--chip);padding:8px;border-radius:6px;margin:8px 0;overflow-x:auto}
-.note{color:var(--mut);font-size:12px;margin:10px 0}
+.pill{display:inline-block;border-radius:20px;padding:2px 9px;font-size:12px;font-weight:600;font-variant-numeric:tabular-nums;direction:ltr}
+.pill.up{background:var(--upbg);color:var(--up)}.pill.dn{background:var(--dnbg);color:var(--dn)}
+.up{color:var(--up)}.dn{color:var(--dn)}
+.btn{background:var(--acc);color:var(--accink);border:0;border-radius:10px;padding:8px 14px;font:inherit;font-weight:600;cursor:pointer;text-decoration:none;display:inline-block}
+.btn.sm{padding:4px 11px;font-size:12px;border-radius:8px}
+.btn.ghost{background:var(--chip);color:var(--ink)}
+.empty{text-align:center;color:var(--mut);padding:30px}
+.note,footer{color:var(--mut);font-size:12px;margin:12px 0 28px}
+footer a{color:var(--acc)}
+.ov{position:fixed;inset:0;background:rgba(0,0,0,.5);display:none;align-items:flex-end;justify-content:center;z-index:9}
+.ov.show{display:flex}
+.sheet{background:var(--surf);width:min(560px,100%);border-radius:18px 18px 0 0;padding:20px 18px calc(18px + env(safe-area-inset-bottom,0px));box-shadow:var(--sh)}
+@media(min-width:640px){.ov{align-items:center}.sheet{border-radius:18px}}
+#ph{display:flex;align-items:center;gap:12px}
+#pd{color:var(--mut);margin:10px 0}
+.kv{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;margin-bottom:10px}
+.kv div{background:var(--chip);border-radius:10px;padding:8px 10px}
+.kv small{display:block;color:var(--mut);font-size:11px}
+code{display:block;direction:ltr;text-align:left;background:var(--chip);padding:10px;border-radius:10px;margin:8px 0 14px;overflow-x:auto;font-size:12px;white-space:pre}
+.act{display:flex;gap:8px;flex-wrap:wrap}
 :focus-visible{outline:2px solid var(--acc);outline-offset:2px}
 </style>
 </head>
 <body>
-<div class="wrap">
-<h1>سوق الأدوات والمهارات</h1>
-<p class="sub">الأكثر استخداماً اليوم في شاشة واحدة. <span id="upd"></span></p>
-<div class="tick" id="tick"></div>
-<div class="bar">
-<div class="tabs" id="tabs"></div>
-<input id="q" placeholder="ابحث عن أداة أو مهارة" aria-label="بحث">
-<select id="dom" aria-label="المجال"><option value="">كل المجالات</option></select>
-</div>
-<div class="tw"><table>
-<thead><tr><th>#</th><th data-k="name">الاسم</th><th>النوع</th><th data-k="score">التقييم</th><th data-k="use">الاستخدام اليومي</th><th data-k="chg">التغير 24س</th><th>آخر 7 أيام</th><th></th></tr></thead>
-<tbody id="rows"></tbody></table></div>
-<p class="note">الترتيب الافتراضي حسب الاستخدام. اضغط على عنوان العمود لإعادة الترتيب.</p>
-</div>
-<div class="pn" id="pn"><b id="pt"></b><div class="d" id="pd" style="max-width:none"></div><code id="pc"></code><button class="ins" id="cp">نسخ أمر التثبيت</button> <button class="ins" style="background:var(--chip);color:var(--ink)" onclick="pn.classList.remove('show')">إغلاق</button></div>
+<header><div class='wrap hd'><div class='brand'><svg width='26' height='26' viewBox='0 0 26 26' aria-hidden='true'><rect x='2' y='13' width='5' height='11' rx='1.5' fill='currentColor'/><rect x='10' y='7' width='5' height='17' rx='1.5' fill='currentColor' opacity='.7'/><rect x='18' y='2' width='5' height='22' rx='1.5' fill='currentColor' opacity='.45'/></svg><span>ToolMarket</span></div><div class='ctl'><button class='btn ghost sm' id='lg' aria-label='Language'></button><button class='btn ghost sm' id='th' aria-label='Theme'></button></div></div></header>
+<main class='wrap'>
+<h1 data-i='h1'></h1>
+<p class='sub'><span data-i='sub'></span> <span id='upd'></span></p>
+<div class='stats' id='st'></div>
+<div class='bar'><div class='tabs' id='tabs'></div><input id='q' data-p='ph' aria-label='Search'><select id='dom' aria-label='Domain'></select></div>
+<div class='tw'><table><thead><tr><th data-i='rank'></th><th data-k='name' data-i='name'></th><th data-i='type'></th><th data-k='score' data-i='rating'></th><th data-k='use' data-i='usage'></th><th data-k='chg' data-i='chg'></th><th data-i='trend'></th><th></th></tr></thead><tbody id='rows'></tbody></table></div>
+<p class='note' data-i='note'></p>
+</main>
+<footer class='wrap'><span data-i='foot'></span> <a href='https://github.com/yahia7556y-prog/toolmarket' target='_blank' rel='noopener'>GitHub</a></footer>
+<div class='ov' id='ov'><div class='sheet' role='dialog' aria-modal='true'><div id='ph'></div><p id='pd'></p><div class='kv' id='pk'></div><code id='pc'></code><div class='act'><button class='btn' id='cp'></button><a class='btn ghost' id='gh' target='_blank' rel='noopener'></a><button class='btn ghost' id='cl'></button></div></div></div>
 <script>
-var D=[];
-var cur="",TELEMETRY="";
-var tab="الكل",sk="use",asc=false,$=function(i){return document.getElementById(i)};
-["الكل","أداة","مهارة","وكيل"].forEach(function(t){var b=document.createElement("button");b.textContent=t=="الكل"?"الكل":t=="أداة"?"أدوات":t=="مهارة"?"مهارات":"وكلاء";b.onclick=function(){tab=t;render()};b.dataset.t=t;$("tabs").appendChild(b)});
-function fmt(n){return n.toLocaleString("en-US")}
-function spark(a,up){var mn=Math.min.apply(0,a),mx=Math.max.apply(0,a),w=80,h=24;var p=a.map(function(v,i){return (i*w/6).toFixed(1)+","+(h-(v-mn)/(mx-mn||1)*(h-4)-2).toFixed(1)}).join(" ");return '<svg width="80" height="24" viewBox="0 0 80 24"><polyline fill="none" stroke="'+(up?'var(--up)':'var(--dn)')+'" stroke-width="1.6" points="'+p+'"/></svg>'}
-function ticker(){var top=D.slice().sort(function(a,b){return b.use-a.use})[0],rise=D.slice().sort(function(a,b){return b.chg-a.chg})[0],fall=D.slice().sort(function(a,b){return a.chg-b.chg})[0];
-$("tick").innerHTML=[["الأكثر استخداماً",top.name,fmt(top.use)],["الأسرع صعوداً",rise.name,"+"+rise.chg+"%"],["الأكثر هبوطاً",fall.name,fall.chg+"%"],["عدد العناصر",D.length,"تحديث يومي"]].map(function(x){return '<div class="tk"><small>'+x[0]+'</small><b>'+x[1]+'</b> <small>'+x[2]+'</small></div>'}).join("")}
-function render(){
-document.querySelectorAll("#tabs button").forEach(function(b){b.className=b.dataset.t==tab?"on":""});
-var q=$("q").value.toLowerCase(),m=$("dom").value;
-var L=D.filter(function(d){return (tab=="الكل"||d.type==tab)&&(!m||d.dom==m)&&(d.name+d.desc).toLowerCase().indexOf(q)>-1});
-L.sort(function(a,b){var x=a[sk],y=b[sk];var r=x>y?1:x<y?-1:0;return asc?r:-r});
-$("rows").innerHTML=L.length?L.map(function(d,i){var up=d.chg>=0;return '<tr data-n="'+d.name+'"><td class="num">'+(i+1)+'</td><td><div class="n">'+d.name+'</div><div class="d">'+d.desc+'</div></td><td><span class="ty">'+d.type+'</span></td><td class="num">★ '+d.score.toFixed(1)+'</td><td class="num">'+fmt(d.use)+'</td><td class="num '+(up?'up':'dn')+'">'+(up?'▲ +':'▼ ')+d.chg.toFixed(1)+'%</td><td>'+spark(d.sp,up)+'</td><td><button class="ins" data-i="'+d.name+'">تثبيت</button></td></tr>'}).join(""):'<tr><td colspan="8">لا توجد نتائج. جرّب كلمة أخرى أو اختر كل المجالات.</td></tr>'}
-document.querySelectorAll("th[data-k]").forEach(function(h){h.onclick=function(){var k=h.dataset.k;if(sk==k)asc=!asc;else{sk=k;asc=k=="name"}render()}});
-$("q").oninput=render;$("dom").onchange=render;
-$("rows").onclick=function(e){var t=e.target.closest("tr");if(!t)return;var d=D.filter(function(x){return x.name==t.dataset.n})[0];cur=d.name;$("pt").textContent=d.name;$("pd").textContent=d.desc+(d.inst?" — "+d.inst+" تثبيت عبر السوق":"");$("pc").textContent=d.cmd;$("cp").textContent="نسخ أمر التثبيت";$("pn").classList.add("show")};
-$("cp").onclick=function(){var t=$("pc").textContent;try{navigator.clipboard.writeText(t)}catch(e){}if(TELEMETRY&&cur)try{fetch(TELEMETRY+"/install",{method:"POST",headers:{"content-type":"application/json"},body:JSON.stringify({name:cur}),keepalive:true})}catch(e){}$("cp").textContent="تم النسخ"};
-fetch("data.json").then(function(r){return r.json()}).then(function(j){D=j.items;TELEMETRY=j.telemetry||"";$("upd").textContent="آخر تحديث: "+j.updated+(j.demo?" (بيانات تجريبية)":"");D.map(function(d){return d.dom}).filter(function(v,i,a){return a.indexOf(v)==i}).forEach(function(m){var o=document.createElement("option");o.value=o.textContent=m;$("dom").appendChild(o)});ticker();render()}).catch(function(){$("upd").textContent="تعذر تحميل data.json"});
+var $=function(i){return document.getElementById(i)},D=[],cur=null,TEL='',tab='all',sk='use',asc=false,lang='en';
+function sg(k){try{return localStorage.getItem(k)}catch(e){return null}}
+function ss(k,v){try{localStorage.setItem(k,v)}catch(e){}}
+var T={en:{h1:'Discover the most used AI tools, skills and agents',sub:'Ranked by real usage, rating and momentum.',ph:'Search tools, skills, agents...',all:'All',tool:'Tools',skill:'Skills',agent:'Agents',domAll:'All domains',rank:'#',name:'Name',type:'Type',rating:'Rating',usage:'Daily usage',chg:'24h',trend:'7 days',install:'Install',copy:'Copy install command',copied:'Copied!',close:'Close',gh:'View on GitHub',empty:'No results. Try another keyword or domain.',top:'Most used',up:'Top gainer',down:'Top decliner',count:'Listed',daily:'refreshed daily',upd:'Updated',demo:'demo data',err:'Could not load data.json',inst:'installs via ToolMarket',note:'Ranked by usage. Click a column header to sort.',foot:'Data from GitHub, npm and PyPI.',ty_tool:'Tool',ty_skill:'Skill',ty_agent:'Agent'},
+ar:{h1:'اكتشف أكثر أدوات ومهارات ووكلاء الذكاء الاصطناعي استخداماً',sub:'مرتبة حسب الاستخدام الفعلي والتقييم والزخم.',ph:'ابحث عن أداة أو مهارة أو وكيل...',all:'الكل',tool:'أدوات',skill:'مهارات',agent:'وكلاء',domAll:'كل المجالات',rank:'#',name:'الاسم',type:'النوع',rating:'التقييم',usage:'الاستخدام اليومي',chg:'24 ساعة',trend:'7 أيام',install:'تثبيت',copy:'نسخ أمر التثبيت',copied:'تم النسخ!',close:'إغلاق',gh:'عرض على GitHub',empty:'لا توجد نتائج. جرّب كلمة أو مجالاً آخر.',top:'الأكثر استخداماً',up:'الأسرع صعوداً',down:'الأكثر هبوطاً',count:'عدد العناصر',daily:'يتحدث يومياً',upd:'آخر تحديث',demo:'بيانات تجريبية',err:'تعذر تحميل data.json',inst:'تثبيت عبر ToolMarket',note:'الترتيب حسب الاستخدام. اضغط على عنوان العمود لإعادة الترتيب.',foot:'البيانات من GitHub وnpm وPyPI.',ty_tool:'أداة',ty_skill:'مهارة',ty_agent:'وكيل'}};
+var DAR={Code:'كود',Data:'بيانات',Docs:'مستندات',Testing:'اختبار',Automation:'أتمتة',Security:'أمان',Productivity:'إنتاجية',Files:'ملفات',Communication:'تواصل',Design:'تصميم',Search:'بحث',DevOps:'عمليات',General:'عام'};
+function t(k){return T[lang][k]||k}
+function esc(s){return String(s==null?'':s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/'/g,'&#39;')}
+function fmt(n){return Number(n).toLocaleString('en-US')}
+function dl(d){return lang==='ar'?(DAR[d]||d):d}
+function ds(d){return lang==='ar'&&d.ar?d.ar:d.desc}
+function tn(ty){return t('ty_'+ty)}
+function hue(s){var h=0;for(var i=0;i<s.length;i++)h=(h*31+s.charCodeAt(i))%360;return h}
+function av(n){return `<span class='av' style='background:hsl(${hue(n)} 55% 42%)'>${esc(n.charAt(0).toUpperCase())}</span>`}
+function spark(a,up){var mn=Math.min.apply(0,a),mx=Math.max.apply(0,a),p=a.map(function(v,i){return (i*84/(a.length-1)).toFixed(1)+','+(24-(v-mn)/(mx-mn||1)*20-2).toFixed(1)}).join(' ');return `<svg width='84' height='26' viewBox='0 0 84 26' style='direction:ltr'><polyline fill='none' stroke='var(--${up?'up':'dn'})' stroke-width='1.8' stroke-linecap='round' stroke-linejoin='round' points='${p}'/></svg>`}
+function row(d,i){var up=d.chg>=0;return `<tr data-n='${esc(d.name)}'><td class='num mut'>${i+1}</td><td><div class='nm'>${av(d.name)}<div><b>${esc(d.name)}</b><div class='d'>${esc(ds(d))}</div></div></div></td><td><span class='ty'>${esc(tn(d.type))}</span></td><td class='num'>★ ${d.score.toFixed(1)}</td><td class='num'>${fmt(d.use)}</td><td><span class='pill ${up?'up':'dn'}'>${up?'▲ +':'▼ '}${d.chg.toFixed(1)}%</span></td><td>${spark(d.sp,up)}</td><td><button class='btn sm'>${t('install')}</button></td></tr>`}
+function render(){var q=$('q').value.toLowerCase(),m=$('dom').value;
+document.querySelectorAll('#tabs button').forEach(function(b){b.className=b.dataset.t===tab?'on':''});
+var L=D.filter(function(d){return (tab==='all'||d.type===tab)&&(!m||d.dom===m)&&(d.name+' '+d.desc+' '+(d.ar||'')).toLowerCase().indexOf(q)>-1});
+L.sort(function(a,b){var x=a[sk],y=b[sk],r=x>y?1:x<y?-1:0;return asc?r:-r});
+$('rows').innerHTML=L.length?L.map(row).join(''):`<tr><td colspan='8' class='empty'>${t('empty')}</td></tr>`}
+function tabs(){$('tabs').innerHTML=['all','tool','skill','agent'].map(function(k){return `<button data-t='${k}'>${t(k)}<small>${k==='all'?D.length:D.filter(function(d){return d.type===k}).length}</small></button>`}).join('')}
+function doms(){var v=$('dom').value,s=D.map(function(d){return d.dom}).filter(function(x,i,a){return a.indexOf(x)===i}).sort();$('dom').innerHTML=`<option value=''>${t('domAll')}</option>`+s.map(function(x){return `<option value='${esc(x)}'>${esc(dl(x))}</option>`}).join('');$('dom').value=v}
+function stats(){if(!D.length){$('st').innerHTML='';return}var by=function(k,r){return D.slice().sort(function(a,b){return r*(b[k]-a[k])})[0]},a=by('use',1),b=by('chg',1),c=by('chg',-1);
+$('st').innerHTML=[[t('top'),a.name,fmt(a.use)],[t('up'),b.name,'+'+b.chg+'%'],[t('down'),c.name,c.chg+'%'],[t('count'),D.length,t('daily')]].map(function(x){return `<div class='card'><small>${x[0]}</small><b>${esc(x[1])}</b><small>${esc(x[2])}</small></div>`}).join('')}
+function setTh(v){document.documentElement.dataset.theme=v;ss('theme',v);$('th').textContent=v==='dark'?'☀':'☾'}
+function setLang(l){lang=l;ss('lang',l);var h=document.documentElement;h.lang=l;h.dir=l==='ar'?'rtl':'ltr';
+document.querySelectorAll('[data-i]').forEach(function(e){e.textContent=t(e.dataset.i)});
+document.querySelectorAll('[data-p]').forEach(function(e){e.placeholder=t(e.dataset.p)});
+$('lg').textContent=l==='ar'?'English':'العربية';$('cp').textContent=t('copy');$('cl').textContent=t('close');$('gh').textContent=t('gh');
+tabs();doms();stats();render();if(cur&&$('ov').classList.contains('show'))openP(cur)}
+function openP(d){cur=d;var up=d.chg>=0;
+$('ph').innerHTML=av(d.name)+`<div><b>${esc(d.name)}</b> <span class='ty'>${esc(tn(d.type))}</span></div>`;
+$('pd').textContent=ds(d)+(d.inst?' - '+d.inst+' '+t('inst'):'');
+$('pk').innerHTML=`<div><small>${t('rating')}</small><b>★ ${d.score.toFixed(1)}</b></div><div><small>${t('usage')}</small><b>${fmt(d.use)}</b></div><div><small>${t('chg')}</small><b class='${up?'up':'dn'}' style='direction:ltr;display:inline-block'>${up?'+':''}${d.chg.toFixed(1)}%</b></div>`;
+$('pc').textContent=d.cmd;$('cp').textContent=t('copy');$('gh').href='https://github.com/'+d.repo;$('gh').textContent=t('gh');$('ov').classList.add('show')}
+function closeP(){$('ov').classList.remove('show')}
+$('tabs').onclick=function(e){var b=e.target.closest('button');if(b){tab=b.dataset.t;render()}};
+$('q').oninput=render;$('dom').onchange=render;
+document.querySelectorAll('th[data-k]').forEach(function(h){h.onclick=function(){var k=h.dataset.k;if(sk===k)asc=!asc;else{sk=k;asc=k==='name'}render()}});
+$('rows').onclick=function(e){var r=e.target.closest('tr');if(!r||!r.dataset.n)return;var d=D.filter(function(x){return x.name===r.dataset.n})[0];if(d)openP(d)};
+$('cp').onclick=function(){try{navigator.clipboard.writeText($('pc').textContent)}catch(e){}
+if(TEL&&cur)try{fetch(TEL+'/install',{method:'POST',headers:{'content-type':'application/json'},body:JSON.stringify({name:cur.name}),keepalive:true})}catch(e){}
+$('cp').textContent=t('copied')};
+$('cl').onclick=closeP;$('ov').onclick=function(e){if(e.target===$('ov'))closeP()};
+document.onkeydown=function(e){if(e.key==='Escape')closeP()};
+$('lg').onclick=function(){setLang(lang==='ar'?'en':'ar')};
+$('th').onclick=function(){setTh(document.documentElement.dataset.theme==='dark'?'light':'dark')};
+setTh(document.documentElement.dataset.theme);setLang(sg('lang')==='ar'?'ar':'en');
+fetch('data.json').then(function(r){return r.json()}).then(function(j){D=j.items;TEL=j.telemetry||'';
+$('upd').textContent=t('upd')+': '+j.updated+(j.demo?' ('+t('demo')+')':'');
+tabs();doms();stats();render()}).catch(function(){$('upd').textContent=t('err')});
 </script>
 </body>
 </html>

@@ -1,0 +1,41 @@
+# repo|type|domain|name|npm|pypi|install command|description|arabic description
+github/github-mcp-server|tool|Code|github-mcp-server|||docker run -i ghcr.io/github/github-mcp-server|GitHub's official MCP server for repos, issues and pull requests|الخادم الرسمي لـ GitHub للمستودعات والمشاكل وطلبات الدمج
+microsoft/playwright-mcp|tool|Testing|playwright-mcp|@playwright/mcp||npx -y @playwright/mcp|Browser automation and page interaction for AI assistants|أتمتة المتصفح والتفاعل مع الصفحات
+upstash/context7|tool|Docs|context7|@upstash/context7-mcp||npx -y @upstash/context7-mcp|Up-to-date library docs delivered straight into your prompt|وثائق المكتبات المحدثة داخل المحادثة
+modelcontextprotocol/servers|tool|Files|mcp-servers|@modelcontextprotocol/server-filesystem||npx -y @modelcontextprotocol/server-filesystem|Reference MCP servers: filesystem, memory, fetch and more|خوادم MCP المرجعية: الملفات والذاكرة والجلب وغيرها
+firecrawl/firecrawl-mcp-server|tool|Data|firecrawl-mcp|firecrawl-mcp||npx -y firecrawl-mcp|Scrape, crawl and extract clean web content|استخراج محتوى المواقع بصيغة نظيفة
+semgrep/mcp|tool|Security|semgrep-mcp||semgrep-mcp|pip install semgrep-mcp|Scan code for vulnerabilities with Semgrep|فحص الكود بحثاً عن الثغرات
+makenotion/notion-mcp-server|tool|Productivity|notion-mcp|@notionhq/notion-mcp-server||npx -y @notionhq/notion-mcp-server|Read and edit Notion pages and databases|قراءة صفحات Notion وقواعد بياناتها وتحريرها
+getsentry/sentry-mcp|tool|DevOps|sentry-mcp|@sentry/mcp-server||npx -y @sentry/mcp-server|Inspect errors and issues from Sentry|فحص الأخطاء والمشاكل من Sentry
+ChromeDevTools/chrome-devtools-mcp|tool|Testing|chrome-devtools-mcp|chrome-devtools-mcp||npx -y chrome-devtools-mcp|Debug and profile web pages through Chrome DevTools|تصحيح الصفحات وتحليل أدائها عبر Chrome DevTools
+supabase-community/supabase-mcp|tool|Data|supabase-mcp|@supabase/mcp-server-supabase||npx -y @supabase/mcp-server-supabase|Manage Supabase projects, tables and queries|إدارة مشاريع Supabase وجداولها واستعلاماتها
+stripe/agent-toolkit|tool|Productivity|stripe-toolkit|@stripe/agent-toolkit||npx -y @stripe/mcp|Stripe payments and billing tools for agents|أدوات مدفوعات وفواتير Stripe للوكلاء
+oraios/serena|tool|Code|serena|||uvx --from git+https://github.com/oraios/serena serena start-mcp-server|Semantic code navigation and editing for coding agents|تنقل وتحرير دلالي للكود لوكلاء البرمجة
+GLips/Figma-Context-MCP|tool|Design|figma-context-mcp|figma-developer-mcp||npx -y figma-developer-mcp|Give coding agents access to Figma design data|إتاحة بيانات تصميم Figma لوكلاء البرمجة
+mongodb-js/mongodb-mcp-server|tool|Data|mongodb-mcp|mongodb-mcp-server||npx -y mongodb-mcp-server|Query and manage MongoDB and Atlas|استعلام وإدارة MongoDB وAtlas
+hashicorp/terraform-mcp-server|tool|DevOps|terraform-mcp|||docker run -i hashicorp/terraform-mcp-server|Terraform registry and workspace tooling|أدوات سجل Terraform ومساحات العمل
+grafana/mcp-grafana|tool|DevOps|grafana-mcp|||go install github.com/grafana/mcp-grafana/cmd/mcp-grafana@latest|Query dashboards and metrics in Grafana|الاستعلام عن لوحات ومقاييس Grafana
+awslabs/mcp|tool|DevOps|aws-mcp|||uvx awslabs.core-mcp-server@latest|Official AWS MCP servers collection|مجموعة خوادم AWS MCP الرسمية
+idosal/git-mcp|tool|Docs|git-mcp|||https://gitmcp.io/owner/repo|Turn any GitHub repo into a docs source for AI|تحويل أي مستودع GitHub إلى مصدر وثائق للذكاء الاصطناعي
+exa-labs/exa-mcp-server|tool|Search|exa-mcp|exa-mcp-server||npx -y exa-mcp-server|Web search built for AI agents|بحث على الويب مصمم لوكلاء الذكاء الاصطناعي
+tavily-ai/tavily-mcp|tool|Search|tavily-mcp|tavily-mcp||npx -y tavily-mcp|Real-time web search and extraction|بحث واستخراج فوري من الويب
+browserbase/mcp-server-browserbase|tool|Automation|browserbase-mcp|@browserbasehq/mcp-server-browserbase||npx -y @browserbasehq/mcp-server-browserbase|Cloud browser sessions for agents|جلسات متصفح سحابية للوكلاء
+microsoft/markitdown|tool|Docs|markitdown||markitdown|pip install markitdown|Convert PDF, Office files and more to Markdown|تحويل PDF وملفات Office وغيرها إلى Markdown
+anthropics/skills|skill|Docs|anthropic-skills|||git clone https://github.com/anthropics/skills|Official skills for Word, PDF, Excel and PowerPoint|مهارات رسمية لـ Word وPDF وExcel وPowerPoint
+browser-use/browser-use|agent|Automation|browser-use||browser-use|pip install browser-use|Agent that browses the web and completes tasks|وكيل يتصفح الويب وينفذ المهام
+All-Hands-AI/OpenHands|agent|Code|openhands||openhands-ai|pip install openhands-ai|Autonomous software development agent|وكيل مستقل لتطوير البرمجيات
+langchain-ai/langgraph|agent|General|langgraph||langgraph|pip install langgraph|Build stateful multi-step agent workflows|بناء مسارات عمل وكلاء متعددة الخطوات
+crewAIInc/crewAI|agent|General|crewai||crewai|pip install crewai|Orchestrate role-playing teams of agents|تنسيق فرق وكلاء بأدوار محددة
+microsoft/autogen|agent|General|autogen||autogen-agentchat|pip install autogen-agentchat|Framework for multi-agent conversations|إطار لمحادثات الوكلاء المتعددين
+openai/openai-agents-python|agent|General|openai-agents||openai-agents|pip install openai-agents|Lightweight framework for multi-agent workflows|إطار خفيف لمسارات عمل الوكلاء
+Significant-Gravitas/AutoGPT|agent|General|autogpt|||git clone https://github.com/Significant-Gravitas/AutoGPT|Platform for building and running autonomous agents|منصة لبناء وتشغيل الوكلاء المستقلين
+OpenInterpreter/open-interpreter|agent|Code|open-interpreter||open-interpreter|pip install open-interpreter|Let language models run code on your machine|تمكين النماذج من تنفيذ الكود على جهازك
+SWE-agent/SWE-agent|agent|Code|swe-agent|||git clone https://github.com/SWE-agent/SWE-agent|Agent that fixes real GitHub issues|وكيل يحل مشاكل GitHub الحقيقية
+Aider-AI/aider|agent|Code|aider||aider-chat|pip install aider-chat|AI pair programming in your terminal|برمجة زوجية بالذكاء الاصطناعي في الطرفية
+cline/cline|agent|Code|cline|||code --install-extension saoudrizwan.claude-dev|Autonomous coding agent inside your IDE|وكيل برمجة مستقل داخل بيئة التطوير
+block/goose|agent|Code|goose|||brew install block-goose-cli|Extensible on-machine coding agent|وكيل برمجة قابل للتوسيع يعمل على جهازك
+google-gemini/gemini-cli|agent|Code|gemini-cli|@google/gemini-cli||npm install -g @google/gemini-cli|Gemini agent in your terminal|وكيل Gemini في الطرفية
+openai/codex|agent|Code|codex-cli|@openai/codex||npm install -g @openai/codex|Lightweight coding agent for your terminal|وكيل برمجة خفيف للطرفية
+anthropics/claude-code|agent|Code|claude-code|@anthropic-ai/claude-code||npm install -g @anthropic-ai/claude-code|Agentic coding tool that lives in your terminal|أداة برمجة وكيلة تعمل من الطرفية
+run-llama/llama_index|agent|Data|llama-index||llama-index|pip install llama-index|Data framework for LLM applications|إطار بيانات لتطبيقات النماذج اللغوية
+huggingface/smolagents|agent|General|smolagents||smolagents|pip install smolagents|Barebones library for code-writing agents|مكتبة بسيطة لوكلاء يكتبون الكود
