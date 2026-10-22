@@ -245,18 +245,18 @@
 "cmd": "git clone https://github.com/mrexodia/ida-pro-mcp.git"
 },
 {
-"repo": "0x4m4/hexstrike-ai",
-"type": "tool",
-"dom": "Security",
-"desc": "HexStrike AI MCP Agents is an advanced MCP server that lets AI agents (Claude, GPT, Copilot, etc.) autonomousl",
-"cmd": "git clone https://github.com/0x4m4/hexstrike-ai.git"
-},
-{
 "repo": "OpenByteInc/QuantDinger",
 "type": "tool",
 "dom": "Design",
 "desc": "Open-source AI Trading OS, agent trading, and vibe trading, with Jev System One integration. Research, build P",
 "cmd": "git clone https://github.com/OpenByteInc/QuantDinger.git"
+},
+{
+"repo": "0x4m4/hexstrike-ai",
+"type": "tool",
+"dom": "Security",
+"desc": "HexStrike AI MCP Agents is an advanced MCP server that lets AI agents (Claude, GPT, Copilot, etc.) autonomousl",
+"cmd": "git clone https://github.com/0x4m4/hexstrike-ai.git"
 },
 {
 "repo": "xerj-org/xerj",
@@ -595,6 +595,13 @@
 "cmd": "git clone https://github.com/liustack/modlens.git"
 },
 {
+"repo": "Jakeschincariol/replica-skill",
+"type": "skill",
+"dom": "Code",
+"desc": "Eleven free Claude skills that clone any app: reverse-engineer it, rebuild it, test it for bugs, then fix what",
+"cmd": "git clone https://github.com/Jakeschincariol/replica-skill.git"
+},
+{
 "repo": "QingYunA/answer-me-with-html",
 "type": "skill",
 "dom": "Code",
@@ -607,13 +614,6 @@
 "dom": "Automation",
 "desc": "A real browser inside your terminal",
 "cmd": "git clone https://github.com/zenbu-labs/terminal-browser.git"
-},
-{
-"repo": "Jakeschincariol/replica-skill",
-"type": "skill",
-"dom": "Code",
-"desc": "Eleven free Claude skills that clone any app: reverse-engineer it, rebuild it, test it for bugs, then fix what",
-"cmd": "git clone https://github.com/Jakeschincariol/replica-skill.git"
 },
 {
 "repo": "kaankiziltug/logo-design-skill",
@@ -826,18 +826,18 @@
 "cmd": "git clone https://github.com/NVIDIA/SkillSpector.git"
 },
 {
-"repo": "microsoft/SkillOpt",
-"type": "skill",
-"dom": "General",
-"desc": "SkillOpt is a text-space optimizer that trains reusable natural-language skills for frozen LLM agents through ",
-"cmd": "git clone https://github.com/microsoft/SkillOpt.git"
-},
-{
 "repo": "citrolabs/ego-lite",
 "type": "agent",
 "dom": "Automation",
 "desc": "The fastest browser for AI agents to run browser automation, built for sharing your logged-in browser state wi",
 "cmd": "git clone https://github.com/citrolabs/ego-lite.git"
+},
+{
+"repo": "microsoft/SkillOpt",
+"type": "skill",
+"dom": "General",
+"desc": "SkillOpt is a text-space optimizer that trains reusable natural-language skills for frozen LLM agents through ",
+"cmd": "git clone https://github.com/microsoft/SkillOpt.git"
 },
 {
 "repo": "kubesphere/kubesphere",
@@ -976,7 +976,7 @@
 "repo": "codewhale-hq/Codewhale",
 "type": "agent",
 "dom": "Code",
-"desc": "Open-source Rust agent engine and terminal client for Codewhale, with provider choice, tools, approvals and re",
+"desc": "Open-source agent for the terminal written in Rust. Use any provider or model. Issues & PRs always welcome",
 "cmd": "git clone https://github.com/codewhale-hq/Codewhale.git"
 },
 {
