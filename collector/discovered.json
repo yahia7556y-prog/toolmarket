@@ -231,6 +231,13 @@
 "cmd": "git clone https://github.com/ccfos/nightingale.git"
 },
 {
+"repo": "xerj-org/xerj",
+"type": "tool",
+"dom": "Docs",
+"desc": "Local-first search engine and MCP server for AI agents. One Rust binary indexes code, docs, logs, JSONL/CSV an",
+"cmd": "git clone https://github.com/xerj-org/xerj.git"
+},
+{
 "repo": "JoeanAmier/XHS-Downloader",
 "type": "tool",
 "dom": "Data",
@@ -257,13 +264,6 @@
 "dom": "Security",
 "desc": "HexStrike AI MCP Agents is an advanced MCP server that lets AI agents (Claude, GPT, Copilot, etc.) autonomousl",
 "cmd": "git clone https://github.com/0x4m4/hexstrike-ai.git"
-},
-{
-"repo": "xerj-org/xerj",
-"type": "tool",
-"dom": "Docs",
-"desc": "Local-first search engine and MCP server for AI agents. One Rust binary indexes code, docs, logs, JSONL/CSV an",
-"cmd": "git clone https://github.com/xerj-org/xerj.git"
 },
 {
 "repo": "apify/apify-mcp-server",
@@ -302,7 +302,7 @@
 },
 {
 "repo": "Agents365-ai/drawio-skill",
-"type": "skill",
+"type": "tool",
 "dom": "Data",
 "desc": "Agent skill that turns natural language, code, Terraform/K8s, SQL, OpenAPI, AsyncAPI, Protobuf and GraphQL sou",
 "cmd": "git clone https://github.com/Agents365-ai/drawio-skill.git"
@@ -364,18 +364,18 @@
 "cmd": "git clone https://github.com/thedotmack/claude-mem.git"
 },
 {
-"repo": "Egonex-AI/Understand-Anything",
-"type": "skill",
-"dom": "Code",
-"desc": "Graphs that teach > graphs that impress. Turn any code into an interactive knowledge graph you can explore, se",
-"cmd": "git clone https://github.com/Egonex-AI/Understand-Anything.git"
-},
-{
 "repo": "tt-a1i/archify",
 "type": "skill",
 "dom": "Code",
 "desc": "Turn any idea, plan, or codebase into a beautiful interactive diagram. An agent skill for Claude Code, Codex, ",
 "cmd": "git clone https://github.com/tt-a1i/archify.git"
+},
+{
+"repo": "Egonex-AI/Understand-Anything",
+"type": "skill",
+"dom": "Code",
+"desc": "Graphs that teach > graphs that impress. Turn any code into an interactive knowledge graph you can explore, se",
+"cmd": "git clone https://github.com/Egonex-AI/Understand-Anything.git"
 },
 {
 "repo": "code-yeongyu/oh-my-openagent",
@@ -511,6 +511,13 @@
 "cmd": "git clone https://github.com/nexu-io/html-anything.git"
 },
 {
+"repo": "SnailSploit/Claude-Red",
+"type": "skill",
+"dom": "Security",
+"desc": "claude-red is a curated library of offensive security skills designed for the Claude skills system. Each skill",
+"cmd": "git clone https://github.com/SnailSploit/Claude-Red.git"
+},
+{
 "repo": "zenstory-ai/oh-story-claudecode",
 "type": "skill",
 "dom": "Code",
@@ -523,13 +530,6 @@
 "dom": "Code",
 "desc": "A trilingual (繁中 / English / 简中) learning roadmap for agentic AI: from LLM basics to multi-agent systems, with",
 "cmd": "git clone https://github.com/WenyuChiou/awesome-agentic-ai-zh.git"
-},
-{
-"repo": "SnailSploit/Claude-Red",
-"type": "skill",
-"dom": "Security",
-"desc": "claude-red is a curated library of offensive security skills designed for the Claude skills system. Each skill",
-"cmd": "git clone https://github.com/SnailSploit/Claude-Red.git"
 },
 {
 "repo": "deanpeters/Product-Manager-Skills",
@@ -581,6 +581,13 @@
 "cmd": "git clone https://github.com/sergebulaev/linkedin-skills.git"
 },
 {
+"repo": "Jakeschincariol/replica-skill",
+"type": "skill",
+"dom": "Code",
+"desc": "Eleven free Claude skills that clone any app: reverse-engineer it, rebuild it, test it for bugs, then fix what",
+"cmd": "git clone https://github.com/Jakeschincariol/replica-skill.git"
+},
+{
 "repo": "ScrapeCreators/social-media-research-skills",
 "type": "skill",
 "dom": "Data",
@@ -595,13 +602,6 @@
 "cmd": "git clone https://github.com/liustack/modlens.git"
 },
 {
-"repo": "Jakeschincariol/replica-skill",
-"type": "skill",
-"dom": "Code",
-"desc": "Eleven free Claude skills that clone any app: reverse-engineer it, rebuild it, test it for bugs, then fix what",
-"cmd": "git clone https://github.com/Jakeschincariol/replica-skill.git"
-},
-{
 "repo": "QingYunA/answer-me-with-html",
 "type": "skill",
 "dom": "Code",
@@ -609,18 +609,18 @@
 "cmd": "git clone https://github.com/QingYunA/answer-me-with-html.git"
 },
 {
-"repo": "zenbu-labs/terminal-browser",
-"type": "skill",
-"dom": "Automation",
-"desc": "A real browser inside your terminal",
-"cmd": "git clone https://github.com/zenbu-labs/terminal-browser.git"
-},
-{
 "repo": "kaankiziltug/logo-design-skill",
 "type": "skill",
 "dom": "Code",
 "desc": "A comprehensive logo-design skill for Claude, Gemini CLI, Codex and other AI agents: principles, process, SVG ",
 "cmd": "git clone https://github.com/kaankiziltug/logo-design-skill.git"
+},
+{
+"repo": "zenbu-labs/terminal-browser",
+"type": "skill",
+"dom": "Automation",
+"desc": "A real browser inside your terminal",
+"cmd": "git clone https://github.com/zenbu-labs/terminal-browser.git"
 },
 {
 "repo": "nowork-studio/notfair-plugin",
@@ -852,6 +852,13 @@
 "dom": "Data",
 "desc": "A lightweight, lightning-fast, in-process vector database",
 "cmd": "git clone https://github.com/alibaba/zvec.git"
+},
+{
+"repo": "dreammis/social-auto-upload",
+"type": "skill",
+"dom": "General",
+"desc": "自动化上传视频到社交媒体：抖音、小红书、视频号、tiktok、youtube、bilibili",
+"cmd": "git clone https://github.com/dreammis/social-auto-upload.git"
 },
 {
 "repo": "AgriciDaniel/claude-obsidian",
