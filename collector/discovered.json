@@ -217,6 +217,13 @@
 "cmd": "git clone https://github.com/yusufkaraaslan/Skill_Seekers.git"
 },
 {
+"repo": "xerj-org/xerj",
+"type": "tool",
+"dom": "Docs",
+"desc": "Local-first search engine and MCP server for AI agents. One Rust binary indexes code, docs, logs, JSONL/CSV an",
+"cmd": "git clone https://github.com/xerj-org/xerj.git"
+},
+{
 "repo": "modelcontextprotocol/typescript-sdk",
 "type": "tool",
 "dom": "General",
@@ -231,11 +238,11 @@
 "cmd": "git clone https://github.com/ccfos/nightingale.git"
 },
 {
-"repo": "xerj-org/xerj",
+"repo": "mrexodia/ida-pro-mcp",
 "type": "tool",
-"dom": "Docs",
-"desc": "Local-first search engine and MCP server for AI agents. One Rust binary indexes code, docs, logs, JSONL/CSV an",
-"cmd": "git clone https://github.com/xerj-org/xerj.git"
+"dom": "General",
+"desc": "AI-powered reverse engineering assistant that bridges IDA Pro with language models through MCP.",
+"cmd": "git clone https://github.com/mrexodia/ida-pro-mcp.git"
 },
 {
 "repo": "JoeanAmier/XHS-Downloader",
@@ -243,13 +250,6 @@
 "dom": "Data",
 "desc": "小红书（XiaoHongShu、RedNote）链接提取/作品采集工具",
 "cmd": "git clone https://github.com/JoeanAmier/XHS-Downloader.git"
-},
-{
-"repo": "mrexodia/ida-pro-mcp",
-"type": "tool",
-"dom": "General",
-"desc": "AI-powered reverse engineering assistant that bridges IDA Pro with language models through MCP.",
-"cmd": "git clone https://github.com/mrexodia/ida-pro-mcp.git"
 },
 {
 "repo": "OpenByteInc/QuantDinger",
@@ -448,6 +448,13 @@
 "cmd": "git clone https://github.com/JimLiu/baoyu-skills.git"
 },
 {
+"repo": "alchaincyf/huashu-design",
+"type": "skill",
+"dom": "Code",
+"desc": "Huashu Design 3.0 · 在 agent 里打一句话，拿回能交付的设计：网页 / App 原型 / 可编辑 PPTX / 动画 / 信息图 · 六个候选挑三个方向 · 84 种带样张的风格库 · 越用越懂你",
+"cmd": "git clone https://github.com/alchaincyf/huashu-design.git"
+},
+{
 "repo": "titanwings/distilly",
 "type": "agent",
 "dom": "Code",
@@ -518,18 +525,18 @@
 "cmd": "git clone https://github.com/SnailSploit/Claude-Red.git"
 },
 {
-"repo": "zenstory-ai/oh-story-claudecode",
-"type": "skill",
-"dom": "Code",
-"desc": "Claude Code / Codex / OpenCode agent skills for writing Chinese web novels (网文): 扫榜、拆文、写作、去AI味、封面全流程，长篇短篇都支持 |",
-"cmd": "git clone https://github.com/zenstory-ai/oh-story-claudecode.git"
-},
-{
 "repo": "WenyuChiou/awesome-agentic-ai-zh",
 "type": "skill",
 "dom": "Code",
 "desc": "A trilingual (繁中 / English / 简中) learning roadmap for agentic AI: from LLM basics to multi-agent systems, with",
 "cmd": "git clone https://github.com/WenyuChiou/awesome-agentic-ai-zh.git"
+},
+{
+"repo": "zenstory-ai/oh-story-claudecode",
+"type": "skill",
+"dom": "Code",
+"desc": "Claude Code / Codex / OpenCode agent skills for writing Chinese web novels (网文): 扫榜、拆文、写作、去AI味、封面全流程，长篇短篇都支持 |",
+"cmd": "git clone https://github.com/zenstory-ai/oh-story-claudecode.git"
 },
 {
 "repo": "deanpeters/Product-Manager-Skills",
@@ -539,18 +546,18 @@
 "cmd": "git clone https://github.com/deanpeters/Product-Manager-Skills.git"
 },
 {
-"repo": "gosom/google-maps-scraper",
-"type": "skill",
-"dom": "Data",
-"desc": "scrape data  from Google Maps. Extracts data such as the name, address, phone number, website URL, rating,  re",
-"cmd": "git clone https://github.com/gosom/google-maps-scraper.git"
-},
-{
 "repo": "Ryze-AI-Adgent/open-seo-mcp-skills",
 "type": "skill",
 "dom": "Data",
 "desc": "Free SEO MCP server + open-source SEO and GEO skills for Claude: keyword research, rank tracking, audits, back",
 "cmd": "git clone https://github.com/Ryze-AI-Adgent/open-seo-mcp-skills.git"
+},
+{
+"repo": "gosom/google-maps-scraper",
+"type": "skill",
+"dom": "Data",
+"desc": "scrape data  from Google Maps. Extracts data such as the name, address, phone number, website URL, rating,  re",
+"cmd": "git clone https://github.com/gosom/google-maps-scraper.git"
 },
 {
 "repo": "browser-act/skills",
@@ -602,18 +609,18 @@
 "cmd": "git clone https://github.com/liustack/modlens.git"
 },
 {
-"repo": "QingYunA/answer-me-with-html",
-"type": "skill",
-"dom": "Code",
-"desc": "Answer me with HTML — an agent skill that answers hard questions with a one-page HTML you can actually read. 让",
-"cmd": "git clone https://github.com/QingYunA/answer-me-with-html.git"
-},
-{
 "repo": "kaankiziltug/logo-design-skill",
 "type": "skill",
 "dom": "Code",
 "desc": "A comprehensive logo-design skill for Claude, Gemini CLI, Codex and other AI agents: principles, process, SVG ",
 "cmd": "git clone https://github.com/kaankiziltug/logo-design-skill.git"
+},
+{
+"repo": "QingYunA/answer-me-with-html",
+"type": "skill",
+"dom": "Code",
+"desc": "Answer me with HTML — an agent skill that answers hard questions with a one-page HTML you can actually read. 让",
+"cmd": "git clone https://github.com/QingYunA/answer-me-with-html.git"
 },
 {
 "repo": "zenbu-labs/terminal-browser",
@@ -663,13 +670,6 @@
 "dom": "Automation",
 "desc": "The meta-skill that builds and improves all your skills, including itself. Watches your work sessions (autonom",
 "cmd": "git clone https://github.com/rebelytics/one-skill-to-rule-them-all.git"
-},
-{
-"repo": "codeaashu/claude-code",
-"type": "skill",
-"dom": "Code",
-"desc": "Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you co",
-"cmd": "git clone https://github.com/codeaashu/claude-code.git"
 },
 {
 "repo": "morluto/rea",
@@ -854,18 +854,18 @@
 "cmd": "git clone https://github.com/alibaba/zvec.git"
 },
 {
-"repo": "dreammis/social-auto-upload",
-"type": "skill",
-"dom": "General",
-"desc": "自动化上传视频到社交媒体：抖音、小红书、视频号、tiktok、youtube、bilibili",
-"cmd": "git clone https://github.com/dreammis/social-auto-upload.git"
-},
-{
 "repo": "AgriciDaniel/claude-obsidian",
 "type": "skill",
 "dom": "Code",
 "desc": "Self-organizing AI second brain for Obsidian + Claude Code. Drop any source and Claude reads, links, and files",
 "cmd": "git clone https://github.com/AgriciDaniel/claude-obsidian.git"
+},
+{
+"repo": "dreammis/social-auto-upload",
+"type": "skill",
+"dom": "General",
+"desc": "自动化上传视频到社交媒体：抖音、小红书、视频号、tiktok、youtube、bilibili",
+"cmd": "git clone https://github.com/dreammis/social-auto-upload.git"
 },
 {
 "repo": "eigent-ai/eigent",
@@ -903,13 +903,6 @@
 "cmd": "git clone https://github.com/tigerless-labs/autoharness.git"
 },
 {
-"repo": "AgriciDaniel/claude-ads",
-"type": "skill",
-"dom": "Automation",
-"desc": "Claude-first paid-media operations skill for Claude Code across 12 ad platforms (Google, Meta, YouTube, Linked",
-"cmd": "git clone https://github.com/AgriciDaniel/claude-ads.git"
-},
-{
 "repo": "NousResearch/hermes-agent",
 "type": "agent",
 "dom": "Code",
@@ -938,18 +931,18 @@
 "cmd": "git clone https://github.com/thedaviddias/Front-End-Checklist.git"
 },
 {
-"repo": "ZhuLinsen/daily_stock_analysis",
-"type": "agent",
-"dom": "Data",
-"desc": "LLM 驱动的多市场股票智能分析系统：多源行情、实时新闻、决策看板与自动推送，支持零成本定时运行。  LLM-powered multi-market stock analysis system with multi-s",
-"cmd": "git clone https://github.com/ZhuLinsen/daily_stock_analysis.git"
-},
-{
 "repo": "hugohe3/ppt-master",
 "type": "agent",
 "dom": "Data",
 "desc": "AI turns documents or topics into real, native PowerPoint decks—with native shapes, transitions and animations",
 "cmd": "git clone https://github.com/hugohe3/ppt-master.git"
+},
+{
+"repo": "ZhuLinsen/daily_stock_analysis",
+"type": "agent",
+"dom": "Data",
+"desc": "LLM 驱动的多市场股票智能分析系统：多源行情、实时新闻、决策看板与自动推送，支持零成本定时运行。  LLM-powered multi-market stock analysis system with multi-s",
+"cmd": "git clone https://github.com/ZhuLinsen/daily_stock_analysis.git"
 },
 {
 "repo": "bojieli/ai-agent-book",
