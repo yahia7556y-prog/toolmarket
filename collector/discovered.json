@@ -14,18 +14,18 @@
 "cmd": "git clone https://github.com/google-gemini/gemini-cli.git"
 },
 {
-"repo": "koala73/worldmonitor",
-"type": "tool",
-"dom": "General",
-"desc": "Real-time global intelligence dashboard. AI-powered news aggregation, geopolitical monitoring, and infrastruct",
-"cmd": "git clone https://github.com/koala73/worldmonitor.git"
-},
-{
 "repo": "D4Vinci/Scrapling",
 "type": "tool",
 "dom": "Data",
 "desc": "🕷️ A Web Scraping framework that handles everything from a single request to a full-scale crawl! Don't be shy,",
 "cmd": "git clone https://github.com/D4Vinci/Scrapling.git"
+},
+{
+"repo": "koala73/worldmonitor",
+"type": "tool",
+"dom": "General",
+"desc": "Real-time global intelligence dashboard. AI-powered news aggregation, geopolitical monitoring, and infrastruct",
+"cmd": "git clone https://github.com/koala73/worldmonitor.git"
 },
 {
 "repo": "ruvnet/ruflo",
@@ -210,18 +210,18 @@
 "cmd": "git clone https://github.com/open-metadata/OpenMetadata.git"
 },
 {
-"repo": "yusufkaraaslan/Skill_Seekers",
-"type": "skill",
-"dom": "Data",
-"desc": "Convert documentation websites, GitHub repositories, and PDFs into Claude AI skills with automatic conflict de",
-"cmd": "git clone https://github.com/yusufkaraaslan/Skill_Seekers.git"
-},
-{
 "repo": "xerj-org/xerj",
 "type": "tool",
 "dom": "Docs",
 "desc": "Local-first search engine and MCP server for AI agents. One Rust binary indexes code, docs, logs, JSONL/CSV an",
 "cmd": "git clone https://github.com/xerj-org/xerj.git"
+},
+{
+"repo": "yusufkaraaslan/Skill_Seekers",
+"type": "skill",
+"dom": "Data",
+"desc": "Convert documentation websites, GitHub repositories, and PDFs into Claude AI skills with automatic conflict de",
+"cmd": "git clone https://github.com/yusufkaraaslan/Skill_Seekers.git"
 },
 {
 "repo": "modelcontextprotocol/typescript-sdk",
@@ -574,6 +574,13 @@
 "cmd": "git clone https://github.com/ikaijua/Awesome-AITools.git"
 },
 {
+"repo": "Jakeschincariol/replica-skill",
+"type": "skill",
+"dom": "Code",
+"desc": "Eleven free Claude skills that clone any app: reverse-engineer it, rebuild it, test it for bugs, then fix what",
+"cmd": "git clone https://github.com/Jakeschincariol/replica-skill.git"
+},
+{
 "repo": "elementalsouls/Claude-BugHunter",
 "type": "skill",
 "dom": "Security",
@@ -588,13 +595,6 @@
 "cmd": "git clone https://github.com/sergebulaev/linkedin-skills.git"
 },
 {
-"repo": "Jakeschincariol/replica-skill",
-"type": "skill",
-"dom": "Code",
-"desc": "Eleven free Claude skills that clone any app: reverse-engineer it, rebuild it, test it for bugs, then fix what",
-"cmd": "git clone https://github.com/Jakeschincariol/replica-skill.git"
-},
-{
 "repo": "ScrapeCreators/social-media-research-skills",
 "type": "skill",
 "dom": "Data",
@@ -602,18 +602,18 @@
 "cmd": "git clone https://github.com/ScrapeCreators/social-media-research-skills.git"
 },
 {
-"repo": "liustack/modlens",
-"type": "skill",
-"dom": "Code",
-"desc": "The first vision plugin for DeepSeek Harness, and the vision bridge for every text-only coding agent. Paste an",
-"cmd": "git clone https://github.com/liustack/modlens.git"
-},
-{
 "repo": "kaankiziltug/logo-design-skill",
 "type": "skill",
 "dom": "Code",
 "desc": "A comprehensive logo-design skill for Claude, Gemini CLI, Codex and other AI agents: principles, process, SVG ",
 "cmd": "git clone https://github.com/kaankiziltug/logo-design-skill.git"
+},
+{
+"repo": "liustack/modlens",
+"type": "skill",
+"dom": "Code",
+"desc": "The first vision plugin for DeepSeek Harness, and the vision bridge for every text-only coding agent. Paste an",
+"cmd": "git clone https://github.com/liustack/modlens.git"
 },
 {
 "repo": "QingYunA/answer-me-with-html",
@@ -637,18 +637,18 @@
 "cmd": "git clone https://github.com/nowork-studio/notfair-plugin.git"
 },
 {
-"repo": "glitternetwork/pinme",
-"type": "skill",
-"dom": "Code",
-"desc": "Deploy Your Frontend in a Single Command. Claude Code Skills supported.",
-"cmd": "git clone https://github.com/glitternetwork/pinme.git"
-},
-{
 "repo": "geekjourneyx/md2wechat-skill",
 "type": "skill",
 "dom": "Code",
 "desc": "面向 AI Agent 的微信公众号创作与发布 CLI：Markdown 排版、AI 配图、预览与草稿创建；支持由浏览器 Agent 保存知乎、CSDN、头条未发布草稿。",
 "cmd": "git clone https://github.com/geekjourneyx/md2wechat-skill.git"
+},
+{
+"repo": "glitternetwork/pinme",
+"type": "skill",
+"dom": "Code",
+"desc": "Deploy Your Frontend in a Single Command. Claude Code Skills supported.",
+"cmd": "git clone https://github.com/glitternetwork/pinme.git"
 },
 {
 "repo": "davepoon/buildwithclaude",
@@ -670,6 +670,13 @@
 "dom": "Automation",
 "desc": "The meta-skill that builds and improves all your skills, including itself. Watches your work sessions (autonom",
 "cmd": "git clone https://github.com/rebelytics/one-skill-to-rule-them-all.git"
+},
+{
+"repo": "codeaashu/claude-code",
+"type": "skill",
+"dom": "Code",
+"desc": "Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you co",
+"cmd": "git clone https://github.com/codeaashu/claude-code.git"
 },
 {
 "repo": "morluto/rea",
