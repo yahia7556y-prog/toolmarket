@@ -17,7 +17,7 @@
 "repo": "D4Vinci/Scrapling",
 "type": "tool",
 "dom": "Data",
-"desc": "🕷️ A Web Scraping framework that handles everything from a single request to a full-scale crawl! Don't be shy,",
+"desc": "🕷️ The BEST Web Scraping framework that handles everything from a single request to a full-scale crawl! Don't ",
 "cmd": "git clone https://github.com/D4Vinci/Scrapling.git"
 },
 {
@@ -182,6 +182,13 @@
 "cmd": "git clone https://github.com/microsoft/mcp-for-beginners.git"
 },
 {
+"repo": "xerj-org/xerj",
+"type": "tool",
+"dom": "Docs",
+"desc": "Local-first search engine and MCP server for AI agents. One Rust binary indexes code, docs, logs, JSONL/CSV an",
+"cmd": "git clone https://github.com/xerj-org/xerj.git"
+},
+{
 "repo": "triggerdotdev/trigger.dev",
 "type": "tool",
 "dom": "Automation",
@@ -203,13 +210,6 @@
 "cmd": "git clone https://github.com/budtmo/docker-android.git"
 },
 {
-"repo": "xerj-org/xerj",
-"type": "tool",
-"dom": "Docs",
-"desc": "Local-first search engine and MCP server for AI agents. One Rust binary indexes code, docs, logs, JSONL/CSV an",
-"cmd": "git clone https://github.com/xerj-org/xerj.git"
-},
-{
 "repo": "open-metadata/OpenMetadata",
 "type": "tool",
 "dom": "Data",
@@ -218,7 +218,7 @@
 },
 {
 "repo": "yusufkaraaslan/Skill_Seekers",
-"type": "tool",
+"type": "skill",
 "dom": "Data",
 "desc": "Convert documentation websites, GitHub repositories, and PDFs into Claude AI skills with automatic conflict de",
 "cmd": "git clone https://github.com/yusufkaraaslan/Skill_Seekers.git"
@@ -392,11 +392,32 @@
 "cmd": "git clone https://github.com/ayghri/i-have-adhd.git"
 },
 {
+"repo": "coreyhaines31/marketingskills",
+"type": "skill",
+"dom": "Automation",
+"desc": "Marketing skills for Claude Code and AI agents. CRO, copywriting, SEO, analytics, and growth engineering.",
+"cmd": "git clone https://github.com/coreyhaines31/marketingskills.git"
+},
+{
+"repo": "K-Dense-AI/scientific-agent-skills",
+"type": "skill",
+"dom": "Data",
+"desc": "Turn any AI agent into an AI Scientist. The #1 Agent Skills library for science, used by 250,000+ scientists w",
+"cmd": "git clone https://github.com/K-Dense-AI/scientific-agent-skills.git"
+},
+{
 "repo": "wshobson/agents",
 "type": "skill",
 "dom": "Code",
 "desc": "Multi-harness agentic plugin marketplace for Claude Code, Codex, Cursor, OpenCode, GitHub Copilot, Google Anti",
 "cmd": "git clone https://github.com/wshobson/agents.git"
+},
+{
+"repo": "VoltAgent/awesome-agent-skills",
+"type": "skill",
+"dom": "Code",
+"desc": "A curated collection of 1000+ agent skills from official dev teams and the community, compatible with Claude C",
+"cmd": "git clone https://github.com/VoltAgent/awesome-agent-skills.git"
 },
 {
 "repo": "nanocoai/nanoclaw",
@@ -420,6 +441,13 @@
 "cmd": "git clone https://github.com/OthmanAdi/planning-with-files.git"
 },
 {
+"repo": "alchaincyf/huashu-design",
+"type": "skill",
+"dom": "Code",
+"desc": "Huashu Design 3.0 · 在 agent 里打一句话，拿回能交付的设计：网页 / App 原型 / 可编辑 PPTX / 动画 / 信息图 · 六个候选挑三个方向 · 84 种带样张的风格库 · 越用越懂你",
+"cmd": "git clone https://github.com/alchaincyf/huashu-design.git"
+},
+{
 "repo": "JimLiu/baoyu-skills",
 "type": "skill",
 "dom": "Code",
@@ -427,11 +455,25 @@
 "cmd": "git clone https://github.com/JimLiu/baoyu-skills.git"
 },
 {
+"repo": "titanwings/distilly",
+"type": "agent",
+"dom": "Code",
+"desc": "Distilly — Distill how they think into reusable Skills for any Agent or Bot. Formerly Colleague Skill（原同事 Skil",
+"cmd": "git clone https://github.com/titanwings/distilly.git"
+},
+{
 "repo": "teng-lin/notebooklm-py",
 "type": "skill",
 "dom": "Code",
 "desc": "Unofficial Python API and agentic skill for Google Gemini Notebook. Full programmatic access to Gemini Noteboo",
 "cmd": "git clone https://github.com/teng-lin/notebooklm-py.git"
+},
+{
+"repo": "latent-spaces/brag",
+"type": "skill",
+"dom": "Code",
+"desc": "You built it. Now brag. Turn the project you just created into a short, shareable launch video with one comman",
+"cmd": "git clone https://github.com/latent-spaces/brag.git"
 },
 {
 "repo": "nidhinjs/prompt-master",
@@ -455,11 +497,25 @@
 "cmd": "git clone https://github.com/Orchestra-Research/AI-Research-SKILLs.git"
 },
 {
+"repo": "Vincentwei1021/video-shotcraft",
+"type": "skill",
+"dom": "Code",
+"desc": "AI video skill for Claude Code & Codex — cinematic product videos with Remotion: 152 shot recipe cards, 209 mo",
+"cmd": "git clone https://github.com/Vincentwei1021/video-shotcraft.git"
+},
+{
 "repo": "Jeffallan/claude-skills",
 "type": "skill",
 "dom": "Code",
 "desc": "67 Specialized Skills for Full-Stack Developers. Transform Claude Code into your expert pair programmer.",
 "cmd": "git clone https://github.com/Jeffallan/claude-skills.git"
+},
+{
+"repo": "SnailSploit/Claude-Red",
+"type": "skill",
+"dom": "Security",
+"desc": "claude-red is a curated library of offensive security skills designed for the Claude skills system. Each skill",
+"cmd": "git clone https://github.com/SnailSploit/Claude-Red.git"
 },
 {
 "repo": "nexu-io/html-anything",
@@ -469,11 +525,18 @@
 "cmd": "git clone https://github.com/nexu-io/html-anything.git"
 },
 {
-"repo": "SnailSploit/Claude-Red",
+"repo": "zenstory-ai/oh-story-claudecode",
 "type": "skill",
-"dom": "Security",
-"desc": "claude-red is a curated library of offensive security skills designed for the Claude skills system. Each skill",
-"cmd": "git clone https://github.com/SnailSploit/Claude-Red.git"
+"dom": "Code",
+"desc": "Claude Code / Codex / OpenCode agent skills for writing Chinese web novels (网文): 扫榜、拆文、写作、去AI味、封面全流程，长篇短篇都支持 |",
+"cmd": "git clone https://github.com/zenstory-ai/oh-story-claudecode.git"
+},
+{
+"repo": "WenyuChiou/awesome-agentic-ai-zh",
+"type": "skill",
+"dom": "Code",
+"desc": "A trilingual (繁中 / English / 简中) learning roadmap for agentic AI: from LLM basics to multi-agent systems, with",
+"cmd": "git clone https://github.com/WenyuChiou/awesome-agentic-ai-zh.git"
 },
 {
 "repo": "deanpeters/Product-Manager-Skills",
@@ -490,11 +553,39 @@
 "cmd": "git clone https://github.com/Ryze-AI-Adgent/open-seo-mcp-skills.git"
 },
 {
+"repo": "gosom/google-maps-scraper",
+"type": "skill",
+"dom": "Data",
+"desc": "scrape data  from Google Maps. Extracts data such as the name, address, phone number, website URL, rating,  re",
+"cmd": "git clone https://github.com/gosom/google-maps-scraper.git"
+},
+{
+"repo": "browser-act/skills",
+"type": "skill",
+"dom": "Data",
+"desc": "Browser automation CLI built for AI agents. Break through anti-bot walls, hand off to humans across platforms ",
+"cmd": "git clone https://github.com/browser-act/skills.git"
+},
+{
 "repo": "ikaijua/Awesome-AITools",
 "type": "skill",
 "dom": "Code",
 "desc": "Collection of AI-related utilities. Welcome to submit pull requests /收藏AI相关的实用工具，欢迎提交pull requests",
 "cmd": "git clone https://github.com/ikaijua/Awesome-AITools.git"
+},
+{
+"repo": "Jakeschincariol/replica-skill",
+"type": "skill",
+"dom": "Code",
+"desc": "Eleven free Claude skills that clone any app: reverse-engineer it, rebuild it, test it for bugs, then fix what",
+"cmd": "git clone https://github.com/Jakeschincariol/replica-skill.git"
+},
+{
+"repo": "elementalsouls/Claude-BugHunter",
+"type": "skill",
+"dom": "Security",
+"desc": "A Claude Code skill bundle for bug hunting and external red-team work - 82 skills, 15 slash commands, 681 disc",
+"cmd": "git clone https://github.com/elementalsouls/Claude-BugHunter.git"
 },
 {
 "repo": "sergebulaev/linkedin-skills",
@@ -504,11 +595,39 @@
 "cmd": "git clone https://github.com/sergebulaev/linkedin-skills.git"
 },
 {
+"repo": "ScrapeCreators/social-media-research-skills",
+"type": "skill",
+"dom": "Data",
+"desc": "AI agent skills for social media research. Outlier posts, comment mining, competitor teardowns, ad libraries &",
+"cmd": "git clone https://github.com/ScrapeCreators/social-media-research-skills.git"
+},
+{
+"repo": "kaankiziltug/logo-design-skill",
+"type": "skill",
+"dom": "Code",
+"desc": "A comprehensive logo-design skill for Claude, Gemini CLI, Codex and other AI agents: principles, process, SVG ",
+"cmd": "git clone https://github.com/kaankiziltug/logo-design-skill.git"
+},
+{
 "repo": "QingYunA/answer-me-with-html",
 "type": "skill",
 "dom": "Code",
 "desc": "Answer me with HTML — an agent skill that answers hard questions with a one-page HTML you can actually read. 让",
 "cmd": "git clone https://github.com/QingYunA/answer-me-with-html.git"
+},
+{
+"repo": "liustack/modlens",
+"type": "skill",
+"dom": "Code",
+"desc": "The first vision plugin for DeepSeek Harness, and the vision bridge for every text-only coding agent. Paste an",
+"cmd": "git clone https://github.com/liustack/modlens.git"
+},
+{
+"repo": "zenbu-labs/terminal-browser",
+"type": "skill",
+"dom": "Automation",
+"desc": "A real browser inside your terminal",
+"cmd": "git clone https://github.com/zenbu-labs/terminal-browser.git"
 },
 {
 "repo": "nowork-studio/notfair-plugin",
@@ -532,6 +651,13 @@
 "cmd": "git clone https://github.com/glitternetwork/pinme.git"
 },
 {
+"repo": "davepoon/buildwithclaude",
+"type": "skill",
+"dom": "Code",
+"desc": "A single hub to find Claude Skills, Agents, Commands, Hooks, Plugins, and Marketplace collections to extend Cl",
+"cmd": "git clone https://github.com/davepoon/buildwithclaude.git"
+},
+{
 "repo": "Ar9av/obsidian-wiki",
 "type": "skill",
 "dom": "Code",
@@ -546,116 +672,11 @@
 "cmd": "git clone https://github.com/rebelytics/one-skill-to-rule-them-all.git"
 },
 {
-"repo": "zenstory-ai/drama-skills",
+"repo": "michael-denyer/pstack-claude",
 "type": "skill",
 "dom": "Code",
-"desc": "开源 AI 短剧/漫剧创作 skill 合集：剧本、角色资产、分镜 storyboard、图片/视频提示词、审查，适配 Claude Code 与 Codex | Open-source AI short drama /",
-"cmd": "git clone https://github.com/zenstory-ai/drama-skills.git"
-},
-{
-"repo": "Natively-AI-assistant/natively-cluely-ai-assistant",
-"type": "skill",
-"dom": "Data",
-"desc": "Natively — Free open-source AI meeting assistant, interview copilot, and note taker. The best alternative to C",
-"cmd": "git clone https://github.com/Natively-AI-assistant/natively-cluely-ai-assistant.git"
-},
-{
-"repo": "Appllama/appllama-skills",
-"type": "skill",
-"dom": "Code",
-"desc": "A builder, not just a researcher. Agent skills that turn top-grossing app patterns into native-quality mobile ",
-"cmd": "git clone https://github.com/Appllama/appllama-skills.git"
-},
-{
-"repo": "addyosmani/web-quality-skills",
-"type": "skill",
-"dom": "General",
-"desc": "Agent Skills for optimizing web quality based on Lighthouse and Core Web Vitals.",
-"cmd": "git clone https://github.com/addyosmani/web-quality-skills.git"
-},
-{
-"repo": "Jakeschincariol/linkedin-agent-skill",
-"type": "skill",
-"dom": "Code",
-"desc": "Eleven free Claude skills that run a LinkedIn account: posts off 21 hook formulas, comments, replies, profile ",
-"cmd": "git clone https://github.com/Jakeschincariol/linkedin-agent-skill.git"
-},
-{
-"repo": "oil-oil/oil-motion",
-"type": "skill",
-"dom": "Code",
-"desc": "Web animation skill for Claude Code & Codex. 帮你做跟着滚动和鼠标动的网页动画。",
-"cmd": "git clone https://github.com/oil-oil/oil-motion.git"
-},
-{
-"repo": "romainsimon/paperasse",
-"type": "skill",
-"dom": "Code",
-"desc": "🇫🇷  Skills pour agents IA spécialisés dans la bureaucratie française : Comptable, Notaire, ...",
-"cmd": "git clone https://github.com/romainsimon/paperasse.git"
-},
-{
-"repo": "wondelai/skills",
-"type": "skill",
-"dom": "Code",
-"desc": "Wondel.ai Agent Skills — Business, Marketing, UX & Coding Frameworks from Bestselling Books. 50 skills + 12 gu",
-"cmd": "git clone https://github.com/wondelai/skills.git"
-},
-{
-"repo": "antonbabenko/terraform-skill",
-"type": "skill",
-"dom": "Code",
-"desc": "Terraform & OpenTofu Skill for AI Agents - testing, modules, CI/CD, and production patterns",
-"cmd": "git clone https://github.com/antonbabenko/terraform-skill.git"
-},
-{
-"repo": "coldteadotai/pr-lens",
-"type": "skill",
-"dom": "Data",
-"desc": "Review code 100X faster. Lens draws every PR as animated architecture and data-flow walkthroughs, inside the p",
-"cmd": "git clone https://github.com/coldteadotai/pr-lens.git"
-},
-{
-"repo": "cbrock84/headcount",
-"type": "skill",
-"dom": "Code",
-"desc": "An agent organization structured as a company — 15+ departments, 125+ skills, each independently installable, ",
-"cmd": "git clone https://github.com/cbrock84/headcount.git"
-},
-{
-"repo": "BayramAnnakov/claude-reflect",
-"type": "skill",
-"dom": "Code",
-"desc": "A self-learning system for Claude Code that captures corrections, positive feedback, and preferences — then sy",
-"cmd": "git clone https://github.com/BayramAnnakov/claude-reflect.git"
-},
-{
-"repo": "timescale/pg-aiguide",
-"type": "skill",
-"dom": "Data",
-"desc": "MCP server and Claude plugin for Postgres skills and documentation. Helps AI coding tools generate better Post",
-"cmd": "git clone https://github.com/timescale/pg-aiguide.git"
-},
-{
-"repo": "a5c-ai/babysitter",
-"type": "skill",
-"dom": "Automation",
-"desc": "Babysitter enforces obedience on agentic workforces and enables them to manage extremely complex tasks and wor",
-"cmd": "git clone https://github.com/a5c-ai/babysitter.git"
-},
-{
-"repo": "zhuyansen/new-term-radar",
-"type": "skill",
-"dom": "Docs",
-"desc": "Daily radar for new AI terms: names of new models, products and repos, caught on X, Hugging Face, GitHub and s",
-"cmd": "git clone https://github.com/zhuyansen/new-term-radar.git"
-},
-{
-"repo": "Jakeschincariol/day-trader-skill",
-"type": "skill",
-"dom": "General",
-"desc": "11 Claude skills for day trading: scan thousands of charts, track breaking news, time every entry and exit, an",
-"cmd": "git clone https://github.com/Jakeschincariol/day-trader-skill.git"
+"desc": "Claude Code, Codex, Copilot, Pi, OpenCode, Muse, Gemini, and Prime Agent versions of Poteto's pstack. Rigorous",
+"cmd": "git clone https://github.com/michael-denyer/pstack-claude.git"
 },
 {
 "repo": "morluto/rea",
@@ -714,25 +735,11 @@
 "cmd": "git clone https://github.com/blader/humanizer.git"
 },
 {
-"repo": "coreyhaines31/marketingskills",
-"type": "skill",
-"dom": "Automation",
-"desc": "Marketing skills for Claude Code and AI agents. CRO, copywriting, SEO, analytics, and growth engineering.",
-"cmd": "git clone https://github.com/coreyhaines31/marketingskills.git"
-},
-{
 "repo": "hesreallyhim/awesome-claude-code",
 "type": "skill",
 "dom": "Code",
 "desc": "A hand-picked collection of the finest of resources for the most awesome of agents, Claude Code, the undispute",
 "cmd": "git clone https://github.com/hesreallyhim/awesome-claude-code.git"
-},
-{
-"repo": "K-Dense-AI/scientific-agent-skills",
-"type": "skill",
-"dom": "Data",
-"desc": "Turn any AI agent into an AI Scientist. The #1 Agent Skills library for science, used by 250,000+ scientists w",
-"cmd": "git clone https://github.com/K-Dense-AI/scientific-agent-skills.git"
 },
 {
 "repo": "VoltAgent/awesome-openclaw-skills",
@@ -768,13 +775,6 @@
 "dom": "Code",
 "desc": "Community-contributed instructions, agents, skills, and configurations to help you make the most of GitHub Cop",
 "cmd": "git clone https://github.com/github/awesome-copilot.git"
-},
-{
-"repo": "VoltAgent/awesome-agent-skills",
-"type": "skill",
-"dom": "Code",
-"desc": "A curated collection of 1000+ agent skills from official dev teams and the community, compatible with Claude C",
-"cmd": "git clone https://github.com/VoltAgent/awesome-agent-skills.git"
 },
 {
 "repo": "virgiliojr94/book-to-skill",
@@ -819,18 +819,11 @@
 "cmd": "git clone https://github.com/agentskills/agentskills.git"
 },
 {
-"repo": "alchaincyf/huashu-design",
+"repo": "NVIDIA/SkillSpector",
 "type": "skill",
-"dom": "Code",
-"desc": "Huashu Design 3.0 · 在 agent 里打一句话，拿回能交付的设计：网页 / App 原型 / 可编辑 PPTX / 动画 / 信息图 · 六个候选挑三个方向 · 84 种带样张的风格库 · 越用越懂你",
-"cmd": "git clone https://github.com/alchaincyf/huashu-design.git"
-},
-{
-"repo": "titanwings/distilly",
-"type": "agent",
-"dom": "Code",
-"desc": "Distilly — Distill how they think into reusable Skills for any Agent or Bot. Formerly Colleague Skill（原同事 Skil",
-"cmd": "git clone https://github.com/titanwings/distilly.git"
+"dom": "Security",
+"desc": "Security scanner for AI agent skills. Detect vulnerabilities, malicious patterns, security risks, prompt injec",
+"cmd": "git clone https://github.com/NVIDIA/SkillSpector.git"
 },
 {
 "repo": "KKKKhazix/khazix-skills",
@@ -838,13 +831,6 @@
 "dom": "Code",
 "desc": "数字生命卡兹克开源的 AI Skills 合集 | Agent Skills: leader（帮你定义目标）, neat-freak 洁癖, hv-analysis, khazix-writer & more — Cla",
 "cmd": "git clone https://github.com/KKKKhazix/khazix-skills.git"
-},
-{
-"repo": "NVIDIA/SkillSpector",
-"type": "skill",
-"dom": "Security",
-"desc": "Security scanner for AI agent skills. Detect vulnerabilities, malicious patterns, security risks, prompt injec",
-"cmd": "git clone https://github.com/NVIDIA/SkillSpector.git"
 },
 {
 "repo": "citrolabs/ego-lite",
@@ -859,13 +845,6 @@
 "dom": "General",
 "desc": "SkillOpt is a text-space optimizer that trains reusable natural-language skills for frozen LLM agents through ",
 "cmd": "git clone https://github.com/microsoft/SkillOpt.git"
-},
-{
-"repo": "latent-spaces/brag",
-"type": "skill",
-"dom": "Code",
-"desc": "You built it. Now brag. Turn the project you just created into a short, shareable launch video with one comman",
-"cmd": "git clone https://github.com/latent-spaces/brag.git"
 },
 {
 "repo": "kubesphere/kubesphere",
@@ -908,13 +887,6 @@
 "dom": "Code",
 "desc": "Formerly KrillinAI, VideoTranslation and Dubbing Tool. Open-source AI workspace for creators, powered by Codex",
 "cmd": "git clone https://github.com/krillinai/OpenCreator.git"
-},
-{
-"repo": "Vincentwei1021/video-shotcraft",
-"type": "skill",
-"dom": "Code",
-"desc": "AI video skill for Claude Code & Codex — cinematic product videos with Remotion: 152 shot recipe cards, 209 mo",
-"cmd": "git clone https://github.com/Vincentwei1021/video-shotcraft.git"
 },
 {
 "repo": "tw93/Kami",
@@ -1085,18 +1057,18 @@
 "cmd": "git clone https://github.com/TencentCloud/TencentDB-Agent-Memory.git"
 },
 {
-"repo": "QwenLM/qwen-code",
-"type": "agent",
-"dom": "Code",
-"desc": "An open-source AI coding agent that lives in your terminal.",
-"cmd": "git clone https://github.com/QwenLM/qwen-code.git"
-},
-{
 "repo": "op7418/guizang-ppt-skill",
 "type": "agent",
 "dom": "Code",
 "desc": "AI-agent Skill for generating polished HTML slide decks: editorial magazine and Swiss layouts, image prompts, ",
 "cmd": "git clone https://github.com/op7418/guizang-ppt-skill.git"
+},
+{
+"repo": "QwenLM/qwen-code",
+"type": "agent",
+"dom": "Code",
+"desc": "An open-source AI coding agent that lives in your terminal.",
+"cmd": "git clone https://github.com/QwenLM/qwen-code.git"
 },
 {
 "repo": "nocobase/nocobase",
@@ -1113,18 +1085,18 @@
 "cmd": "git clone https://github.com/teableio/teable.git"
 },
 {
-"repo": "liyupi/ai-guide",
-"type": "agent",
-"dom": "Code",
-"desc": "程序员鱼皮的 AI 资源大全 + Vibe Coding 零基础教程，分享 OpenClaw 保姆级教程、大模型玩法（DeepSeek / GPT / Gemini / Claude / GLM）、最新 AI 资讯、Pr",
-"cmd": "git clone https://github.com/liyupi/ai-guide.git"
-},
-{
 "repo": "walkinglabs/learn-harness-engineering",
 "type": "agent",
 "dom": "General",
 "desc": "Harness engineering beginner tutorial, from 0 to 1",
 "cmd": "git clone https://github.com/walkinglabs/learn-harness-engineering.git"
+},
+{
+"repo": "liyupi/ai-guide",
+"type": "agent",
+"dom": "Code",
+"desc": "程序员鱼皮的 AI 资源大全 + Vibe Coding 零基础教程，分享 OpenClaw 保姆级教程、大模型玩法（DeepSeek / GPT / Gemini / Claude / GLM）、最新 AI 资讯、Pr",
+"cmd": "git clone https://github.com/liyupi/ai-guide.git"
 },
 {
 "repo": "1jehuang/jcode",
