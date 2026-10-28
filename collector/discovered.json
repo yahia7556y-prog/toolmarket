@@ -184,8 +184,8 @@
 {
 "repo": "xerj-org/xerj",
 "type": "tool",
-"dom": "Docs",
-"desc": "Local-first search engine and MCP server for AI agents. One Rust binary indexes code, docs, logs, JSONL/CSV an",
+"dom": "Data",
+"desc": "AI search engine and MCP server for bots and agents. One Rust binary indexes code, docs, logs, JSONL/CSV and P",
 "cmd": "git clone https://github.com/xerj-org/xerj.git"
 },
 {
@@ -231,13 +231,6 @@
 "cmd": "git clone https://github.com/modelcontextprotocol/typescript-sdk.git"
 },
 {
-"repo": "ccfos/nightingale",
-"type": "tool",
-"dom": "Data",
-"desc": "Open-source, self-hosted alerting for metrics, logs, and databases. Includes a built-in AI agent and MCP serve",
-"cmd": "git clone https://github.com/ccfos/nightingale.git"
-},
-{
 "repo": "apify/apify-mcp-server",
 "type": "tool",
 "dom": "Data",
@@ -245,11 +238,11 @@
 "cmd": "git clone https://github.com/apify/apify-mcp-server.git"
 },
 {
-"repo": "mrexodia/ida-pro-mcp",
+"repo": "ccfos/nightingale",
 "type": "tool",
-"dom": "General",
-"desc": "AI-powered reverse engineering assistant that bridges IDA Pro with language models through MCP.",
-"cmd": "git clone https://github.com/mrexodia/ida-pro-mcp.git"
+"dom": "Data",
+"desc": "Open-source, self-hosted alerting for metrics, logs, and databases. Includes a built-in AI agent and MCP serve",
+"cmd": "git clone https://github.com/ccfos/nightingale.git"
 },
 {
 "repo": "OpenByteInc/QuantDinger",
@@ -259,11 +252,11 @@
 "cmd": "git clone https://github.com/OpenByteInc/QuantDinger.git"
 },
 {
-"repo": "JoeanAmier/XHS-Downloader",
+"repo": "mrexodia/ida-pro-mcp",
 "type": "tool",
-"dom": "Data",
-"desc": "小红书（XiaoHongShu、RedNote）链接提取/作品采集工具",
-"cmd": "git clone https://github.com/JoeanAmier/XHS-Downloader.git"
+"dom": "General",
+"desc": "AI-powered reverse engineering assistant that bridges IDA Pro with language models through MCP.",
+"cmd": "git clone https://github.com/mrexodia/ida-pro-mcp.git"
 },
 {
 "repo": "0x4m4/hexstrike-ai",
@@ -271,6 +264,13 @@
 "dom": "Security",
 "desc": "HexStrike AI MCP Agents is an advanced MCP server that lets AI agents (Claude, GPT, Copilot, etc.) autonomousl",
 "cmd": "git clone https://github.com/0x4m4/hexstrike-ai.git"
+},
+{
+"repo": "JoeanAmier/XHS-Downloader",
+"type": "tool",
+"dom": "Data",
+"desc": "小红书（XiaoHongShu、RedNote）链接提取/作品采集工具",
+"cmd": "git clone https://github.com/JoeanAmier/XHS-Downloader.git"
 },
 {
 "repo": "0xJacky/nginx-ui",
@@ -287,18 +287,18 @@
 "cmd": "git clone https://github.com/xinnan-tech/xiaozhi-esp32-server.git"
 },
 {
-"repo": "mcp-use/mcp-use",
-"type": "tool",
-"dom": "Code",
-"desc": "The fullstack MCP framework to develop MCP Apps for ChatGPT / Claude & MCP Servers for AI Agents.",
-"cmd": "git clone https://github.com/mcp-use/mcp-use.git"
-},
-{
 "repo": "trailhq/Trail-Code",
 "type": "tool",
 "dom": "Code",
 "desc": "Turbocharge Claude Code, Cursor, Codex, Gemini & every coding agent: faster, cheaper, with contextual understa",
 "cmd": "git clone https://github.com/trailhq/Trail-Code.git"
+},
+{
+"repo": "mcp-use/mcp-use",
+"type": "tool",
+"dom": "Code",
+"desc": "The fullstack MCP framework to develop MCP Apps for ChatGPT / Claude & MCP Servers for AI Agents.",
+"cmd": "git clone https://github.com/mcp-use/mcp-use.git"
 },
 {
 "repo": "Agents365-ai/drawio-skill",
@@ -434,18 +434,18 @@
 "cmd": "git clone https://github.com/alirezarezvani/claude-skills.git"
 },
 {
-"repo": "OthmanAdi/planning-with-files",
-"type": "skill",
-"dom": "Code",
-"desc": "Persistent file-based planning for AI coding agents and long-running tasks. Crash-proof markdown plans, sessio",
-"cmd": "git clone https://github.com/OthmanAdi/planning-with-files.git"
-},
-{
 "repo": "alchaincyf/huashu-design",
 "type": "skill",
 "dom": "Code",
 "desc": "Huashu Design 3.0 · 在 agent 里打一句话，拿回能交付的设计：网页 / App 原型 / 可编辑 PPTX / 动画 / 信息图 · 六个候选挑三个方向 · 84 种带样张的风格库 · 越用越懂你",
 "cmd": "git clone https://github.com/alchaincyf/huashu-design.git"
+},
+{
+"repo": "OthmanAdi/planning-with-files",
+"type": "skill",
+"dom": "Code",
+"desc": "Persistent file-based planning for AI coding agents and long-running tasks. Crash-proof markdown plans, sessio",
+"cmd": "git clone https://github.com/OthmanAdi/planning-with-files.git"
 },
 {
 "repo": "JimLiu/baoyu-skills",
@@ -490,18 +490,18 @@
 "cmd": "git clone https://github.com/NevaMind-AI/memU.git"
 },
 {
+"repo": "Vincentwei1021/video-shotcraft",
+"type": "skill",
+"dom": "Code",
+"desc": "AI video skill for Claude Code & Codex — cinematic, editable product promos with Remotion: 124 shot recipe car",
+"cmd": "git clone https://github.com/Vincentwei1021/video-shotcraft.git"
+},
+{
 "repo": "Orchestra-Research/AI-Research-SKILLs",
 "type": "skill",
 "dom": "Code",
 "desc": "Comprehensive open-source library of AI research and engineering skills for any AI model. Package the skills a",
 "cmd": "git clone https://github.com/Orchestra-Research/AI-Research-SKILLs.git"
-},
-{
-"repo": "Vincentwei1021/video-shotcraft",
-"type": "skill",
-"dom": "Code",
-"desc": "AI video skill for Claude Code & Codex — cinematic product videos with Remotion: 152 shot recipe cards, 209 mo",
-"cmd": "git clone https://github.com/Vincentwei1021/video-shotcraft.git"
 },
 {
 "repo": "Jeffallan/claude-skills",
@@ -637,6 +637,13 @@
 "cmd": "git clone https://github.com/nowork-studio/notfair-plugin.git"
 },
 {
+"repo": "google/elephant-goldfish-model",
+"type": "skill",
+"dom": "Code",
+"desc": "Open-source skills for designing and reviewing software with AI agents",
+"cmd": "git clone https://github.com/google/elephant-goldfish-model.git"
+},
+{
 "repo": "geekjourneyx/md2wechat-skill",
 "type": "skill",
 "dom": "Code",
@@ -672,13 +679,6 @@
 "cmd": "git clone https://github.com/rebelytics/one-skill-to-rule-them-all.git"
 },
 {
-"repo": "michael-denyer/pstack-claude",
-"type": "skill",
-"dom": "Code",
-"desc": "Claude Code, Codex, Copilot, Pi, OpenCode, Muse, Gemini, and Prime Agent versions of Poteto's pstack. Rigorous",
-"cmd": "git clone https://github.com/michael-denyer/pstack-claude.git"
-},
-{
 "repo": "morluto/rea",
 "type": "skill",
 "dom": "Code",
@@ -712,6 +712,13 @@
 "dom": "Automation",
 "desc": "Agent skills that give coding agents taste: art direction, reference images and a browser check instead of gen",
 "cmd": "git clone https://github.com/Leonxlnx/taste-skill.git"
+},
+{
+"repo": "pbakaus/impeccable",
+"type": "skill",
+"dom": "Design",
+"desc": "The design vocabulary for your coding agent. Steer with polish and bolder, review with critique and audit, cat",
+"cmd": "git clone https://github.com/pbakaus/impeccable.git"
 },
 {
 "repo": "career-ops-hq/career-ops",
@@ -756,18 +763,18 @@
 "cmd": "git clone https://github.com/CherryHQ/cherry-studio.git"
 },
 {
-"repo": "sickn33/agentic-awesome-skills",
-"type": "skill",
-"dom": "Code",
-"desc": "AAS Core is the local, agent-first control plane for complete catalog discovery, agent-owned selection, stack ",
-"cmd": "git clone https://github.com/sickn33/agentic-awesome-skills.git"
-},
-{
 "repo": "alibaba/open-code-review",
 "type": "skill",
 "dom": "Data",
 "desc": "Secure, fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic",
 "cmd": "git clone https://github.com/alibaba/open-code-review.git"
+},
+{
+"repo": "sickn33/agentic-awesome-skills",
+"type": "skill",
+"dom": "Code",
+"desc": "AAS Core is the local, agent-first control plane for complete catalog discovery, agent-owned selection, stack ",
+"cmd": "git clone https://github.com/sickn33/agentic-awesome-skills.git"
 },
 {
 "repo": "github/awesome-copilot",
@@ -901,13 +908,6 @@
 "dom": "Automation",
 "desc": "Multi-Agent Harness for Production AI",
 "cmd": "git clone https://github.com/aden-hive/hive.git"
-},
-{
-"repo": "tigerless-labs/autoharness",
-"type": "skill",
-"dom": "Code",
-"desc": "Autoharness — a self-learning skill layer for Claude Code — distills skills from your real sessions, updates t",
-"cmd": "git clone https://github.com/tigerless-labs/autoharness.git"
 },
 {
 "repo": "NousResearch/hermes-agent",
