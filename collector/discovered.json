@@ -224,18 +224,18 @@
 "cmd": "git clone https://github.com/yusufkaraaslan/Skill_Seekers.git"
 },
 {
-"repo": "modelcontextprotocol/typescript-sdk",
-"type": "tool",
-"dom": "General",
-"desc": "The official TypeScript SDK for Model Context Protocol servers and clients",
-"cmd": "git clone https://github.com/modelcontextprotocol/typescript-sdk.git"
-},
-{
 "repo": "apify/apify-mcp-server",
 "type": "tool",
 "dom": "Data",
 "desc": "The Apify MCP server enables your AI agents to extract data from social media, search engines, maps, e-commerc",
 "cmd": "git clone https://github.com/apify/apify-mcp-server.git"
+},
+{
+"repo": "modelcontextprotocol/typescript-sdk",
+"type": "tool",
+"dom": "General",
+"desc": "The official TypeScript SDK for Model Context Protocol servers and clients",
+"cmd": "git clone https://github.com/modelcontextprotocol/typescript-sdk.git"
 },
 {
 "repo": "ccfos/nightingale",
@@ -343,11 +343,11 @@
 "cmd": "git clone https://github.com/osaurus-ai/osaurus.git"
 },
 {
-"repo": "yzfly/Awesome-MCP-ZH",
-"type": "tool",
-"dom": "General",
-"desc": "MCP 资源精选， MCP指南，Claude MCP，MCP Servers, MCP Clients",
-"cmd": "git clone https://github.com/yzfly/Awesome-MCP-ZH.git"
+"repo": "Ryze-AI-Adgent/open-seo-mcp-skills",
+"type": "skill",
+"dom": "Data",
+"desc": "Free SEO MCP server + open-source SEO and GEO skills for Claude: keyword research, rank tracking, audits, back",
+"cmd": "git clone https://github.com/Ryze-AI-Adgent/open-seo-mcp-skills.git"
 },
 {
 "repo": "paperclipai/paperclip",
@@ -546,18 +546,18 @@
 "cmd": "git clone https://github.com/deanpeters/Product-Manager-Skills.git"
 },
 {
-"repo": "Ryze-AI-Adgent/open-seo-mcp-skills",
-"type": "skill",
-"dom": "Data",
-"desc": "Free SEO MCP server + open-source SEO and GEO skills for Claude: keyword research, rank tracking, audits, back",
-"cmd": "git clone https://github.com/Ryze-AI-Adgent/open-seo-mcp-skills.git"
-},
-{
 "repo": "gosom/google-maps-scraper",
 "type": "skill",
 "dom": "Data",
 "desc": "scrape data  from Google Maps. Extracts data such as the name, address, phone number, website URL, rating,  re",
 "cmd": "git clone https://github.com/gosom/google-maps-scraper.git"
+},
+{
+"repo": "Jakeschincariol/replica-skill",
+"type": "skill",
+"dom": "Code",
+"desc": "Eleven free Claude skills that clone any app: reverse-engineer it, rebuild it, test it for bugs, then fix what",
+"cmd": "git clone https://github.com/Jakeschincariol/replica-skill.git"
 },
 {
 "repo": "browser-act/skills",
@@ -574,13 +574,6 @@
 "cmd": "git clone https://github.com/ikaijua/Awesome-AITools.git"
 },
 {
-"repo": "Jakeschincariol/replica-skill",
-"type": "skill",
-"dom": "Code",
-"desc": "Eleven free Claude skills that clone any app: reverse-engineer it, rebuild it, test it for bugs, then fix what",
-"cmd": "git clone https://github.com/Jakeschincariol/replica-skill.git"
-},
-{
 "repo": "elementalsouls/Claude-BugHunter",
 "type": "skill",
 "dom": "Security",
@@ -595,11 +588,11 @@
 "cmd": "git clone https://github.com/sergebulaev/linkedin-skills.git"
 },
 {
-"repo": "ScrapeCreators/social-media-research-skills",
+"repo": "google/elephant-goldfish-model",
 "type": "skill",
-"dom": "Data",
-"desc": "AI agent skills for social media research. Outlier posts, comment mining, competitor teardowns, ad libraries &",
-"cmd": "git clone https://github.com/ScrapeCreators/social-media-research-skills.git"
+"dom": "Code",
+"desc": "Open-source skills for designing and reviewing software with AI agents",
+"cmd": "git clone https://github.com/google/elephant-goldfish-model.git"
 },
 {
 "repo": "kaankiziltug/logo-design-skill",
@@ -607,6 +600,13 @@
 "dom": "Code",
 "desc": "A comprehensive logo-design skill for Claude, Gemini CLI, Codex and other AI agents: principles, process, SVG ",
 "cmd": "git clone https://github.com/kaankiziltug/logo-design-skill.git"
+},
+{
+"repo": "ScrapeCreators/social-media-research-skills",
+"type": "skill",
+"dom": "Data",
+"desc": "AI agent skills for social media research. Outlier posts, comment mining, competitor teardowns, ad libraries &",
+"cmd": "git clone https://github.com/ScrapeCreators/social-media-research-skills.git"
 },
 {
 "repo": "QingYunA/answer-me-with-html",
@@ -635,13 +635,6 @@
 "dom": "Code",
 "desc": "Open-source SEO, GEO, and marketing skills for AI agents.",
 "cmd": "git clone https://github.com/nowork-studio/notfair-plugin.git"
-},
-{
-"repo": "google/elephant-goldfish-model",
-"type": "skill",
-"dom": "Code",
-"desc": "Open-source skills for designing and reviewing software with AI agents",
-"cmd": "git clone https://github.com/google/elephant-goldfish-model.git"
 },
 {
 "repo": "geekjourneyx/md2wechat-skill",
@@ -700,18 +693,18 @@
 "cmd": "git clone https://github.com/addyosmani/agent-skills.git"
 },
 {
-"repo": "nexu-io/open-design",
-"type": "skill",
-"dom": "Code",
-"desc": "The 1st Collaborative AI Design Agent Workspace. Local-first and open source. Create motion, prototypes, websi",
-"cmd": "git clone https://github.com/nexu-io/open-design.git"
-},
-{
 "repo": "Leonxlnx/taste-skill",
 "type": "skill",
 "dom": "Automation",
 "desc": "Agent skills that give coding agents taste: art direction, reference images and a browser check instead of gen",
 "cmd": "git clone https://github.com/Leonxlnx/taste-skill.git"
+},
+{
+"repo": "nexu-io/open-design",
+"type": "skill",
+"dom": "Code",
+"desc": "The 1st Collaborative AI Design Agent Workspace. Local-first and open source. Create motion, prototypes, websi",
+"cmd": "git clone https://github.com/nexu-io/open-design.git"
 },
 {
 "repo": "pbakaus/impeccable",
@@ -1078,18 +1071,18 @@
 "cmd": "git clone https://github.com/nocobase/nocobase.git"
 },
 {
-"repo": "teableio/teable",
-"type": "agent",
-"dom": "Data",
-"desc": "✨ AI Spreadsheet for Business",
-"cmd": "git clone https://github.com/teableio/teable.git"
-},
-{
 "repo": "walkinglabs/learn-harness-engineering",
 "type": "agent",
 "dom": "General",
 "desc": "Harness engineering beginner tutorial, from 0 to 1",
 "cmd": "git clone https://github.com/walkinglabs/learn-harness-engineering.git"
+},
+{
+"repo": "teableio/teable",
+"type": "agent",
+"dom": "Data",
+"desc": "✨ AI Spreadsheet for Business",
+"cmd": "git clone https://github.com/teableio/teable.git"
 },
 {
 "repo": "liyupi/ai-guide",
@@ -1197,10 +1190,10 @@
 "cmd": "git clone https://github.com/EKKOLearnAI/ekko-studio.git"
 },
 {
-"repo": "holaboss-ai/holaOS",
+"repo": "presenton/presenton",
 "type": "agent",
-"dom": "Data",
-"desc": "Open-source agentic workspace enterprises can make their own. Connect the systems you already run — 100+ integ",
-"cmd": "git clone https://github.com/holaboss-ai/holaOS.git"
+"dom": "General",
+"desc": "Open-Source AI Presentation Generator and API (Gamma, Canva, Beautiful AI, Decktopus, Presentations AI Alterna",
+"cmd": "git clone https://github.com/presenton/presenton.git"
 }
 ]
