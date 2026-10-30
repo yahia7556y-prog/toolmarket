@@ -175,13 +175,6 @@
 "cmd": "git clone https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep.git"
 },
 {
-"repo": "microsoft/mcp-for-beginners",
-"type": "tool",
-"dom": "Security",
-"desc": "This open-source curriculum introduces the fundamentals of Model Context Protocol (MCP) through real-world, cr",
-"cmd": "git clone https://github.com/microsoft/mcp-for-beginners.git"
-},
-{
 "repo": "xerj-org/xerj",
 "type": "tool",
 "dom": "Data",
@@ -189,11 +182,11 @@
 "cmd": "git clone https://github.com/xerj-org/xerj.git"
 },
 {
-"repo": "triggerdotdev/trigger.dev",
+"repo": "microsoft/mcp-for-beginners",
 "type": "tool",
-"dom": "Automation",
-"desc": "Trigger.dev – build and deploy durable AI agents and workflows",
-"cmd": "git clone https://github.com/triggerdotdev/trigger.dev.git"
+"dom": "Security",
+"desc": "This open-source curriculum introduces the fundamentals of Model Context Protocol (MCP) through real-world, cr",
+"cmd": "git clone https://github.com/microsoft/mcp-for-beginners.git"
 },
 {
 "repo": "xpzouying/xiaohongshu-mcp",
@@ -201,6 +194,13 @@
 "dom": "General",
 "desc": "MCP for xiaohongshu.com",
 "cmd": "git clone https://github.com/xpzouying/xiaohongshu-mcp.git"
+},
+{
+"repo": "triggerdotdev/trigger.dev",
+"type": "tool",
+"dom": "Automation",
+"desc": "Trigger.dev – build and deploy durable AI agents and workflows",
+"cmd": "git clone https://github.com/triggerdotdev/trigger.dev.git"
 },
 {
 "repo": "budtmo/docker-android",
@@ -222,6 +222,13 @@
 "dom": "Data",
 "desc": "Convert documentation websites, GitHub repositories, and PDFs into Claude AI skills with automatic conflict de",
 "cmd": "git clone https://github.com/yusufkaraaslan/Skill_Seekers.git"
+},
+{
+"repo": "liketrek/TREK",
+"type": "tool",
+"dom": "Code",
+"desc": "The most complete open-source travel planner: real-time collaboration, bookings, budgets, packing lists, journ",
+"cmd": "git clone https://github.com/liketrek/TREK.git"
 },
 {
 "repo": "apify/apify-mcp-server",
@@ -341,13 +348,6 @@
 "dom": "Code",
 "desc": "Own your AI. The native macOS harness for AI agents -- any model, persistent memory, autonomous execution, cry",
 "cmd": "git clone https://github.com/osaurus-ai/osaurus.git"
-},
-{
-"repo": "Ryze-AI-Adgent/open-seo-mcp-skills",
-"type": "skill",
-"dom": "Data",
-"desc": "Free SEO MCP server + open-source SEO and GEO skills for Claude: keyword research, rank tracking, audits, back",
-"cmd": "git clone https://github.com/Ryze-AI-Adgent/open-seo-mcp-skills.git"
 },
 {
 "repo": "paperclipai/paperclip",
@@ -483,18 +483,18 @@
 "cmd": "git clone https://github.com/nidhinjs/prompt-master.git"
 },
 {
-"repo": "NevaMind-AI/memU",
-"type": "skill",
-"dom": "General",
-"desc": "Personal memory across agents",
-"cmd": "git clone https://github.com/NevaMind-AI/memU.git"
-},
-{
 "repo": "Vincentwei1021/video-shotcraft",
 "type": "skill",
 "dom": "Code",
 "desc": "AI video skill for Claude Code & Codex — cinematic, editable product promos with Remotion: 124 shot recipe car",
 "cmd": "git clone https://github.com/Vincentwei1021/video-shotcraft.git"
+},
+{
+"repo": "NevaMind-AI/memU",
+"type": "skill",
+"dom": "General",
+"desc": "Personal memory across agents",
+"cmd": "git clone https://github.com/NevaMind-AI/memU.git"
 },
 {
 "repo": "Orchestra-Research/AI-Research-SKILLs",
@@ -525,6 +525,13 @@
 "cmd": "git clone https://github.com/nexu-io/html-anything.git"
 },
 {
+"repo": "WenyuChiou/awesome-agentic-ai-zh",
+"type": "skill",
+"dom": "Code",
+"desc": "A trilingual (繁中 / English / 简中) learning roadmap for agentic AI: from LLM basics to multi-agent systems, with",
+"cmd": "git clone https://github.com/WenyuChiou/awesome-agentic-ai-zh.git"
+},
+{
 "repo": "zenstory-ai/oh-story-claudecode",
 "type": "skill",
 "dom": "Code",
@@ -532,11 +539,11 @@
 "cmd": "git clone https://github.com/zenstory-ai/oh-story-claudecode.git"
 },
 {
-"repo": "WenyuChiou/awesome-agentic-ai-zh",
+"repo": "Ryze-AI-Adgent/open-seo-mcp-skills",
 "type": "skill",
-"dom": "Code",
-"desc": "A trilingual (繁中 / English / 简中) learning roadmap for agentic AI: from LLM basics to multi-agent systems, with",
-"cmd": "git clone https://github.com/WenyuChiou/awesome-agentic-ai-zh.git"
+"dom": "Data",
+"desc": "Free SEO MCP server + open-source SEO and GEO skills for Claude: keyword research, rank tracking, audits, back",
+"cmd": "git clone https://github.com/Ryze-AI-Adgent/open-seo-mcp-skills.git"
 },
 {
 "repo": "deanpeters/Product-Manager-Skills",
@@ -560,6 +567,13 @@
 "cmd": "git clone https://github.com/Jakeschincariol/replica-skill.git"
 },
 {
+"repo": "google/elephant-goldfish-model",
+"type": "skill",
+"dom": "Code",
+"desc": "Open-source skills for designing and reviewing software with AI agents",
+"cmd": "git clone https://github.com/google/elephant-goldfish-model.git"
+},
+{
 "repo": "browser-act/skills",
 "type": "skill",
 "dom": "Data",
@@ -574,13 +588,6 @@
 "cmd": "git clone https://github.com/ikaijua/Awesome-AITools.git"
 },
 {
-"repo": "elementalsouls/Claude-BugHunter",
-"type": "skill",
-"dom": "Security",
-"desc": "A Claude Code skill bundle for bug hunting and external red-team work - 82 skills, 15 slash commands, 681 disc",
-"cmd": "git clone https://github.com/elementalsouls/Claude-BugHunter.git"
-},
-{
 "repo": "sergebulaev/linkedin-skills",
 "type": "skill",
 "dom": "Automation",
@@ -588,11 +595,11 @@
 "cmd": "git clone https://github.com/sergebulaev/linkedin-skills.git"
 },
 {
-"repo": "google/elephant-goldfish-model",
+"repo": "elementalsouls/Claude-BugHunter",
 "type": "skill",
-"dom": "Code",
-"desc": "Open-source skills for designing and reviewing software with AI agents",
-"cmd": "git clone https://github.com/google/elephant-goldfish-model.git"
+"dom": "Security",
+"desc": "A Claude Code skill bundle for bug hunting and external red-team work - 82 skills, 15 slash commands, 681 disc",
+"cmd": "git clone https://github.com/elementalsouls/Claude-BugHunter.git"
 },
 {
 "repo": "kaankiziltug/logo-design-skill",
@@ -651,18 +658,18 @@
 "cmd": "git clone https://github.com/glitternetwork/pinme.git"
 },
 {
+"repo": "Appllama/appllama-skills",
+"type": "skill",
+"dom": "Code",
+"desc": "A builder, not just a researcher. Agent skills that turn top-grossing app patterns into native-quality mobile ",
+"cmd": "git clone https://github.com/Appllama/appllama-skills.git"
+},
+{
 "repo": "davepoon/buildwithclaude",
 "type": "skill",
 "dom": "Code",
 "desc": "A single hub to find Claude Skills, Agents, Commands, Hooks, Plugins, and Marketplace collections to extend Cl",
 "cmd": "git clone https://github.com/davepoon/buildwithclaude.git"
-},
-{
-"repo": "Ar9av/obsidian-wiki",
-"type": "skill",
-"dom": "Code",
-"desc": "Framework for AI agents to build and maintain a digital brain through Obsidian wiki | Memory System for Agents",
-"cmd": "git clone https://github.com/Ar9av/obsidian-wiki.git"
 },
 {
 "repo": "rebelytics/one-skill-to-rule-them-all",
@@ -749,13 +756,6 @@
 "cmd": "git clone https://github.com/VoltAgent/awesome-openclaw-skills.git"
 },
 {
-"repo": "CherryHQ/cherry-studio",
-"type": "agent",
-"dom": "Code",
-"desc": "AI productivity studio with smart chat, autonomous agents, and 300+ assistants. Unified access to frontier LLM",
-"cmd": "git clone https://github.com/CherryHQ/cherry-studio.git"
-},
-{
 "repo": "alibaba/open-code-review",
 "type": "skill",
 "dom": "Data",
@@ -766,7 +766,7 @@
 "repo": "sickn33/agentic-awesome-skills",
 "type": "skill",
 "dom": "Code",
-"desc": "AAS Core is the local, agent-first control plane for complete catalog discovery, agent-owned selection, stack ",
+"desc": "2,877+ reusable AI agent skills for Claude Code, Codex, Cursor and Gemini CLI. AAS Core adds local catalog dis",
 "cmd": "git clone https://github.com/sickn33/agentic-awesome-skills.git"
 },
 {
@@ -903,6 +903,13 @@
 "cmd": "git clone https://github.com/aden-hive/hive.git"
 },
 {
+"repo": "tigerless-labs/autoharness",
+"type": "skill",
+"dom": "Code",
+"desc": "Autoharness — a self-learning skill layer for Claude Code — distills skills from your real sessions, updates t",
+"cmd": "git clone https://github.com/tigerless-labs/autoharness.git"
+},
+{
 "repo": "NousResearch/hermes-agent",
 "type": "agent",
 "dom": "Code",
@@ -955,7 +962,7 @@
 "repo": "HKUDS/nanobot",
 "type": "agent",
 "dom": "Automation",
-"desc": "Ultra-lightweight, open-source, self-hosted personal AI agent framework in Python with WebUI, tools, memory, M",
+"desc": "Your lightweight open-source personal agent.",
 "cmd": "git clone https://github.com/HKUDS/nanobot.git"
 },
 {
