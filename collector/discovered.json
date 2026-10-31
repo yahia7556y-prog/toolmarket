@@ -217,18 +217,18 @@
 "cmd": "git clone https://github.com/open-metadata/OpenMetadata.git"
 },
 {
-"repo": "yusufkaraaslan/Skill_Seekers",
-"type": "skill",
-"dom": "Data",
-"desc": "Convert documentation websites, GitHub repositories, and PDFs into Claude AI skills with automatic conflict de",
-"cmd": "git clone https://github.com/yusufkaraaslan/Skill_Seekers.git"
-},
-{
 "repo": "liketrek/TREK",
 "type": "tool",
 "dom": "Code",
 "desc": "The most complete open-source travel planner: real-time collaboration, bookings, budgets, packing lists, journ",
 "cmd": "git clone https://github.com/liketrek/TREK.git"
+},
+{
+"repo": "yusufkaraaslan/Skill_Seekers",
+"type": "skill",
+"dom": "Data",
+"desc": "Convert documentation websites, GitHub repositories, and PDFs into Claude AI skills with automatic conflict de",
+"cmd": "git clone https://github.com/yusufkaraaslan/Skill_Seekers.git"
 },
 {
 "repo": "apify/apify-mcp-server",
@@ -259,18 +259,18 @@
 "cmd": "git clone https://github.com/OpenByteInc/QuantDinger.git"
 },
 {
-"repo": "mrexodia/ida-pro-mcp",
-"type": "tool",
-"dom": "General",
-"desc": "AI-powered reverse engineering assistant that bridges IDA Pro with language models through MCP.",
-"cmd": "git clone https://github.com/mrexodia/ida-pro-mcp.git"
-},
-{
 "repo": "0x4m4/hexstrike-ai",
 "type": "tool",
 "dom": "Security",
 "desc": "HexStrike AI MCP Agents is an advanced MCP server that lets AI agents (Claude, GPT, Copilot, etc.) autonomousl",
 "cmd": "git clone https://github.com/0x4m4/hexstrike-ai.git"
+},
+{
+"repo": "mrexodia/ida-pro-mcp",
+"type": "tool",
+"dom": "General",
+"desc": "AI-powered reverse engineering assistant that bridges IDA Pro with language models through MCP.",
+"cmd": "git clone https://github.com/mrexodia/ida-pro-mcp.git"
 },
 {
 "repo": "JoeanAmier/XHS-Downloader",
@@ -315,6 +315,13 @@
 "cmd": "git clone https://github.com/Agents365-ai/drawio-skill.git"
 },
 {
+"repo": "mobile-next/mobile-mcp",
+"type": "tool",
+"dom": "Automation",
+"desc": "Mobile MCP: let AI agents drive your iOS and Android apps. MCP server for simulators, emulators and real devic",
+"cmd": "git clone https://github.com/mobile-next/mobile-mcp.git"
+},
+{
 "repo": "awslabs/mcp",
 "type": "tool",
 "dom": "General",
@@ -341,13 +348,6 @@
 "dom": "Security",
 "desc": "Android Full-Stack Device Control Platform: WebRTC/H.264 remote desktop, UI/OCR/image-matching automation, one",
 "cmd": "git clone https://github.com/firerpa/lamda.git"
-},
-{
-"repo": "osaurus-ai/osaurus",
-"type": "tool",
-"dom": "Code",
-"desc": "Own your AI. The native macOS harness for AI agents -- any model, persistent memory, autonomous execution, cry",
-"cmd": "git clone https://github.com/osaurus-ai/osaurus.git"
 },
 {
 "repo": "paperclipai/paperclip",
@@ -532,18 +532,18 @@
 "cmd": "git clone https://github.com/WenyuChiou/awesome-agentic-ai-zh.git"
 },
 {
-"repo": "zenstory-ai/oh-story-claudecode",
-"type": "skill",
-"dom": "Code",
-"desc": "Claude Code / Codex / OpenCode agent skills for writing Chinese web novels (网文): 扫榜、拆文、写作、去AI味、封面全流程，长篇短篇都支持 |",
-"cmd": "git clone https://github.com/zenstory-ai/oh-story-claudecode.git"
-},
-{
 "repo": "Ryze-AI-Adgent/open-seo-mcp-skills",
 "type": "skill",
 "dom": "Data",
 "desc": "Free SEO MCP server + open-source SEO and GEO skills for Claude: keyword research, rank tracking, audits, back",
 "cmd": "git clone https://github.com/Ryze-AI-Adgent/open-seo-mcp-skills.git"
+},
+{
+"repo": "zenstory-ai/oh-story-claudecode",
+"type": "skill",
+"dom": "Code",
+"desc": "Claude Code / Codex / OpenCode agent skills for writing Chinese web novels (网文): 扫榜、拆文、写作、去AI味、封面全流程，长篇短篇都支持 |",
+"cmd": "git clone https://github.com/zenstory-ai/oh-story-claudecode.git"
 },
 {
 "repo": "deanpeters/Product-Manager-Skills",
@@ -560,18 +560,18 @@
 "cmd": "git clone https://github.com/gosom/google-maps-scraper.git"
 },
 {
-"repo": "Jakeschincariol/replica-skill",
-"type": "skill",
-"dom": "Code",
-"desc": "Eleven free Claude skills that clone any app: reverse-engineer it, rebuild it, test it for bugs, then fix what",
-"cmd": "git clone https://github.com/Jakeschincariol/replica-skill.git"
-},
-{
 "repo": "google/elephant-goldfish-model",
 "type": "skill",
 "dom": "Code",
 "desc": "Open-source skills for designing and reviewing software with AI agents",
 "cmd": "git clone https://github.com/google/elephant-goldfish-model.git"
+},
+{
+"repo": "Jakeschincariol/replica-skill",
+"type": "skill",
+"dom": "Code",
+"desc": "Eleven free Claude skills that clone any app: reverse-engineer it, rebuild it, test it for bugs, then fix what",
+"cmd": "git clone https://github.com/Jakeschincariol/replica-skill.git"
 },
 {
 "repo": "browser-act/skills",
@@ -588,6 +588,13 @@
 "cmd": "git clone https://github.com/ikaijua/Awesome-AITools.git"
 },
 {
+"repo": "kaankiziltug/logo-design-skill",
+"type": "skill",
+"dom": "Code",
+"desc": "A comprehensive logo-design skill for Claude, Gemini CLI, Codex and other AI agents: principles, process, SVG ",
+"cmd": "git clone https://github.com/kaankiziltug/logo-design-skill.git"
+},
+{
 "repo": "sergebulaev/linkedin-skills",
 "type": "skill",
 "dom": "Automation",
@@ -600,13 +607,6 @@
 "dom": "Security",
 "desc": "A Claude Code skill bundle for bug hunting and external red-team work - 82 skills, 15 slash commands, 681 disc",
 "cmd": "git clone https://github.com/elementalsouls/Claude-BugHunter.git"
-},
-{
-"repo": "kaankiziltug/logo-design-skill",
-"type": "skill",
-"dom": "Code",
-"desc": "A comprehensive logo-design skill for Claude, Gemini CLI, Codex and other AI agents: principles, process, SVG ",
-"cmd": "git clone https://github.com/kaankiziltug/logo-design-skill.git"
 },
 {
 "repo": "ScrapeCreators/social-media-research-skills",
@@ -644,11 +644,25 @@
 "cmd": "git clone https://github.com/nowork-studio/notfair-plugin.git"
 },
 {
+"repo": "Appllama/appllama-skills",
+"type": "skill",
+"dom": "Code",
+"desc": "A builder, not just a researcher. Agent skills that turn top-grossing app patterns into native-quality mobile ",
+"cmd": "git clone https://github.com/Appllama/appllama-skills.git"
+},
+{
 "repo": "geekjourneyx/md2wechat-skill",
 "type": "skill",
 "dom": "Code",
 "desc": "面向 AI Agent 的微信公众号创作与发布 CLI：Markdown 排版、AI 配图、预览与草稿创建；支持由浏览器 Agent 保存知乎、CSDN、头条未发布草稿。",
 "cmd": "git clone https://github.com/geekjourneyx/md2wechat-skill.git"
+},
+{
+"repo": "Jakeschincariol/day-trader-skill",
+"type": "skill",
+"dom": "General",
+"desc": "11 Claude skills for day trading: scan thousands of charts, track breaking news, time every entry and exit, an",
+"cmd": "git clone https://github.com/Jakeschincariol/day-trader-skill.git"
 },
 {
 "repo": "glitternetwork/pinme",
@@ -658,25 +672,11 @@
 "cmd": "git clone https://github.com/glitternetwork/pinme.git"
 },
 {
-"repo": "Appllama/appllama-skills",
-"type": "skill",
-"dom": "Code",
-"desc": "A builder, not just a researcher. Agent skills that turn top-grossing app patterns into native-quality mobile ",
-"cmd": "git clone https://github.com/Appllama/appllama-skills.git"
-},
-{
 "repo": "davepoon/buildwithclaude",
 "type": "skill",
 "dom": "Code",
 "desc": "A single hub to find Claude Skills, Agents, Commands, Hooks, Plugins, and Marketplace collections to extend Cl",
 "cmd": "git clone https://github.com/davepoon/buildwithclaude.git"
-},
-{
-"repo": "rebelytics/one-skill-to-rule-them-all",
-"type": "skill",
-"dom": "Automation",
-"desc": "The meta-skill that builds and improves all your skills, including itself. Watches your work sessions (autonom",
-"cmd": "git clone https://github.com/rebelytics/one-skill-to-rule-them-all.git"
 },
 {
 "repo": "morluto/rea",
@@ -756,6 +756,13 @@
 "cmd": "git clone https://github.com/VoltAgent/awesome-openclaw-skills.git"
 },
 {
+"repo": "CherryHQ/cherry-studio",
+"type": "skill",
+"dom": "General",
+"desc": "Your AI workspace for models, agents, and productivity.",
+"cmd": "git clone https://github.com/CherryHQ/cherry-studio.git"
+},
+{
 "repo": "alibaba/open-code-review",
 "type": "skill",
 "dom": "Data",
@@ -766,7 +773,7 @@
 "repo": "sickn33/agentic-awesome-skills",
 "type": "skill",
 "dom": "Code",
-"desc": "2,877+ reusable AI agent skills for Claude Code, Codex, Cursor and Gemini CLI. AAS Core adds local catalog dis",
+"desc": "2,884+ reusable AI agent skills for Claude Code, Codex, Cursor and Gemini CLI. AAS Core adds local catalog dis",
 "cmd": "git clone https://github.com/sickn33/agentic-awesome-skills.git"
 },
 {
@@ -903,13 +910,6 @@
 "cmd": "git clone https://github.com/aden-hive/hive.git"
 },
 {
-"repo": "tigerless-labs/autoharness",
-"type": "skill",
-"dom": "Code",
-"desc": "Autoharness — a self-learning skill layer for Claude Code — distills skills from your real sessions, updates t",
-"cmd": "git clone https://github.com/tigerless-labs/autoharness.git"
-},
-{
 "repo": "NousResearch/hermes-agent",
 "type": "agent",
 "dom": "Code",
@@ -994,18 +994,18 @@
 "cmd": "git clone https://github.com/CopilotKit/CopilotKit.git"
 },
 {
-"repo": "HKUDS/Vibe-Trading",
-"type": "agent",
-"dom": "General",
-"desc": "\"Vibe-Trading: Your Personal Trading Agent\"",
-"cmd": "git clone https://github.com/HKUDS/Vibe-Trading.git"
-},
-{
 "repo": "can1357/oh-my-pi",
 "type": "agent",
 "dom": "Code",
 "desc": "⌥ Coding agent with the IDE wired in. Built by Stencil Labs.",
 "cmd": "git clone https://github.com/can1357/oh-my-pi.git"
+},
+{
+"repo": "HKUDS/Vibe-Trading",
+"type": "agent",
+"dom": "General",
+"desc": "\"Vibe-Trading: Your Personal Trading Agent\"",
+"cmd": "git clone https://github.com/HKUDS/Vibe-Trading.git"
 },
 {
 "repo": "agentscope-ai/QwenPaw",
