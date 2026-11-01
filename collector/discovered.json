@@ -168,18 +168,18 @@
 "cmd": "git clone https://github.com/nukeop/nuclear.git"
 },
 {
-"repo": "wanshuiyin/Auto-claude-code-research-in-sleep",
-"type": "tool",
-"dom": "Automation",
-"desc": "ARIS ⚔️ (Auto-Research-In-Sleep) — Lightweight Markdown-only skills for autonomous ML research: cross-model re",
-"cmd": "git clone https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep.git"
-},
-{
 "repo": "xerj-org/xerj",
 "type": "tool",
 "dom": "Data",
 "desc": "AI search engine and MCP server for bots and agents. One Rust binary indexes code, docs, logs, JSONL/CSV and P",
 "cmd": "git clone https://github.com/xerj-org/xerj.git"
+},
+{
+"repo": "wanshuiyin/Auto-claude-code-research-in-sleep",
+"type": "tool",
+"dom": "Automation",
+"desc": "ARIS ⚔️ (Auto-Research-In-Sleep) — Lightweight Markdown-only skills for autonomous ML research: cross-model re",
+"cmd": "git clone https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep.git"
 },
 {
 "repo": "microsoft/mcp-for-beginners",
@@ -476,18 +476,18 @@
 "cmd": "git clone https://github.com/latent-spaces/brag.git"
 },
 {
-"repo": "nidhinjs/prompt-master",
-"type": "skill",
-"dom": "General",
-"desc": "A Claude skill that writes the accurate prompts for any AI tool. Zero tokens or credits wasted. Full context a",
-"cmd": "git clone https://github.com/nidhinjs/prompt-master.git"
-},
-{
 "repo": "Vincentwei1021/video-shotcraft",
 "type": "skill",
 "dom": "Code",
 "desc": "AI video skill for Claude Code & Codex — cinematic, editable product promos with Remotion: 124 shot recipe car",
 "cmd": "git clone https://github.com/Vincentwei1021/video-shotcraft.git"
+},
+{
+"repo": "nidhinjs/prompt-master",
+"type": "skill",
+"dom": "General",
+"desc": "A Claude skill that writes the accurate prompts for any AI tool. Zero tokens or credits wasted. Full context a",
+"cmd": "git clone https://github.com/nidhinjs/prompt-master.git"
 },
 {
 "repo": "NevaMind-AI/memU",
@@ -525,6 +525,13 @@
 "cmd": "git clone https://github.com/nexu-io/html-anything.git"
 },
 {
+"repo": "Ryze-AI-Adgent/open-seo-mcp-skills",
+"type": "skill",
+"dom": "Data",
+"desc": "Free SEO MCP server + open-source SEO and GEO skills for Claude: keyword research, rank tracking, audits, back",
+"cmd": "git clone https://github.com/Ryze-AI-Adgent/open-seo-mcp-skills.git"
+},
+{
 "repo": "WenyuChiou/awesome-agentic-ai-zh",
 "type": "skill",
 "dom": "Code",
@@ -532,11 +539,11 @@
 "cmd": "git clone https://github.com/WenyuChiou/awesome-agentic-ai-zh.git"
 },
 {
-"repo": "Ryze-AI-Adgent/open-seo-mcp-skills",
+"repo": "google/elephant-goldfish-model",
 "type": "skill",
-"dom": "Data",
-"desc": "Free SEO MCP server + open-source SEO and GEO skills for Claude: keyword research, rank tracking, audits, back",
-"cmd": "git clone https://github.com/Ryze-AI-Adgent/open-seo-mcp-skills.git"
+"dom": "Code",
+"desc": "Open-source skills for designing and reviewing software with AI agents",
+"cmd": "git clone https://github.com/google/elephant-goldfish-model.git"
 },
 {
 "repo": "zenstory-ai/oh-story-claudecode",
@@ -558,13 +565,6 @@
 "dom": "Data",
 "desc": "scrape data  from Google Maps. Extracts data such as the name, address, phone number, website URL, rating,  re",
 "cmd": "git clone https://github.com/gosom/google-maps-scraper.git"
-},
-{
-"repo": "google/elephant-goldfish-model",
-"type": "skill",
-"dom": "Code",
-"desc": "Open-source skills for designing and reviewing software with AI agents",
-"cmd": "git clone https://github.com/google/elephant-goldfish-model.git"
 },
 {
 "repo": "Jakeschincariol/replica-skill",
@@ -637,6 +637,13 @@
 "cmd": "git clone https://github.com/zenbu-labs/terminal-browser.git"
 },
 {
+"repo": "Jakeschincariol/day-trader-skill",
+"type": "skill",
+"dom": "General",
+"desc": "11 Claude skills for day trading: scan thousands of charts, track breaking news, time every entry and exit, an",
+"cmd": "git clone https://github.com/Jakeschincariol/day-trader-skill.git"
+},
+{
 "repo": "nowork-studio/notfair-plugin",
 "type": "skill",
 "dom": "Code",
@@ -658,13 +665,6 @@
 "cmd": "git clone https://github.com/geekjourneyx/md2wechat-skill.git"
 },
 {
-"repo": "Jakeschincariol/day-trader-skill",
-"type": "skill",
-"dom": "General",
-"desc": "11 Claude skills for day trading: scan thousands of charts, track breaking news, time every entry and exit, an",
-"cmd": "git clone https://github.com/Jakeschincariol/day-trader-skill.git"
-},
-{
 "repo": "glitternetwork/pinme",
 "type": "skill",
 "dom": "Code",
@@ -672,16 +672,16 @@
 "cmd": "git clone https://github.com/glitternetwork/pinme.git"
 },
 {
-"repo": "davepoon/buildwithclaude",
+"repo": "michael-denyer/pstack-claude",
 "type": "skill",
 "dom": "Code",
-"desc": "A single hub to find Claude Skills, Agents, Commands, Hooks, Plugins, and Marketplace collections to extend Cl",
-"cmd": "git clone https://github.com/davepoon/buildwithclaude.git"
+"desc": "Claude Code, Codex, Copilot, Pi, OpenCode, Muse, Gemini, and Prime Agent versions of Poteto's pstack. Rigorous",
+"cmd": "git clone https://github.com/michael-denyer/pstack-claude.git"
 },
 {
 "repo": "morluto/rea",
 "type": "skill",
-"dom": "Code",
+"dom": "Security",
 "desc": "Reverse engineer anything with agents, from app behavior down to native binaries.",
 "cmd": "git clone https://github.com/morluto/rea.git"
 },
@@ -892,7 +892,7 @@
 "repo": "krillinai/OpenCreator",
 "type": "skill",
 "dom": "Code",
-"desc": "Formerly KrillinAI, VideoTranslation and Dubbing Tool. Open-source AI workspace for creators, powered by Codex",
+"desc": "Formerly KrillinAI, VideoTranslation and Dubbing Tool for 120+ Languages. Open-source AI workspace for creator",
 "cmd": "git clone https://github.com/krillinai/OpenCreator.git"
 },
 {
