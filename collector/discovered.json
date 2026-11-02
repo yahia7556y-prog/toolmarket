@@ -259,18 +259,18 @@
 "cmd": "git clone https://github.com/OpenByteInc/QuantDinger.git"
 },
 {
-"repo": "0x4m4/hexstrike-ai",
-"type": "tool",
-"dom": "Security",
-"desc": "HexStrike AI MCP Agents is an advanced MCP server that lets AI agents (Claude, GPT, Copilot, etc.) autonomousl",
-"cmd": "git clone https://github.com/0x4m4/hexstrike-ai.git"
-},
-{
 "repo": "mrexodia/ida-pro-mcp",
 "type": "tool",
 "dom": "General",
 "desc": "AI-powered reverse engineering assistant that bridges IDA Pro with language models through MCP.",
 "cmd": "git clone https://github.com/mrexodia/ida-pro-mcp.git"
+},
+{
+"repo": "0x4m4/hexstrike-ai",
+"type": "tool",
+"dom": "Security",
+"desc": "HexStrike AI MCP Agents is an advanced MCP server that lets AI agents (Claude, GPT, Copilot, etc.) autonomousl",
+"cmd": "git clone https://github.com/0x4m4/hexstrike-ai.git"
 },
 {
 "repo": "JoeanAmier/XHS-Downloader",
@@ -350,18 +350,18 @@
 "cmd": "git clone https://github.com/firerpa/lamda.git"
 },
 {
-"repo": "paperclipai/paperclip",
-"type": "skill",
-"dom": "Automation",
-"desc": "The open-source app everyone uses to manage agents at work",
-"cmd": "git clone https://github.com/paperclipai/paperclip.git"
-},
-{
 "repo": "thedotmack/claude-mem",
 "type": "skill",
 "dom": "Data",
 "desc": "Persistent Context Across Sessions for Every Agent –  Captures everything your agent does during sessions, com",
 "cmd": "git clone https://github.com/thedotmack/claude-mem.git"
+},
+{
+"repo": "paperclipai/paperclip",
+"type": "skill",
+"dom": "Automation",
+"desc": "The open-source app everyone uses to manage agents at work",
+"cmd": "git clone https://github.com/paperclipai/paperclip.git"
 },
 {
 "repo": "tt-a1i/archify",
@@ -518,6 +518,13 @@
 "cmd": "git clone https://github.com/SnailSploit/Claude-Red.git"
 },
 {
+"repo": "google/elephant-goldfish-model",
+"type": "skill",
+"dom": "Code",
+"desc": "Open-source skills for designing and reviewing software with AI agents",
+"cmd": "git clone https://github.com/google/elephant-goldfish-model.git"
+},
+{
 "repo": "nexu-io/html-anything",
 "type": "skill",
 "dom": "Data",
@@ -537,13 +544,6 @@
 "dom": "Code",
 "desc": "A trilingual (繁中 / English / 简中) learning roadmap for agentic AI: from LLM basics to multi-agent systems, with",
 "cmd": "git clone https://github.com/WenyuChiou/awesome-agentic-ai-zh.git"
-},
-{
-"repo": "google/elephant-goldfish-model",
-"type": "skill",
-"dom": "Code",
-"desc": "Open-source skills for designing and reviewing software with AI agents",
-"cmd": "git clone https://github.com/google/elephant-goldfish-model.git"
 },
 {
 "repo": "zenstory-ai/oh-story-claudecode",
@@ -630,18 +630,18 @@
 "cmd": "git clone https://github.com/liustack/modlens.git"
 },
 {
-"repo": "zenbu-labs/terminal-browser",
-"type": "skill",
-"dom": "Automation",
-"desc": "A real browser inside your terminal",
-"cmd": "git clone https://github.com/zenbu-labs/terminal-browser.git"
-},
-{
 "repo": "Jakeschincariol/day-trader-skill",
 "type": "skill",
 "dom": "General",
 "desc": "11 Claude skills for day trading: scan thousands of charts, track breaking news, time every entry and exit, an",
 "cmd": "git clone https://github.com/Jakeschincariol/day-trader-skill.git"
+},
+{
+"repo": "zenbu-labs/terminal-browser",
+"type": "skill",
+"dom": "Automation",
+"desc": "A real browser inside your terminal",
+"cmd": "git clone https://github.com/zenbu-labs/terminal-browser.git"
 },
 {
 "repo": "nowork-studio/notfair-plugin",
@@ -903,13 +903,6 @@
 "cmd": "git clone https://github.com/tw93/Kami.git"
 },
 {
-"repo": "aden-hive/hive",
-"type": "skill",
-"dom": "Automation",
-"desc": "Multi-Agent Harness for Production AI",
-"cmd": "git clone https://github.com/aden-hive/hive.git"
-},
-{
 "repo": "NousResearch/hermes-agent",
 "type": "agent",
 "dom": "Code",
@@ -1069,13 +1062,6 @@
 "dom": "Code",
 "desc": "An open-source AI coding agent that lives in your terminal.",
 "cmd": "git clone https://github.com/QwenLM/qwen-code.git"
-},
-{
-"repo": "nocobase/nocobase",
-"type": "agent",
-"dom": "Code",
-"desc": "NocoBase is an open-source AI + no-code platform for building business systems fast. Instead of generating eve",
-"cmd": "git clone https://github.com/nocobase/nocobase.git"
 },
 {
 "repo": "walkinglabs/learn-harness-engineering",
