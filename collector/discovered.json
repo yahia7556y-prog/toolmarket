@@ -93,8 +93,8 @@
 {
 "repo": "mksglu/context-mode",
 "type": "tool",
-"dom": "Code",
-"desc": "Context window optimization for AI coding agents. Sandboxes tool output (98% reduction), persists session memo",
+"dom": "Data",
+"desc": "Free, local plugin that keeps tool output out of your coding agent's context window. Sandbox and SQLite FTS5 s",
 "cmd": "git clone https://github.com/mksglu/context-mode.git"
 },
 {
@@ -161,18 +161,18 @@
 "cmd": "git clone https://github.com/modelscope/FunASR.git"
 },
 {
-"repo": "nukeop/nuclear",
-"type": "tool",
-"dom": "General",
-"desc": "Streaming music player that finds free music for you",
-"cmd": "git clone https://github.com/nukeop/nuclear.git"
-},
-{
 "repo": "xerj-org/xerj",
 "type": "tool",
 "dom": "Data",
 "desc": "AI search engine and MCP server for bots and agents. One Rust binary indexes code, docs, logs, JSONL/CSV and P",
 "cmd": "git clone https://github.com/xerj-org/xerj.git"
+},
+{
+"repo": "nukeop/nuclear",
+"type": "tool",
+"dom": "General",
+"desc": "Streaming music player that finds free music for you",
+"cmd": "git clone https://github.com/nukeop/nuclear.git"
 },
 {
 "repo": "wanshuiyin/Auto-claude-code-research-in-sleep",
@@ -245,18 +245,18 @@
 "cmd": "git clone https://github.com/modelcontextprotocol/typescript-sdk.git"
 },
 {
-"repo": "ccfos/nightingale",
-"type": "tool",
-"dom": "Data",
-"desc": "Open-source, self-hosted alerting for metrics, logs, and databases. Includes a built-in AI agent and MCP serve",
-"cmd": "git clone https://github.com/ccfos/nightingale.git"
-},
-{
 "repo": "OpenByteInc/QuantDinger",
 "type": "tool",
 "dom": "Design",
 "desc": "Open-source AI Trading OS, agent trading, and vibe trading, with Jev System One integration. Research, build P",
 "cmd": "git clone https://github.com/OpenByteInc/QuantDinger.git"
+},
+{
+"repo": "ccfos/nightingale",
+"type": "tool",
+"dom": "Data",
+"desc": "Open-source, self-hosted alerting for metrics, logs, and databases. Includes a built-in AI agent and MCP serve",
+"cmd": "git clone https://github.com/ccfos/nightingale.git"
 },
 {
 "repo": "mrexodia/ida-pro-mcp",
@@ -343,11 +343,11 @@
 "cmd": "git clone https://github.com/homarr-labs/dashboard-icons.git"
 },
 {
-"repo": "firerpa/lamda",
-"type": "tool",
-"dom": "Security",
-"desc": "Android Full-Stack Device Control Platform: WebRTC/H.264 remote desktop, UI/OCR/image-matching automation, one",
-"cmd": "git clone https://github.com/firerpa/lamda.git"
+"repo": "Ryze-AI-Adgent/open-seo-mcp-skills",
+"type": "skill",
+"dom": "Data",
+"desc": "Free SEO MCP server + open-source SEO and GEO skills for Claude: keyword research, rank tracking, audits, back",
+"cmd": "git clone https://github.com/Ryze-AI-Adgent/open-seo-mcp-skills.git"
 },
 {
 "repo": "thedotmack/claude-mem",
@@ -462,18 +462,18 @@
 "cmd": "git clone https://github.com/titanwings/distilly.git"
 },
 {
-"repo": "teng-lin/notebooklm-py",
-"type": "skill",
-"dom": "Code",
-"desc": "Unofficial Python API and agentic skill for Google Gemini Notebook. Full programmatic access to Gemini Noteboo",
-"cmd": "git clone https://github.com/teng-lin/notebooklm-py.git"
-},
-{
 "repo": "latent-spaces/brag",
 "type": "skill",
 "dom": "Code",
 "desc": "You built it. Now brag. Turn the project you just created into a short, shareable launch video with one comman",
 "cmd": "git clone https://github.com/latent-spaces/brag.git"
+},
+{
+"repo": "teng-lin/notebooklm-py",
+"type": "skill",
+"dom": "Code",
+"desc": "Unofficial Python API and agentic skill for Google Gemini Notebook. Full programmatic access to Gemini Noteboo",
+"cmd": "git clone https://github.com/teng-lin/notebooklm-py.git"
 },
 {
 "repo": "Vincentwei1021/video-shotcraft",
@@ -511,13 +511,6 @@
 "cmd": "git clone https://github.com/Jeffallan/claude-skills.git"
 },
 {
-"repo": "SnailSploit/Claude-Red",
-"type": "skill",
-"dom": "Security",
-"desc": "claude-red is a curated library of offensive security skills designed for the Claude skills system. Each skill",
-"cmd": "git clone https://github.com/SnailSploit/Claude-Red.git"
-},
-{
 "repo": "google/elephant-goldfish-model",
 "type": "skill",
 "dom": "Code",
@@ -525,18 +518,18 @@
 "cmd": "git clone https://github.com/google/elephant-goldfish-model.git"
 },
 {
+"repo": "SnailSploit/Claude-Red",
+"type": "skill",
+"dom": "Security",
+"desc": "claude-red is a curated library of offensive security skills designed for the Claude skills system. Each skill",
+"cmd": "git clone https://github.com/SnailSploit/Claude-Red.git"
+},
+{
 "repo": "nexu-io/html-anything",
 "type": "skill",
 "dom": "Data",
 "desc": "✨ The agentic HTML editor — your local AI agent writes the HTML, you ship it. 🚀 75 Skills × 9 Surfaces (magazi",
 "cmd": "git clone https://github.com/nexu-io/html-anything.git"
-},
-{
-"repo": "Ryze-AI-Adgent/open-seo-mcp-skills",
-"type": "skill",
-"dom": "Data",
-"desc": "Free SEO MCP server + open-source SEO and GEO skills for Claude: keyword research, rank tracking, audits, back",
-"cmd": "git clone https://github.com/Ryze-AI-Adgent/open-seo-mcp-skills.git"
 },
 {
 "repo": "WenyuChiou/awesome-agentic-ai-zh",
@@ -560,18 +553,18 @@
 "cmd": "git clone https://github.com/deanpeters/Product-Manager-Skills.git"
 },
 {
-"repo": "gosom/google-maps-scraper",
-"type": "skill",
-"dom": "Data",
-"desc": "scrape data  from Google Maps. Extracts data such as the name, address, phone number, website URL, rating,  re",
-"cmd": "git clone https://github.com/gosom/google-maps-scraper.git"
-},
-{
 "repo": "Jakeschincariol/replica-skill",
 "type": "skill",
 "dom": "Code",
 "desc": "Eleven free Claude skills that clone any app: reverse-engineer it, rebuild it, test it for bugs, then fix what",
 "cmd": "git clone https://github.com/Jakeschincariol/replica-skill.git"
+},
+{
+"repo": "gosom/google-maps-scraper",
+"type": "skill",
+"dom": "Data",
+"desc": "scrape data  from Google Maps. Extracts data such as the name, address, phone number, website URL, rating,  re",
+"cmd": "git clone https://github.com/gosom/google-maps-scraper.git"
 },
 {
 "repo": "browser-act/skills",
@@ -658,6 +651,13 @@
 "cmd": "git clone https://github.com/Appllama/appllama-skills.git"
 },
 {
+"repo": "michael-denyer/pstack-claude",
+"type": "skill",
+"dom": "Code",
+"desc": "Claude Code, Codex, Copilot, Pi, OpenCode, Muse, Gemini, and Prime Agent versions of Poteto's pstack. Rigorous",
+"cmd": "git clone https://github.com/michael-denyer/pstack-claude.git"
+},
+{
 "repo": "geekjourneyx/md2wechat-skill",
 "type": "skill",
 "dom": "Code",
@@ -670,13 +670,6 @@
 "dom": "Code",
 "desc": "Deploy Your Frontend in a Single Command. Claude Code Skills supported.",
 "cmd": "git clone https://github.com/glitternetwork/pinme.git"
-},
-{
-"repo": "michael-denyer/pstack-claude",
-"type": "skill",
-"dom": "Code",
-"desc": "Claude Code, Codex, Copilot, Pi, OpenCode, Muse, Gemini, and Prime Agent versions of Poteto's pstack. Rigorous",
-"cmd": "git clone https://github.com/michael-denyer/pstack-claude.git"
 },
 {
 "repo": "morluto/rea",
@@ -1099,6 +1092,13 @@
 "cmd": "git clone https://github.com/browser-use/browser-harness.git"
 },
 {
+"repo": "emcie-co/parlant",
+"type": "agent",
+"dom": "Communication",
+"desc": "Parlant is an open platform for building customer-facing chat agents with AI. Describe how the agent should be",
+"cmd": "git clone https://github.com/emcie-co/parlant.git"
+},
+{
 "repo": "leon-ai/leon",
 "type": "agent",
 "dom": "Automation",
@@ -1176,17 +1176,17 @@
 "cmd": "git clone https://github.com/jo-inc/camofox-browser.git"
 },
 {
-"repo": "EKKOLearnAI/ekko-studio",
-"type": "agent",
-"dom": "Automation",
-"desc": "Ekko Studio is a local-first AI workspace for multi-agent chat, coding, and visual workflows, available on des",
-"cmd": "git clone https://github.com/EKKOLearnAI/ekko-studio.git"
-},
-{
 "repo": "presenton/presenton",
 "type": "agent",
 "dom": "General",
 "desc": "Open-Source AI Presentation Generator and API (Gamma, Canva, Beautiful AI, Decktopus, Presentations AI Alterna",
 "cmd": "git clone https://github.com/presenton/presenton.git"
+},
+{
+"repo": "EKKOLearnAI/ekko-studio",
+"type": "agent",
+"dom": "Automation",
+"desc": "Ekko Studio is a local-first AI workspace for multi-agent chat, coding, and visual workflows, available on des",
+"cmd": "git clone https://github.com/EKKOLearnAI/ekko-studio.git"
 }
 ]
