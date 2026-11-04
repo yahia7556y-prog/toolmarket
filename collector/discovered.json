@@ -297,7 +297,7 @@
 "repo": "trailhq/Trail-Code",
 "type": "tool",
 "dom": "Code",
-"desc": "Turbocharge Claude Code, Cursor, Codex, Gemini & every coding agent: faster, cheaper, with contextual understa",
+"desc": "One shared memory for every coding agent on your team. Claude Code, Cursor and Codex get a map of your code an",
 "cmd": "git clone https://github.com/trailhq/Trail-Code.git"
 },
 {
@@ -430,7 +430,7 @@
 "repo": "alirezarezvani/claude-skills",
 "type": "skill",
 "dom": "Code",
-"desc": "380 Claude Code skills & agent skills & plugins (30+ Agents, 70+ custom commands, 380+ skills, customizable re",
+"desc": "410 Claude Code skills & agent skills & plugins (120+ Agents, custom commands, 410+ skills, customizable refer",
 "cmd": "git clone https://github.com/alirezarezvani/claude-skills.git"
 },
 {
@@ -595,18 +595,18 @@
 "cmd": "git clone https://github.com/sergebulaev/linkedin-skills.git"
 },
 {
-"repo": "elementalsouls/Claude-BugHunter",
-"type": "skill",
-"dom": "Security",
-"desc": "A Claude Code skill bundle for bug hunting and external red-team work - 82 skills, 15 slash commands, 681 disc",
-"cmd": "git clone https://github.com/elementalsouls/Claude-BugHunter.git"
-},
-{
 "repo": "ScrapeCreators/social-media-research-skills",
 "type": "skill",
 "dom": "Data",
 "desc": "AI agent skills for social media research. Outlier posts, comment mining, competitor teardowns, ad libraries &",
 "cmd": "git clone https://github.com/ScrapeCreators/social-media-research-skills.git"
+},
+{
+"repo": "elementalsouls/Claude-BugHunter",
+"type": "skill",
+"dom": "Security",
+"desc": "A Claude Code skill bundle for bug hunting and external red-team work - 82 skills, 15 slash commands, 681 disc",
+"cmd": "git clone https://github.com/elementalsouls/Claude-BugHunter.git"
 },
 {
 "repo": "QingYunA/answer-me-with-html",
@@ -616,6 +616,13 @@
 "cmd": "git clone https://github.com/QingYunA/answer-me-with-html.git"
 },
 {
+"repo": "Jakeschincariol/day-trader-skill",
+"type": "skill",
+"dom": "General",
+"desc": "11 Claude skills for day trading: scan thousands of charts, track breaking news, time every entry and exit, an",
+"cmd": "git clone https://github.com/Jakeschincariol/day-trader-skill.git"
+},
+{
 "repo": "liustack/modlens",
 "type": "skill",
 "dom": "Code",
@@ -623,11 +630,11 @@
 "cmd": "git clone https://github.com/liustack/modlens.git"
 },
 {
-"repo": "Jakeschincariol/day-trader-skill",
+"repo": "Appllama/appllama-skills",
 "type": "skill",
-"dom": "General",
-"desc": "11 Claude skills for day trading: scan thousands of charts, track breaking news, time every entry and exit, an",
-"cmd": "git clone https://github.com/Jakeschincariol/day-trader-skill.git"
+"dom": "Code",
+"desc": "A builder, not just a researcher. Agent skills that turn top-grossing app patterns into native-quality mobile ",
+"cmd": "git clone https://github.com/Appllama/appllama-skills.git"
 },
 {
 "repo": "zenbu-labs/terminal-browser",
@@ -644,13 +651,6 @@
 "cmd": "git clone https://github.com/nowork-studio/notfair-plugin.git"
 },
 {
-"repo": "Appllama/appllama-skills",
-"type": "skill",
-"dom": "Code",
-"desc": "A builder, not just a researcher. Agent skills that turn top-grossing app patterns into native-quality mobile ",
-"cmd": "git clone https://github.com/Appllama/appllama-skills.git"
-},
-{
 "repo": "michael-denyer/pstack-claude",
 "type": "skill",
 "dom": "Code",
@@ -665,11 +665,11 @@
 "cmd": "git clone https://github.com/geekjourneyx/md2wechat-skill.git"
 },
 {
-"repo": "glitternetwork/pinme",
+"repo": "zenstory-ai/drama-skills",
 "type": "skill",
 "dom": "Code",
-"desc": "Deploy Your Frontend in a Single Command. Claude Code Skills supported.",
-"cmd": "git clone https://github.com/glitternetwork/pinme.git"
+"desc": "开源 AI 短剧/漫剧创作 skill 合集：剧本、角色资产、分镜 storyboard、图片/视频提示词、审查，适配 Claude Code 与 Codex | Open-source AI short drama /",
+"cmd": "git clone https://github.com/zenstory-ai/drama-skills.git"
 },
 {
 "repo": "morluto/rea",
@@ -791,11 +791,11 @@
 "cmd": "git clone https://github.com/topoteretes/cognee.git"
 },
 {
-"repo": "feder-cr/invisible_dots",
+"repo": "feder-cr/Jobs_Applier_AI_Agent_AIHawk",
 "type": "agent",
 "dom": "Automation",
 "desc": "Open-source, self-hosted alternative to OpenAI Dots, Grok Bot. Built to be undetectable by anti-bot systems.",
-"cmd": "git clone https://github.com/feder-cr/invisible_dots.git"
+"cmd": "git clone https://github.com/feder-cr/Jobs_Applier_AI_Agent_AIHawk.git"
 },
 {
 "repo": "googleworkspace/cli",
@@ -1183,10 +1183,10 @@
 "cmd": "git clone https://github.com/presenton/presenton.git"
 },
 {
-"repo": "EKKOLearnAI/ekko-studio",
+"repo": "genspark-ai/genoffice",
 "type": "agent",
-"dom": "Automation",
-"desc": "Ekko Studio is a local-first AI workspace for multi-agent chat, coding, and visual workflows, available on des",
-"cmd": "git clone https://github.com/EKKOLearnAI/ekko-studio.git"
+"dom": "Docs",
+"desc": "Free, open-source AI Office suite: Docs, Sheets, Slides, PDF, Markdown and HTML editors with a built-in AI age",
+"cmd": "git clone https://github.com/genspark-ai/genoffice.git"
 }
 ]
