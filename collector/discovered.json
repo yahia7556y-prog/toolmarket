@@ -259,18 +259,18 @@
 "cmd": "git clone https://github.com/ccfos/nightingale.git"
 },
 {
-"repo": "mrexodia/ida-pro-mcp",
-"type": "tool",
-"dom": "General",
-"desc": "AI-powered reverse engineering assistant that bridges IDA Pro with language models through MCP.",
-"cmd": "git clone https://github.com/mrexodia/ida-pro-mcp.git"
-},
-{
 "repo": "0x4m4/hexstrike-ai",
 "type": "tool",
 "dom": "Security",
 "desc": "HexStrike AI MCP Agents is an advanced MCP server that lets AI agents (Claude, GPT, Copilot, etc.) autonomousl",
 "cmd": "git clone https://github.com/0x4m4/hexstrike-ai.git"
+},
+{
+"repo": "mrexodia/ida-pro-mcp",
+"type": "tool",
+"dom": "General",
+"desc": "AI-powered reverse engineering assistant that bridges IDA Pro with language models through MCP.",
+"cmd": "git clone https://github.com/mrexodia/ida-pro-mcp.git"
 },
 {
 "repo": "JoeanAmier/XHS-Downloader",
@@ -588,18 +588,18 @@
 "cmd": "git clone https://github.com/kaankiziltug/logo-design-skill.git"
 },
 {
-"repo": "sergebulaev/linkedin-skills",
-"type": "skill",
-"dom": "Automation",
-"desc": "Claude skills for LinkedIn. 12 Claude Code and Codex skills that write human-sounding LinkedIn posts, craft co",
-"cmd": "git clone https://github.com/sergebulaev/linkedin-skills.git"
-},
-{
 "repo": "ScrapeCreators/social-media-research-skills",
 "type": "skill",
 "dom": "Data",
 "desc": "AI agent skills for social media research. Outlier posts, comment mining, competitor teardowns, ad libraries &",
 "cmd": "git clone https://github.com/ScrapeCreators/social-media-research-skills.git"
+},
+{
+"repo": "sergebulaev/linkedin-skills",
+"type": "skill",
+"dom": "Automation",
+"desc": "Claude skills for LinkedIn. 12 Claude Code and Codex skills that write human-sounding LinkedIn posts, craft co",
+"cmd": "git clone https://github.com/sergebulaev/linkedin-skills.git"
 },
 {
 "repo": "elementalsouls/Claude-BugHunter",
@@ -609,13 +609,6 @@
 "cmd": "git clone https://github.com/elementalsouls/Claude-BugHunter.git"
 },
 {
-"repo": "QingYunA/answer-me-with-html",
-"type": "skill",
-"dom": "Code",
-"desc": "Answer me with HTML — an agent skill that answers hard questions with a one-page HTML you can actually read. 让",
-"cmd": "git clone https://github.com/QingYunA/answer-me-with-html.git"
-},
-{
 "repo": "Jakeschincariol/day-trader-skill",
 "type": "skill",
 "dom": "General",
@@ -623,11 +616,11 @@
 "cmd": "git clone https://github.com/Jakeschincariol/day-trader-skill.git"
 },
 {
-"repo": "liustack/modlens",
+"repo": "QingYunA/answer-me-with-html",
 "type": "skill",
 "dom": "Code",
-"desc": "The first vision plugin for DeepSeek Harness, and the vision bridge for every text-only coding agent. Paste an",
-"cmd": "git clone https://github.com/liustack/modlens.git"
+"desc": "Answer me with HTML — an agent skill that answers hard questions with a one-page HTML you can actually read. 让",
+"cmd": "git clone https://github.com/QingYunA/answer-me-with-html.git"
 },
 {
 "repo": "Appllama/appllama-skills",
@@ -635,6 +628,13 @@
 "dom": "Code",
 "desc": "A builder, not just a researcher. Agent skills that turn top-grossing app patterns into native-quality mobile ",
 "cmd": "git clone https://github.com/Appllama/appllama-skills.git"
+},
+{
+"repo": "liustack/modlens",
+"type": "skill",
+"dom": "Code",
+"desc": "The first vision plugin for DeepSeek Harness, and the vision bridge for every text-only coding agent. Paste an",
+"cmd": "git clone https://github.com/liustack/modlens.git"
 },
 {
 "repo": "zenbu-labs/terminal-browser",
@@ -654,15 +654,8 @@
 "repo": "michael-denyer/pstack-claude",
 "type": "skill",
 "dom": "Code",
-"desc": "Claude Code, Codex, Copilot, Pi, OpenCode, Muse, Gemini, and Prime Agent versions of Poteto's pstack. Rigorous",
+"desc": "Antigravity, Claude Code, Codex, Copilot, Gemini, Muse, OpenCode, Pi, and Prime Agent versions of Poteto's pst",
 "cmd": "git clone https://github.com/michael-denyer/pstack-claude.git"
-},
-{
-"repo": "geekjourneyx/md2wechat-skill",
-"type": "skill",
-"dom": "Code",
-"desc": "面向 AI Agent 的微信公众号创作与发布 CLI：Markdown 排版、AI 配图、预览与草稿创建；支持由浏览器 Agent 保存知乎、CSDN、头条未发布草稿。",
-"cmd": "git clone https://github.com/geekjourneyx/md2wechat-skill.git"
 },
 {
 "repo": "zenstory-ai/drama-skills",
@@ -670,6 +663,13 @@
 "dom": "Code",
 "desc": "开源 AI 短剧/漫剧创作 skill 合集：剧本、角色资产、分镜 storyboard、图片/视频提示词、审查，适配 Claude Code 与 Codex | Open-source AI short drama /",
 "cmd": "git clone https://github.com/zenstory-ai/drama-skills.git"
+},
+{
+"repo": "geekjourneyx/md2wechat-skill",
+"type": "skill",
+"dom": "Code",
+"desc": "面向 AI Agent 的微信公众号创作与发布 CLI：Markdown 排版、AI 配图、预览与草稿创建；支持由浏览器 Agent 保存知乎、CSDN、头条未发布草稿。",
+"cmd": "git clone https://github.com/geekjourneyx/md2wechat-skill.git"
 },
 {
 "repo": "morluto/rea",
@@ -791,13 +791,6 @@
 "cmd": "git clone https://github.com/topoteretes/cognee.git"
 },
 {
-"repo": "feder-cr/Jobs_Applier_AI_Agent_AIHawk",
-"type": "agent",
-"dom": "Automation",
-"desc": "Open-source, self-hosted alternative to OpenAI Dots, Grok Bot. Built to be undetectable by anti-bot systems.",
-"cmd": "git clone https://github.com/feder-cr/Jobs_Applier_AI_Agent_AIHawk.git"
-},
-{
 "repo": "googleworkspace/cli",
 "type": "agent",
 "dom": "Automation",
@@ -887,6 +880,13 @@
 "dom": "Code",
 "desc": "Formerly KrillinAI, VideoTranslation and Dubbing Tool for 120+ Languages. Open-source AI workspace for creator",
 "cmd": "git clone https://github.com/krillinai/OpenCreator.git"
+},
+{
+"repo": "lemomo-ai/lemo-opuscar",
+"type": "skill",
+"dom": "Code",
+"desc": "A toolbox of film styles made in code for Claude Code: 66 ready to use, and your own. Each style is a style pr",
+"cmd": "git clone https://github.com/lemomo-ai/lemo-opuscar.git"
 },
 {
 "repo": "tw93/Kami",
@@ -1020,6 +1020,13 @@
 "dom": "Code",
 "desc": "Open-source 24/7 Cowork app for OpenClaw, Hermes, Claude Code, Codex, OpenCode and 20+ more CLI Agent | Custom",
 "cmd": "git clone https://github.com/iOfficeAI/AionUi.git"
+},
+{
+"repo": "feder-cr/Jobs_Applier_AI_Agent_AIHawk",
+"type": "agent",
+"dom": "Automation",
+"desc": "Give it your resume, get the jobs that fit, select them and apply. Runs in your terminal, with a browser you c",
+"cmd": "git clone https://github.com/feder-cr/Jobs_Applier_AI_Agent_AIHawk.git"
 },
 {
 "repo": "trycua/cua",
@@ -1176,17 +1183,17 @@
 "cmd": "git clone https://github.com/jo-inc/camofox-browser.git"
 },
 {
-"repo": "presenton/presenton",
-"type": "agent",
-"dom": "General",
-"desc": "Open-Source AI Presentation Generator and API (Gamma, Canva, Beautiful AI, Decktopus, Presentations AI Alterna",
-"cmd": "git clone https://github.com/presenton/presenton.git"
-},
-{
 "repo": "genspark-ai/genoffice",
 "type": "agent",
 "dom": "Docs",
 "desc": "Free, open-source AI Office suite: Docs, Sheets, Slides, PDF, Markdown and HTML editors with a built-in AI age",
 "cmd": "git clone https://github.com/genspark-ai/genoffice.git"
+},
+{
+"repo": "presenton/presenton",
+"type": "agent",
+"dom": "General",
+"desc": "Open-Source AI Presentation Generator and API (Gamma, Canva, Beautiful AI, Decktopus, Presentations AI Alterna",
+"cmd": "git clone https://github.com/presenton/presenton.git"
 }
 ]
