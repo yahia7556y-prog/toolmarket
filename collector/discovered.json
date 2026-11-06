@@ -112,6 +112,13 @@
 "cmd": "git clone https://github.com/assafelovic/gpt-researcher.git"
 },
 {
+"repo": "yikart/AiToEarn",
+"type": "skill",
+"dom": "Code",
+"desc": "Let's use AI to Earn!",
+"cmd": "git clone https://github.com/yikart/AiToEarn.git"
+},
+{
 "repo": "activepieces/activepieces",
 "type": "agent",
 "dom": "Automation",
@@ -343,13 +350,6 @@
 "cmd": "git clone https://github.com/homarr-labs/dashboard-icons.git"
 },
 {
-"repo": "Ryze-AI-Adgent/open-seo-mcp-skills",
-"type": "skill",
-"dom": "Data",
-"desc": "Free SEO MCP server + open-source SEO and GEO skills for Claude: keyword research, rank tracking, audits, back",
-"cmd": "git clone https://github.com/Ryze-AI-Adgent/open-seo-mcp-skills.git"
-},
-{
 "repo": "thedotmack/claude-mem",
 "type": "skill",
 "dom": "Data",
@@ -409,7 +409,7 @@
 "repo": "wshobson/agents",
 "type": "skill",
 "dom": "Code",
-"desc": "Multi-harness agentic plugin marketplace for Claude Code, Codex, Cursor, OpenCode, GitHub Copilot, Google Anti",
+"desc": "Plugins, agents, skills, and commands for Claude Code, Codex CLI, Cursor, OpenCode, Antigravity CLI, GitHub Co",
 "cmd": "git clone https://github.com/wshobson/agents.git"
 },
 {
@@ -504,18 +504,18 @@
 "cmd": "git clone https://github.com/Orchestra-Research/AI-Research-SKILLs.git"
 },
 {
-"repo": "Jeffallan/claude-skills",
-"type": "skill",
-"dom": "Code",
-"desc": "67 Specialized Skills for Full-Stack Developers. Transform Claude Code into your expert pair programmer.",
-"cmd": "git clone https://github.com/Jeffallan/claude-skills.git"
-},
-{
 "repo": "google/elephant-goldfish-model",
 "type": "skill",
 "dom": "Code",
 "desc": "Open-source skills for designing and reviewing software with AI agents",
 "cmd": "git clone https://github.com/google/elephant-goldfish-model.git"
+},
+{
+"repo": "Jeffallan/claude-skills",
+"type": "skill",
+"dom": "Code",
+"desc": "67 Specialized Skills for Full-Stack Developers. Transform Claude Code into your expert pair programmer.",
+"cmd": "git clone https://github.com/Jeffallan/claude-skills.git"
 },
 {
 "repo": "SnailSploit/Claude-Red",
@@ -532,6 +532,13 @@
 "cmd": "git clone https://github.com/nexu-io/html-anything.git"
 },
 {
+"repo": "Ryze-AI-Adgent/open-seo-mcp-skills",
+"type": "skill",
+"dom": "Data",
+"desc": "Free SEO MCP server + open-source SEO and GEO skills for Claude: keyword research, rank tracking, audits, back",
+"cmd": "git clone https://github.com/Ryze-AI-Adgent/open-seo-mcp-skills.git"
+},
+{
 "repo": "WenyuChiou/awesome-agentic-ai-zh",
 "type": "skill",
 "dom": "Code",
@@ -542,7 +549,7 @@
 "repo": "zenstory-ai/oh-story-claudecode",
 "type": "skill",
 "dom": "Code",
-"desc": "Claude Code / Codex / OpenCode agent skills for writing Chinese web novels (网文): 扫榜、拆文、写作、去AI味、封面全流程，长篇短篇都支持 |",
+"desc": "AI 写网文全流程 skill 包：扫榜选材、拆解爆款、大纲细纲、长篇连载防吃书、短篇反转、去AI味与封面生成，适配 Claude Code / Codex / Antigravity / OpenCode 等 ｜ Ag",
 "cmd": "git clone https://github.com/zenstory-ai/oh-story-claudecode.git"
 },
 {
@@ -595,20 +602,6 @@
 "cmd": "git clone https://github.com/ScrapeCreators/social-media-research-skills.git"
 },
 {
-"repo": "sergebulaev/linkedin-skills",
-"type": "skill",
-"dom": "Automation",
-"desc": "Claude skills for LinkedIn. 12 Claude Code and Codex skills that write human-sounding LinkedIn posts, craft co",
-"cmd": "git clone https://github.com/sergebulaev/linkedin-skills.git"
-},
-{
-"repo": "elementalsouls/Claude-BugHunter",
-"type": "skill",
-"dom": "Security",
-"desc": "A Claude Code skill bundle for bug hunting and external red-team work - 82 skills, 15 slash commands, 681 disc",
-"cmd": "git clone https://github.com/elementalsouls/Claude-BugHunter.git"
-},
-{
 "repo": "Jakeschincariol/day-trader-skill",
 "type": "skill",
 "dom": "General",
@@ -616,11 +609,25 @@
 "cmd": "git clone https://github.com/Jakeschincariol/day-trader-skill.git"
 },
 {
+"repo": "sergebulaev/linkedin-skills",
+"type": "skill",
+"dom": "Automation",
+"desc": "Claude skills for LinkedIn. 12 Claude Code and Codex skills that write human-sounding LinkedIn posts, craft co",
+"cmd": "git clone https://github.com/sergebulaev/linkedin-skills.git"
+},
+{
 "repo": "QingYunA/answer-me-with-html",
 "type": "skill",
 "dom": "Code",
 "desc": "Answer me with HTML — an agent skill that answers hard questions with a one-page HTML you can actually read. 让",
 "cmd": "git clone https://github.com/QingYunA/answer-me-with-html.git"
+},
+{
+"repo": "elementalsouls/Claude-BugHunter",
+"type": "skill",
+"dom": "Security",
+"desc": "A Claude Code skill bundle for bug hunting and external red-team work - 82 skills, 15 slash commands, 681 disc",
+"cmd": "git clone https://github.com/elementalsouls/Claude-BugHunter.git"
 },
 {
 "repo": "Appllama/appllama-skills",
@@ -661,7 +668,7 @@
 "repo": "zenstory-ai/drama-skills",
 "type": "skill",
 "dom": "Code",
-"desc": "开源 AI 短剧/漫剧创作 skill 合集：剧本、角色资产、分镜 storyboard、图片/视频提示词、审查，适配 Claude Code 与 Codex | Open-source AI short drama /",
+"desc": "AI 短剧与漫剧制作 skill 合集：小说改剧本、角色设定三视图、分镜脚本、生图/生视频提示词与成片审片，适配 Claude Code / Codex 等 ｜ Open-source agent skills for ",
 "cmd": "git clone https://github.com/zenstory-ai/drama-skills.git"
 },
 {
@@ -721,18 +728,18 @@
 "cmd": "git clone https://github.com/career-ops-hq/career-ops.git"
 },
 {
-"repo": "cathrynlavery/diagram-design",
-"type": "skill",
-"dom": "Data",
-"desc": "Editorial diagram design for Claude Code, Codex, GitHub Copilot, Cursor, Factory Droid, Qoder, and Pi. 45 diag",
-"cmd": "git clone https://github.com/cathrynlavery/diagram-design.git"
-},
-{
 "repo": "blader/humanizer",
 "type": "skill",
 "dom": "Code",
 "desc": "Agent skill that removes signs of AI-generated writing from text",
 "cmd": "git clone https://github.com/blader/humanizer.git"
+},
+{
+"repo": "cathrynlavery/diagram-design",
+"type": "skill",
+"dom": "Data",
+"desc": "Editorial diagram design for Claude Code, Codex, GitHub Copilot, Cursor, Factory Droid, Qoder, and Pi. 45 diag",
+"cmd": "git clone https://github.com/cathrynlavery/diagram-design.git"
 },
 {
 "repo": "hesreallyhim/awesome-claude-code",
@@ -766,7 +773,7 @@
 "repo": "sickn33/agentic-awesome-skills",
 "type": "skill",
 "dom": "Code",
-"desc": "2,884+ reusable AI agent skills for Claude Code, Codex, Cursor and Gemini CLI. AAS Core adds local catalog dis",
+"desc": "2,926+ reusable AI agent skills for Claude Code, Codex, Cursor and Gemini CLI. AAS Core adds local catalog dis",
 "cmd": "git clone https://github.com/sickn33/agentic-awesome-skills.git"
 },
 {
@@ -782,6 +789,13 @@
 "dom": "Docs",
 "desc": "Turn any technical book PDF into a Claude Code skill — ready to study, reference, and use while you work.",
 "cmd": "git clone https://github.com/virgiliojr94/book-to-skill.git"
+},
+{
+"repo": "davila7/claude-code-templates",
+"type": "skill",
+"dom": "Code",
+"desc": "Open-source registry and CLI for Claude Code components: agents, commands, skills, hooks, MCPs, settings and m",
+"cmd": "git clone https://github.com/davila7/claude-code-templates.git"
 },
 {
 "repo": "topoteretes/cognee",
@@ -847,11 +861,11 @@
 "cmd": "git clone https://github.com/kubesphere/kubesphere.git"
 },
 {
-"repo": "alibaba/zvec",
+"repo": "dreammis/social-auto-upload",
 "type": "skill",
-"dom": "Data",
-"desc": "A lightweight, lightning-fast, in-process vector database",
-"cmd": "git clone https://github.com/alibaba/zvec.git"
+"dom": "General",
+"desc": "自动化上传视频到社交媒体：抖音、小红书、视频号、tiktok、youtube、bilibili",
+"cmd": "git clone https://github.com/dreammis/social-auto-upload.git"
 },
 {
 "repo": "AgriciDaniel/claude-obsidian",
@@ -861,11 +875,11 @@
 "cmd": "git clone https://github.com/AgriciDaniel/claude-obsidian.git"
 },
 {
-"repo": "dreammis/social-auto-upload",
+"repo": "alibaba/zvec",
 "type": "skill",
-"dom": "General",
-"desc": "自动化上传视频到社交媒体：抖音、小红书、视频号、tiktok、youtube、bilibili",
-"cmd": "git clone https://github.com/dreammis/social-auto-upload.git"
+"dom": "Data",
+"desc": "A lightweight, lightning-fast, in-process vector database",
+"cmd": "git clone https://github.com/alibaba/zvec.git"
 },
 {
 "repo": "eigent-ai/eigent",
@@ -880,20 +894,6 @@
 "dom": "Code",
 "desc": "Formerly KrillinAI, VideoTranslation and Dubbing Tool for 120+ Languages. Open-source AI workspace for creator",
 "cmd": "git clone https://github.com/krillinai/OpenCreator.git"
-},
-{
-"repo": "lemomo-ai/lemo-opuscar",
-"type": "skill",
-"dom": "Code",
-"desc": "A toolbox of film styles made in code for Claude Code: 66 ready to use, and your own. Each style is a style pr",
-"cmd": "git clone https://github.com/lemomo-ai/lemo-opuscar.git"
-},
-{
-"repo": "tw93/Kami",
-"type": "skill",
-"dom": "Docs",
-"desc": "👩‍🚒 Good content deserves good paper. Layout rules and templates that let AI agents export PDF, PNG and editab",
-"cmd": "git clone https://github.com/tw93/Kami.git"
 },
 {
 "repo": "NousResearch/hermes-agent",
@@ -1022,11 +1022,11 @@
 "cmd": "git clone https://github.com/iOfficeAI/AionUi.git"
 },
 {
-"repo": "feder-cr/Jobs_Applier_AI_Agent_AIHawk",
+"repo": "feder-cr/Jobs_Applier_AI_Agent",
 "type": "agent",
 "dom": "Automation",
-"desc": "Give it your resume, get the jobs that fit, select them and apply. Runs in your terminal, with a browser you c",
-"cmd": "git clone https://github.com/feder-cr/Jobs_Applier_AI_Agent_AIHawk.git"
+"desc": "An AI web agent that applies to jobs for you while you sleep.",
+"cmd": "git clone https://github.com/feder-cr/Jobs_Applier_AI_Agent.git"
 },
 {
 "repo": "trycua/cua",
@@ -1176,6 +1176,13 @@
 "cmd": "git clone https://github.com/helloianneo/ian-xiaohei-illustrations.git"
 },
 {
+"repo": "ccch1mneyyy/dsh-Go",
+"type": "agent",
+"dom": "Design",
+"desc": "dsh-go — DeepSeek Harness 装进口袋：手机本机运行，也能遥控你的电脑。",
+"cmd": "git clone https://github.com/ccch1mneyyy/dsh-Go.git"
+},
+{
 "repo": "jo-inc/camofox-browser",
 "type": "agent",
 "dom": "Automation",
@@ -1188,12 +1195,5 @@
 "dom": "Docs",
 "desc": "Free, open-source AI Office suite: Docs, Sheets, Slides, PDF, Markdown and HTML editors with a built-in AI age",
 "cmd": "git clone https://github.com/genspark-ai/genoffice.git"
-},
-{
-"repo": "presenton/presenton",
-"type": "agent",
-"dom": "General",
-"desc": "Open-Source AI Presentation Generator and API (Gamma, Canva, Beautiful AI, Decktopus, Presentations AI Alterna",
-"cmd": "git clone https://github.com/presenton/presenton.git"
 }
 ]
