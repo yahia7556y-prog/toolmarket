@@ -168,13 +168,6 @@
 "cmd": "git clone https://github.com/modelscope/FunASR.git"
 },
 {
-"repo": "xerj-org/xerj",
-"type": "tool",
-"dom": "Data",
-"desc": "AI search engine and MCP server for bots and agents. One Rust binary indexes code, docs, logs, JSONL/CSV and P",
-"cmd": "git clone https://github.com/xerj-org/xerj.git"
-},
-{
 "repo": "nukeop/nuclear",
 "type": "tool",
 "dom": "General",
@@ -187,6 +180,13 @@
 "dom": "Automation",
 "desc": "ARIS ⚔️ (Auto-Research-In-Sleep) — Lightweight Markdown-only skills for autonomous ML research: cross-model re",
 "cmd": "git clone https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep.git"
+},
+{
+"repo": "xerj-org/xerj",
+"type": "tool",
+"dom": "Data",
+"desc": "AI search engine and MCP server for bots and agents. One Rust binary indexes code, docs, logs, JSONL/CSV and P",
+"cmd": "git clone https://github.com/xerj-org/xerj.git"
 },
 {
 "repo": "microsoft/mcp-for-beginners",
@@ -254,8 +254,8 @@
 {
 "repo": "OpenByteInc/QuantDinger",
 "type": "tool",
-"dom": "Design",
-"desc": "Open-source AI Trading OS, agent trading, and vibe trading, with Jev System One integration. Research, build P",
+"dom": "Data",
+"desc": "The most complete open-source, self-hosted Agentic Trading OS—AI research, Python strategies, factor discovery",
 "cmd": "git clone https://github.com/OpenByteInc/QuantDinger.git"
 },
 {
@@ -507,7 +507,7 @@
 "repo": "google/elephant-goldfish-model",
 "type": "skill",
 "dom": "Code",
-"desc": "Open-source skills for designing and reviewing software with AI agents",
+"desc": "Open-source plugin for designing and reviewing software with agents",
 "cmd": "git clone https://github.com/google/elephant-goldfish-model.git"
 },
 {
@@ -549,15 +549,8 @@
 "repo": "zenstory-ai/oh-story-claudecode",
 "type": "skill",
 "dom": "Code",
-"desc": "AI 写网文全流程 skill 包：扫榜选材、拆解爆款、大纲细纲、长篇连载防吃书、短篇反转、去AI味与封面生成，适配 Claude Code / Codex / Antigravity / OpenCode 等 ｜ Ag",
+"desc": "AI 写网文全流程 skill 包：扫榜选材、拆解爆款、大纲细纲、长篇设定与伏笔追踪、短篇反转、去AI味与封面生成，适配 Claude Code / Codex / Antigravity / OpenCode 等 ｜ ",
 "cmd": "git clone https://github.com/zenstory-ai/oh-story-claudecode.git"
-},
-{
-"repo": "deanpeters/Product-Manager-Skills",
-"type": "skill",
-"dom": "Code",
-"desc": "Product Management skills framework built on battle-tested methods for Claude Code, Cowork, Codex, and AI agen",
-"cmd": "git clone https://github.com/deanpeters/Product-Manager-Skills.git"
 },
 {
 "repo": "Jakeschincariol/replica-skill",
@@ -565,6 +558,13 @@
 "dom": "Code",
 "desc": "Eleven free Claude skills that clone any app: reverse-engineer it, rebuild it, test it for bugs, then fix what",
 "cmd": "git clone https://github.com/Jakeschincariol/replica-skill.git"
+},
+{
+"repo": "deanpeters/Product-Manager-Skills",
+"type": "skill",
+"dom": "Code",
+"desc": "Product Management skills framework built on battle-tested methods for Claude Code, Cowork, Codex, and AI agen",
+"cmd": "git clone https://github.com/deanpeters/Product-Manager-Skills.git"
 },
 {
 "repo": "gosom/google-maps-scraper",
@@ -595,6 +595,13 @@
 "cmd": "git clone https://github.com/kaankiziltug/logo-design-skill.git"
 },
 {
+"repo": "QingYunA/answer-me-with-html",
+"type": "skill",
+"dom": "Code",
+"desc": "Answer me with HTML — an agent skill that answers hard questions with a one-page HTML you can actually read. 让",
+"cmd": "git clone https://github.com/QingYunA/answer-me-with-html.git"
+},
+{
 "repo": "ScrapeCreators/social-media-research-skills",
 "type": "skill",
 "dom": "Data",
@@ -614,13 +621,6 @@
 "dom": "Automation",
 "desc": "Claude skills for LinkedIn. 12 Claude Code and Codex skills that write human-sounding LinkedIn posts, craft co",
 "cmd": "git clone https://github.com/sergebulaev/linkedin-skills.git"
-},
-{
-"repo": "QingYunA/answer-me-with-html",
-"type": "skill",
-"dom": "Code",
-"desc": "Answer me with HTML — an agent skill that answers hard questions with a one-page HTML you can actually read. 让",
-"cmd": "git clone https://github.com/QingYunA/answer-me-with-html.git"
 },
 {
 "repo": "elementalsouls/Claude-BugHunter",
@@ -651,18 +651,18 @@
 "cmd": "git clone https://github.com/zenbu-labs/terminal-browser.git"
 },
 {
-"repo": "nowork-studio/notfair-plugin",
-"type": "skill",
-"dom": "Code",
-"desc": "Open-source SEO, GEO, and marketing skills for AI agents.",
-"cmd": "git clone https://github.com/nowork-studio/notfair-plugin.git"
-},
-{
 "repo": "michael-denyer/pstack-claude",
 "type": "skill",
 "dom": "Code",
 "desc": "Antigravity, Claude Code, Codex, Copilot, Gemini, Muse, OpenCode, Pi, and Prime Agent versions of Poteto's pst",
 "cmd": "git clone https://github.com/michael-denyer/pstack-claude.git"
+},
+{
+"repo": "nowork-studio/notfair-plugin",
+"type": "skill",
+"dom": "Code",
+"desc": "Open-source SEO, GEO, and marketing skills for AI agents.",
+"cmd": "git clone https://github.com/nowork-studio/notfair-plugin.git"
 },
 {
 "repo": "zenstory-ai/drama-skills",
@@ -1025,7 +1025,7 @@
 "repo": "feder-cr/Jobs_Applier_AI_Agent",
 "type": "agent",
 "dom": "Automation",
-"desc": "An AI web agent that applies to jobs for you while you sleep.",
+"desc": "AI job application bot: automated job search and job hunting, auto-apply to resume-matching jobs while you sle",
 "cmd": "git clone https://github.com/feder-cr/Jobs_Applier_AI_Agent.git"
 },
 {
@@ -1169,18 +1169,18 @@
 "cmd": "git clone https://github.com/lsdefine/GenericAgent.git"
 },
 {
-"repo": "helloianneo/ian-xiaohei-illustrations",
-"type": "agent",
-"dom": "Code",
-"desc": "中文小黑怪诞正文配图生成 Skill | 16:9 白底手绘 | 少量红橙蓝批注 | Codex Skill",
-"cmd": "git clone https://github.com/helloianneo/ian-xiaohei-illustrations.git"
-},
-{
 "repo": "ccch1mneyyy/dsh-Go",
 "type": "agent",
 "dom": "Design",
 "desc": "dsh-go — DeepSeek Harness 装进口袋：手机本机运行，也能遥控你的电脑。",
 "cmd": "git clone https://github.com/ccch1mneyyy/dsh-Go.git"
+},
+{
+"repo": "helloianneo/ian-xiaohei-illustrations",
+"type": "agent",
+"dom": "Code",
+"desc": "中文小黑怪诞正文配图生成 Skill | 16:9 白底手绘 | 少量红橙蓝批注 | Codex Skill",
+"cmd": "git clone https://github.com/helloianneo/ian-xiaohei-illustrations.git"
 },
 {
 "repo": "jo-inc/camofox-browser",
