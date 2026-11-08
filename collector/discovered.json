@@ -128,8 +128,8 @@
 {
 "repo": "pascalorg/editor",
 "type": "skill",
-"dom": "Design",
-"desc": "Open-source 3D architectural editor with a local CLI, MCP tools, and practical workflows for humans and AI age",
+"dom": "Automation",
+"desc": "Open-source 3D architecture software for AECO, scan-to-BIM. Agent-friendly, browser-first, MCP, CLI.",
 "cmd": "git clone https://github.com/pascalorg/editor.git"
 },
 {
@@ -413,6 +413,13 @@
 "cmd": "git clone https://github.com/wshobson/agents.git"
 },
 {
+"repo": "alchaincyf/nuwa-skill",
+"type": "skill",
+"dom": "Code",
+"desc": "你想蒸馏的下一个员工，何必是同事。蒸馏任何人的思维方式——心智模型、决策启发式、表达DNA。Distill how anyone thinks.",
+"cmd": "git clone https://github.com/alchaincyf/nuwa-skill.git"
+},
+{
 "repo": "VoltAgent/awesome-agent-skills",
 "type": "skill",
 "dom": "Code",
@@ -518,6 +525,13 @@
 "cmd": "git clone https://github.com/Jeffallan/claude-skills.git"
 },
 {
+"repo": "alchaincyf/zhangxuefeng-skill",
+"type": "skill",
+"dom": "Code",
+"desc": "张雪峰.skill — 张雪峰的认知操作系统。高考志愿/考研/职业规划的实战思维框架。由女娲.skill生成。",
+"cmd": "git clone https://github.com/alchaincyf/zhangxuefeng-skill.git"
+},
+{
 "repo": "SnailSploit/Claude-Red",
 "type": "skill",
 "dom": "Security",
@@ -574,6 +588,20 @@
 "cmd": "git clone https://github.com/gosom/google-maps-scraper.git"
 },
 {
+"repo": "alchaincyf/darwin-skill",
+"type": "skill",
+"dom": "Code",
+"desc": "达尔文.skill —— 一个让你的Skill无限进化的系统：评估→改进→测试→保留或回滚 | Autoresearch-inspired autonomous skill optimization for Claude",
+"cmd": "git clone https://github.com/alchaincyf/darwin-skill.git"
+},
+{
+"repo": "alchaincyf/huashu-art-motion",
+"type": "skill",
+"dom": "Code",
+"desc": "艺术动画skill：35种艺术风格、9种解说语法，用代码让画动起来。",
+"cmd": "git clone https://github.com/alchaincyf/huashu-art-motion.git"
+},
+{
 "repo": "browser-act/skills",
 "type": "skill",
 "dom": "Data",
@@ -581,18 +609,25 @@
 "cmd": "git clone https://github.com/browser-act/skills.git"
 },
 {
-"repo": "ikaijua/Awesome-AITools",
-"type": "skill",
-"dom": "Code",
-"desc": "Collection of AI-related utilities. Welcome to submit pull requests /收藏AI相关的实用工具，欢迎提交pull requests",
-"cmd": "git clone https://github.com/ikaijua/Awesome-AITools.git"
-},
-{
 "repo": "kaankiziltug/logo-design-skill",
 "type": "skill",
 "dom": "Code",
 "desc": "A comprehensive logo-design skill for Claude, Gemini CLI, Codex and other AI agents: principles, process, SVG ",
 "cmd": "git clone https://github.com/kaankiziltug/logo-design-skill.git"
+},
+{
+"repo": "ikaijua/Awesome-AITools",
+"type": "skill",
+"dom": "Code",
+"desc": "220+ AI tools across 37+ categories — chatbots, coding agents, AI video/image/voice, open-weight models. Bilin",
+"cmd": "git clone https://github.com/ikaijua/Awesome-AITools.git"
+},
+{
+"repo": "Jakeschincariol/day-trader-skill",
+"type": "skill",
+"dom": "General",
+"desc": "11 Claude skills for day trading: scan thousands of charts, track breaking news, time every entry and exit, an",
+"cmd": "git clone https://github.com/Jakeschincariol/day-trader-skill.git"
 },
 {
 "repo": "QingYunA/answer-me-with-html",
@@ -607,13 +642,6 @@
 "dom": "Data",
 "desc": "AI agent skills for social media research. Outlier posts, comment mining, competitor teardowns, ad libraries &",
 "cmd": "git clone https://github.com/ScrapeCreators/social-media-research-skills.git"
-},
-{
-"repo": "Jakeschincariol/day-trader-skill",
-"type": "skill",
-"dom": "General",
-"desc": "11 Claude skills for day trading: scan thousands of charts, track breaking news, time every entry and exit, an",
-"cmd": "git clone https://github.com/Jakeschincariol/day-trader-skill.git"
 },
 {
 "repo": "sergebulaev/linkedin-skills",
@@ -649,34 +677,6 @@
 "dom": "Automation",
 "desc": "A real browser inside your terminal",
 "cmd": "git clone https://github.com/zenbu-labs/terminal-browser.git"
-},
-{
-"repo": "michael-denyer/pstack-claude",
-"type": "skill",
-"dom": "Code",
-"desc": "Antigravity, Claude Code, Codex, Copilot, Gemini, Muse, OpenCode, Pi, and Prime Agent versions of Poteto's pst",
-"cmd": "git clone https://github.com/michael-denyer/pstack-claude.git"
-},
-{
-"repo": "nowork-studio/notfair-plugin",
-"type": "skill",
-"dom": "Code",
-"desc": "Open-source SEO, GEO, and marketing skills for AI agents.",
-"cmd": "git clone https://github.com/nowork-studio/notfair-plugin.git"
-},
-{
-"repo": "zenstory-ai/drama-skills",
-"type": "skill",
-"dom": "Code",
-"desc": "AI 短剧与漫剧制作 skill 合集：小说改剧本、角色设定三视图、分镜脚本、生图/生视频提示词与成片审片，适配 Claude Code / Codex 等 ｜ Open-source agent skills for ",
-"cmd": "git clone https://github.com/zenstory-ai/drama-skills.git"
-},
-{
-"repo": "geekjourneyx/md2wechat-skill",
-"type": "skill",
-"dom": "Code",
-"desc": "面向 AI Agent 的微信公众号创作与发布 CLI：Markdown 排版、AI 配图、预览与草稿创建；支持由浏览器 Agent 保存知乎、CSDN、头条未发布草稿。",
-"cmd": "git clone https://github.com/geekjourneyx/md2wechat-skill.git"
 },
 {
 "repo": "morluto/rea",
@@ -826,6 +826,13 @@
 "cmd": "git clone https://github.com/agentskills/agentskills.git"
 },
 {
+"repo": "nocobase/nocobase",
+"type": "agent",
+"dom": "Code",
+"desc": "NocoBase is the open-source platform for building, running, and evolving business systems with AI. Agents writ",
+"cmd": "git clone https://github.com/nocobase/nocobase.git"
+},
+{
 "repo": "NVIDIA/SkillSpector",
 "type": "skill",
 "dom": "Security",
@@ -833,18 +840,18 @@
 "cmd": "git clone https://github.com/NVIDIA/SkillSpector.git"
 },
 {
-"repo": "KKKKhazix/khazix-skills",
-"type": "skill",
-"dom": "Code",
-"desc": "数字生命卡兹克开源的 AI Skills 合集 | Agent Skills: leader（帮你定义目标）, neat-freak 洁癖, hv-analysis, khazix-writer & more — Cla",
-"cmd": "git clone https://github.com/KKKKhazix/khazix-skills.git"
-},
-{
 "repo": "citrolabs/ego-lite",
 "type": "agent",
 "dom": "Automation",
 "desc": "The fastest browser for AI agents to run browser automation, built for sharing your logged-in browser state wi",
 "cmd": "git clone https://github.com/citrolabs/ego-lite.git"
+},
+{
+"repo": "KKKKhazix/khazix-skills",
+"type": "skill",
+"dom": "Code",
+"desc": "数字生命卡兹克开源的 AI Skills 合集 | Agent Skills: leader（帮你定义目标）, neat-freak 洁癖, hv-analysis, khazix-writer & more — Cla",
+"cmd": "git clone https://github.com/KKKKhazix/khazix-skills.git"
 },
 {
 "repo": "microsoft/SkillOpt",
@@ -889,13 +896,6 @@
 "cmd": "git clone https://github.com/eigent-ai/eigent.git"
 },
 {
-"repo": "krillinai/OpenCreator",
-"type": "skill",
-"dom": "Code",
-"desc": "Formerly KrillinAI, VideoTranslation and Dubbing Tool for 120+ Languages. Open-source AI workspace for creator",
-"cmd": "git clone https://github.com/krillinai/OpenCreator.git"
-},
-{
 "repo": "NousResearch/hermes-agent",
 "type": "agent",
 "dom": "Code",
@@ -917,18 +917,18 @@
 "cmd": "git clone https://github.com/shareAI-lab/learn-claude-code.git"
 },
 {
-"repo": "thedaviddias/Front-End-Checklist",
-"type": "agent",
-"dom": "Code",
-"desc": "🗂 The essential checklist for modern web development, for humans and AI agents",
-"cmd": "git clone https://github.com/thedaviddias/Front-End-Checklist.git"
-},
-{
 "repo": "hugohe3/ppt-master",
 "type": "agent",
 "dom": "Data",
 "desc": "AI turns documents or topics into real, native PowerPoint decks—with native shapes, transitions and animations",
 "cmd": "git clone https://github.com/hugohe3/ppt-master.git"
+},
+{
+"repo": "thedaviddias/Front-End-Checklist",
+"type": "agent",
+"dom": "Code",
+"desc": "🗂 The essential checklist for modern web development, for humans and AI agents",
+"cmd": "git clone https://github.com/thedaviddias/Front-End-Checklist.git"
 },
 {
 "repo": "ZhuLinsen/daily_stock_analysis",
@@ -1141,6 +1141,13 @@
 "cmd": "git clone https://github.com/NanmiCoder/cc-haha.git"
 },
 {
+"repo": "ccch1mneyyy/dsh-Go",
+"type": "agent",
+"dom": "Design",
+"desc": "dsh-go — DeepSeek Harness 装进口袋：手机本机运行，也能遥控你的电脑。",
+"cmd": "git clone https://github.com/ccch1mneyyy/dsh-Go.git"
+},
+{
 "repo": "waooAI/waoowaoo",
 "type": "agent",
 "dom": "Automation",
@@ -1167,13 +1174,6 @@
 "dom": "Automation",
 "desc": "Self-evolving agent: grows skill tree from 3.3K-line seed, achieving full system control with 6x less token co",
 "cmd": "git clone https://github.com/lsdefine/GenericAgent.git"
-},
-{
-"repo": "ccch1mneyyy/dsh-Go",
-"type": "agent",
-"dom": "Design",
-"desc": "dsh-go — DeepSeek Harness 装进口袋：手机本机运行，也能遥控你的电脑。",
-"cmd": "git clone https://github.com/ccch1mneyyy/dsh-Go.git"
 },
 {
 "repo": "helloianneo/ian-xiaohei-illustrations",
