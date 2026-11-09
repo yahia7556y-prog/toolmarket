@@ -70,13 +70,6 @@
 "cmd": "git clone https://github.com/reactive-resume/reactive-resume.git"
 },
 {
-"repo": "bytedance/UI-TARS-desktop",
-"type": "tool",
-"dom": "Automation",
-"desc": "The Open-Source Multimodal AI Agent Stack: Connecting Cutting-Edge AI Models and Agent Infra",
-"cmd": "git clone https://github.com/bytedance/UI-TARS-desktop.git"
-},
-{
 "repo": "DayuanJiang/next-ai-draw-io",
 "type": "tool",
 "dom": "Code",
@@ -168,18 +161,18 @@
 "cmd": "git clone https://github.com/modelscope/FunASR.git"
 },
 {
-"repo": "nukeop/nuclear",
-"type": "tool",
-"dom": "General",
-"desc": "Streaming music player that finds free music for you",
-"cmd": "git clone https://github.com/nukeop/nuclear.git"
-},
-{
 "repo": "wanshuiyin/Auto-claude-code-research-in-sleep",
 "type": "tool",
 "dom": "Automation",
 "desc": "ARIS ⚔️ (Auto-Research-In-Sleep) — Lightweight Markdown-only skills for autonomous ML research: cross-model re",
 "cmd": "git clone https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep.git"
+},
+{
+"repo": "nukeop/nuclear",
+"type": "tool",
+"dom": "General",
+"desc": "Streaming music player that finds free music for you",
+"cmd": "git clone https://github.com/nukeop/nuclear.git"
 },
 {
 "repo": "xerj-org/xerj",
@@ -231,18 +224,18 @@
 "cmd": "git clone https://github.com/liketrek/TREK.git"
 },
 {
-"repo": "yusufkaraaslan/Skill_Seekers",
-"type": "skill",
-"dom": "Data",
-"desc": "Convert documentation websites, GitHub repositories, and PDFs into Claude AI skills with automatic conflict de",
-"cmd": "git clone https://github.com/yusufkaraaslan/Skill_Seekers.git"
-},
-{
 "repo": "apify/apify-mcp-server",
 "type": "tool",
 "dom": "Data",
 "desc": "The Apify MCP server enables your AI agents to extract data from social media, search engines, maps, e-commerc",
 "cmd": "git clone https://github.com/apify/apify-mcp-server.git"
+},
+{
+"repo": "yusufkaraaslan/Skill_Seekers",
+"type": "skill",
+"dom": "Data",
+"desc": "Convert documentation websites, GitHub repositories, and PDFs into Claude AI skills with automatic conflict de",
+"cmd": "git clone https://github.com/yusufkaraaslan/Skill_Seekers.git"
 },
 {
 "repo": "modelcontextprotocol/typescript-sdk",
@@ -348,6 +341,13 @@
 "dom": "Code",
 "desc": "3,400+ curated icons and logos for dashboards and AI agents. SVG, PNG and WEBP on a free CDN, plus an MCP serv",
 "cmd": "git clone https://github.com/homarr-labs/dashboard-icons.git"
+},
+{
+"repo": "Ryze-AI-Adgent/open-seo-mcp-skills",
+"type": "skill",
+"dom": "Data",
+"desc": "Free SEO MCP server + open-source SEO and GEO skills for Claude: keyword research, rank tracking, audits, back",
+"cmd": "git clone https://github.com/Ryze-AI-Adgent/open-seo-mcp-skills.git"
 },
 {
 "repo": "thedotmack/claude-mem",
@@ -490,6 +490,13 @@
 "cmd": "git clone https://github.com/Vincentwei1021/video-shotcraft.git"
 },
 {
+"repo": "google/elephant-goldfish-model",
+"type": "skill",
+"dom": "Code",
+"desc": "Open-source plugin for designing and reviewing software with agents",
+"cmd": "git clone https://github.com/google/elephant-goldfish-model.git"
+},
+{
 "repo": "nidhinjs/prompt-master",
 "type": "skill",
 "dom": "General",
@@ -509,13 +516,6 @@
 "dom": "Code",
 "desc": "Comprehensive open-source library of AI research and engineering skills for any AI model. Package the skills a",
 "cmd": "git clone https://github.com/Orchestra-Research/AI-Research-SKILLs.git"
-},
-{
-"repo": "google/elephant-goldfish-model",
-"type": "skill",
-"dom": "Code",
-"desc": "Open-source plugin for designing and reviewing software with agents",
-"cmd": "git clone https://github.com/google/elephant-goldfish-model.git"
 },
 {
 "repo": "Jeffallan/claude-skills",
@@ -546,13 +546,6 @@
 "cmd": "git clone https://github.com/nexu-io/html-anything.git"
 },
 {
-"repo": "Ryze-AI-Adgent/open-seo-mcp-skills",
-"type": "skill",
-"dom": "Data",
-"desc": "Free SEO MCP server + open-source SEO and GEO skills for Claude: keyword research, rank tracking, audits, back",
-"cmd": "git clone https://github.com/Ryze-AI-Adgent/open-seo-mcp-skills.git"
-},
-{
 "repo": "WenyuChiou/awesome-agentic-ai-zh",
 "type": "skill",
 "dom": "Code",
@@ -560,18 +553,18 @@
 "cmd": "git clone https://github.com/WenyuChiou/awesome-agentic-ai-zh.git"
 },
 {
-"repo": "zenstory-ai/oh-story-claudecode",
-"type": "skill",
-"dom": "Code",
-"desc": "AI 写网文全流程 skill 包：扫榜选材、拆解爆款、大纲细纲、长篇设定与伏笔追踪、短篇反转、去AI味与封面生成，适配 Claude Code / Codex / Antigravity / OpenCode 等 ｜ ",
-"cmd": "git clone https://github.com/zenstory-ai/oh-story-claudecode.git"
-},
-{
 "repo": "Jakeschincariol/replica-skill",
 "type": "skill",
 "dom": "Code",
 "desc": "Eleven free Claude skills that clone any app: reverse-engineer it, rebuild it, test it for bugs, then fix what",
 "cmd": "git clone https://github.com/Jakeschincariol/replica-skill.git"
+},
+{
+"repo": "zenstory-ai/oh-story-claudecode",
+"type": "skill",
+"dom": "Code",
+"desc": "AI 写网文全流程 skill 包：扫榜选材、拆解爆款、大纲细纲、长篇设定与伏笔追踪、短篇反转、去AI味与封面生成，适配 Claude Code / Codex / Antigravity / OpenCode 等 ｜ ",
+"cmd": "git clone https://github.com/zenstory-ai/oh-story-claudecode.git"
 },
 {
 "repo": "deanpeters/Product-Manager-Skills",
@@ -602,13 +595,6 @@
 "cmd": "git clone https://github.com/alchaincyf/huashu-art-motion.git"
 },
 {
-"repo": "browser-act/skills",
-"type": "skill",
-"dom": "Data",
-"desc": "Browser automation CLI built for AI agents. Break through anti-bot walls, hand off to humans across platforms ",
-"cmd": "git clone https://github.com/browser-act/skills.git"
-},
-{
 "repo": "kaankiziltug/logo-design-skill",
 "type": "skill",
 "dom": "Code",
@@ -616,10 +602,17 @@
 "cmd": "git clone https://github.com/kaankiziltug/logo-design-skill.git"
 },
 {
+"repo": "browser-act/skills",
+"type": "skill",
+"dom": "Data",
+"desc": "Browser automation CLI built for AI agents. Break through anti-bot walls, hand off to humans across platforms ",
+"cmd": "git clone https://github.com/browser-act/skills.git"
+},
+{
 "repo": "ikaijua/Awesome-AITools",
 "type": "skill",
 "dom": "Code",
-"desc": "220+ AI tools across 37+ categories — chatbots, coding agents, AI video/image/voice, open-weight models. Bilin",
+"desc": "220+ AI tools across 37+ categories — chatbots, coding agents, AI video/image/voice, open-weight models. / 220",
 "cmd": "git clone https://github.com/ikaijua/Awesome-AITools.git"
 },
 {
@@ -826,18 +819,18 @@
 "cmd": "git clone https://github.com/agentskills/agentskills.git"
 },
 {
-"repo": "nocobase/nocobase",
-"type": "agent",
-"dom": "Code",
-"desc": "NocoBase is the open-source platform for building, running, and evolving business systems with AI. Agents writ",
-"cmd": "git clone https://github.com/nocobase/nocobase.git"
-},
-{
 "repo": "NVIDIA/SkillSpector",
 "type": "skill",
 "dom": "Security",
 "desc": "Security scanner for AI agent skills. Detect vulnerabilities, malicious patterns, security risks, prompt injec",
 "cmd": "git clone https://github.com/NVIDIA/SkillSpector.git"
+},
+{
+"repo": "nocobase/nocobase",
+"type": "agent",
+"dom": "Code",
+"desc": "NocoBase is the open-source platform for building, running, and evolving business systems with AI. Agents writ",
+"cmd": "git clone https://github.com/nocobase/nocobase.git"
 },
 {
 "repo": "citrolabs/ego-lite",
@@ -887,13 +880,6 @@
 "dom": "Data",
 "desc": "A lightweight, lightning-fast, in-process vector database",
 "cmd": "git clone https://github.com/alibaba/zvec.git"
-},
-{
-"repo": "eigent-ai/eigent",
-"type": "skill",
-"dom": "Code",
-"desc": "Eigent: The Open Source Cowork Desktop - Local and Free Alternative to Claude Cowork and Codex",
-"cmd": "git clone https://github.com/eigent-ai/eigent.git"
 },
 {
 "repo": "NousResearch/hermes-agent",
@@ -1071,18 +1057,18 @@
 "cmd": "git clone https://github.com/walkinglabs/learn-harness-engineering.git"
 },
 {
-"repo": "teableio/teable",
-"type": "agent",
-"dom": "Data",
-"desc": "✨ AI Spreadsheet for Business",
-"cmd": "git clone https://github.com/teableio/teable.git"
-},
-{
 "repo": "liyupi/ai-guide",
 "type": "agent",
 "dom": "Code",
 "desc": "程序员鱼皮的 AI 资源大全 + Vibe Coding 零基础教程，分享 OpenClaw 保姆级教程、大模型玩法（DeepSeek / GPT / Gemini / Claude / GLM）、最新 AI 资讯、Pr",
 "cmd": "git clone https://github.com/liyupi/ai-guide.git"
+},
+{
+"repo": "teableio/teable",
+"type": "agent",
+"dom": "Data",
+"desc": "✨ AI Spreadsheet for Business",
+"cmd": "git clone https://github.com/teableio/teable.git"
 },
 {
 "repo": "1jehuang/jcode",
@@ -1120,11 +1106,11 @@
 "cmd": "git clone https://github.com/xbtlin/ai-berkshire.git"
 },
 {
-"repo": "browser-use/web-ui",
+"repo": "ccch1mneyyy/dsh-Go",
 "type": "agent",
-"dom": "Automation",
-"desc": "🖥️ Run AI Agent in your browser.",
-"cmd": "git clone https://github.com/browser-use/web-ui.git"
+"dom": "Design",
+"desc": "dsh-go — DeepSeek Harness 装进口袋：手机本机运行，也能遥控你的电脑。",
+"cmd": "git clone https://github.com/ccch1mneyyy/dsh-Go.git"
 },
 {
 "repo": "opensandbox-group/OpenSandbox",
@@ -1134,18 +1120,18 @@
 "cmd": "git clone https://github.com/opensandbox-group/OpenSandbox.git"
 },
 {
+"repo": "browser-use/web-ui",
+"type": "agent",
+"dom": "Automation",
+"desc": "🖥️ Run AI Agent in your browser.",
+"cmd": "git clone https://github.com/browser-use/web-ui.git"
+},
+{
 "repo": "NanmiCoder/cc-haha",
 "type": "agent",
 "dom": "Code",
 "desc": "本地优先的跨平台 Claude Code / AI Agent 桌面工作台：多 Agent 协作、Git Worktree、代码 Diff、技能市场、多模型、Computer Use、桌面宠物；支持微信、飞书、钉钉及 H",
 "cmd": "git clone https://github.com/NanmiCoder/cc-haha.git"
-},
-{
-"repo": "ccch1mneyyy/dsh-Go",
-"type": "agent",
-"dom": "Design",
-"desc": "dsh-go — DeepSeek Harness 装进口袋：手机本机运行，也能遥控你的电脑。",
-"cmd": "git clone https://github.com/ccch1mneyyy/dsh-Go.git"
 },
 {
 "repo": "waooAI/waoowaoo",
