@@ -217,18 +217,18 @@
 "cmd": "git clone https://github.com/open-metadata/OpenMetadata.git"
 },
 {
-"repo": "liketrek/TREK",
-"type": "tool",
-"dom": "Code",
-"desc": "The most complete open-source travel planner: real-time collaboration, bookings, budgets, packing lists, journ",
-"cmd": "git clone https://github.com/liketrek/TREK.git"
-},
-{
 "repo": "apify/apify-mcp-server",
 "type": "tool",
 "dom": "Data",
 "desc": "The Apify MCP server enables your AI agents to extract data from social media, search engines, maps, e-commerc",
 "cmd": "git clone https://github.com/apify/apify-mcp-server.git"
+},
+{
+"repo": "liketrek/TREK",
+"type": "tool",
+"dom": "Code",
+"desc": "The most complete open-source travel planner: real-time collaboration, bookings, budgets, packing lists, journ",
+"cmd": "git clone https://github.com/liketrek/TREK.git"
 },
 {
 "repo": "yusufkaraaslan/Skill_Seekers",
@@ -252,18 +252,18 @@
 "cmd": "git clone https://github.com/OpenByteInc/QuantDinger.git"
 },
 {
-"repo": "ccfos/nightingale",
-"type": "tool",
-"dom": "Data",
-"desc": "Open-source, self-hosted alerting for metrics, logs, and databases. Includes a built-in AI agent and MCP serve",
-"cmd": "git clone https://github.com/ccfos/nightingale.git"
-},
-{
 "repo": "0x4m4/hexstrike-ai",
 "type": "tool",
 "dom": "Security",
 "desc": "HexStrike AI MCP Agents is an advanced MCP server that lets AI agents (Claude, GPT, Copilot, etc.) autonomousl",
 "cmd": "git clone https://github.com/0x4m4/hexstrike-ai.git"
+},
+{
+"repo": "ccfos/nightingale",
+"type": "tool",
+"dom": "Data",
+"desc": "Open-source, self-hosted alerting for metrics, logs, and databases. Includes a built-in AI agent and MCP serve",
+"cmd": "git clone https://github.com/ccfos/nightingale.git"
 },
 {
 "repo": "mrexodia/ida-pro-mcp",
@@ -336,18 +336,18 @@
 "cmd": "git clone https://github.com/openstatusHQ/openstatus.git"
 },
 {
-"repo": "homarr-labs/dashboard-icons",
-"type": "tool",
-"dom": "Code",
-"desc": "3,400+ curated icons and logos for dashboards and AI agents. SVG, PNG and WEBP on a free CDN, plus an MCP serv",
-"cmd": "git clone https://github.com/homarr-labs/dashboard-icons.git"
-},
-{
 "repo": "Ryze-AI-Adgent/open-seo-mcp-skills",
 "type": "skill",
 "dom": "Data",
 "desc": "Free SEO MCP server + open-source SEO and GEO skills for Claude: keyword research, rank tracking, audits, back",
 "cmd": "git clone https://github.com/Ryze-AI-Adgent/open-seo-mcp-skills.git"
+},
+{
+"repo": "homarr-labs/dashboard-icons",
+"type": "tool",
+"dom": "Code",
+"desc": "3,400+ curated icons and logos for dashboards and AI agents. SVG, PNG and WEBP on a free CDN, plus an MCP serv",
+"cmd": "git clone https://github.com/homarr-labs/dashboard-icons.git"
 },
 {
 "repo": "thedotmack/claude-mem",
@@ -595,6 +595,13 @@
 "cmd": "git clone https://github.com/alchaincyf/huashu-art-motion.git"
 },
 {
+"repo": "Jakeschincariol/day-trader-skill",
+"type": "skill",
+"dom": "General",
+"desc": "11 Claude skills for day trading: scan thousands of charts, track breaking news, time every entry and exit, an",
+"cmd": "git clone https://github.com/Jakeschincariol/day-trader-skill.git"
+},
+{
 "repo": "kaankiziltug/logo-design-skill",
 "type": "skill",
 "dom": "Code",
@@ -614,13 +621,6 @@
 "dom": "Code",
 "desc": "220+ AI tools across 37+ categories — chatbots, coding agents, AI video/image/voice, open-weight models. / 220",
 "cmd": "git clone https://github.com/ikaijua/Awesome-AITools.git"
-},
-{
-"repo": "Jakeschincariol/day-trader-skill",
-"type": "skill",
-"dom": "General",
-"desc": "11 Claude skills for day trading: scan thousands of charts, track breaking news, time every entry and exit, an",
-"cmd": "git clone https://github.com/Jakeschincariol/day-trader-skill.git"
 },
 {
 "repo": "QingYunA/answer-me-with-html",
@@ -700,18 +700,18 @@
 "cmd": "git clone https://github.com/Leonxlnx/taste-skill.git"
 },
 {
-"repo": "nexu-io/open-design",
-"type": "skill",
-"dom": "Code",
-"desc": "The 1st Collaborative AI Design Agent Workspace. Local-first and open source. Create motion, prototypes, websi",
-"cmd": "git clone https://github.com/nexu-io/open-design.git"
-},
-{
 "repo": "pbakaus/impeccable",
 "type": "skill",
 "dom": "Design",
 "desc": "The design vocabulary for your coding agent. Steer with polish and bolder, review with critique and audit, cat",
 "cmd": "git clone https://github.com/pbakaus/impeccable.git"
+},
+{
+"repo": "nexu-io/open-design",
+"type": "skill",
+"dom": "Code",
+"desc": "The 1st Collaborative AI Design Agent Workspace. Local-first and open source. Create motion, prototypes, websi",
+"cmd": "git clone https://github.com/nexu-io/open-design.git"
 },
 {
 "repo": "career-ops-hq/career-ops",
@@ -766,7 +766,7 @@
 "repo": "sickn33/agentic-awesome-skills",
 "type": "skill",
 "dom": "Code",
-"desc": "2,926+ reusable AI agent skills for Claude Code, Codex, Cursor and Gemini CLI. AAS Core adds local catalog dis",
+"desc": "2,955+ reusable AI agent skills for Claude Code, Codex, Cursor and Gemini CLI. AAS Core adds local catalog dis",
 "cmd": "git clone https://github.com/sickn33/agentic-awesome-skills.git"
 },
 {
@@ -1092,6 +1092,13 @@
 "cmd": "git clone https://github.com/emcie-co/parlant.git"
 },
 {
+"repo": "ccch1mneyyy/dsh-Go",
+"type": "agent",
+"dom": "Design",
+"desc": "dsh-go — DeepSeek Harness 装进口袋：手机本机运行，也能遥控你的电脑。",
+"cmd": "git clone https://github.com/ccch1mneyyy/dsh-Go.git"
+},
+{
 "repo": "leon-ai/leon",
 "type": "agent",
 "dom": "Automation",
@@ -1104,13 +1111,6 @@
 "dom": "Code",
 "desc": "AI 时代的伯克希尔：基于 Claude Code / Codex 的价值投资研究框架。巴菲特·芒格·段永平·李录四大师方法论 + 多Agent并行研究。| AI-era Berkshire: a value inves",
 "cmd": "git clone https://github.com/xbtlin/ai-berkshire.git"
-},
-{
-"repo": "ccch1mneyyy/dsh-Go",
-"type": "agent",
-"dom": "Design",
-"desc": "dsh-go — DeepSeek Harness 装进口袋：手机本机运行，也能遥控你的电脑。",
-"cmd": "git clone https://github.com/ccch1mneyyy/dsh-Go.git"
 },
 {
 "repo": "opensandbox-group/OpenSandbox",
