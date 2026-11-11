@@ -539,11 +539,11 @@
 "cmd": "git clone https://github.com/SnailSploit/Claude-Red.git"
 },
 {
-"repo": "nexu-io/html-anything",
+"repo": "Jakeschincariol/replica-skill",
 "type": "skill",
-"dom": "Data",
-"desc": "✨ The agentic HTML editor — your local AI agent writes the HTML, you ship it. 🚀 75 Skills × 9 Surfaces (magazi",
-"cmd": "git clone https://github.com/nexu-io/html-anything.git"
+"dom": "Code",
+"desc": "Eleven free Claude skills that clone any app: reverse-engineer it, rebuild it, test it for bugs, then fix what",
+"cmd": "git clone https://github.com/Jakeschincariol/replica-skill.git"
 },
 {
 "repo": "WenyuChiou/awesome-agentic-ai-zh",
@@ -551,13 +551,6 @@
 "dom": "Code",
 "desc": "A trilingual (繁中 / English / 简中) learning roadmap for agentic AI: from LLM basics to multi-agent systems, with",
 "cmd": "git clone https://github.com/WenyuChiou/awesome-agentic-ai-zh.git"
-},
-{
-"repo": "Jakeschincariol/replica-skill",
-"type": "skill",
-"dom": "Code",
-"desc": "Eleven free Claude skills that clone any app: reverse-engineer it, rebuild it, test it for bugs, then fix what",
-"cmd": "git clone https://github.com/Jakeschincariol/replica-skill.git"
 },
 {
 "repo": "zenstory-ai/oh-story-claudecode",
@@ -588,18 +581,18 @@
 "cmd": "git clone https://github.com/alchaincyf/darwin-skill.git"
 },
 {
-"repo": "alchaincyf/huashu-art-motion",
-"type": "skill",
-"dom": "Code",
-"desc": "艺术动画skill：35种艺术风格、9种解说语法，用代码让画动起来。",
-"cmd": "git clone https://github.com/alchaincyf/huashu-art-motion.git"
-},
-{
 "repo": "Jakeschincariol/day-trader-skill",
 "type": "skill",
 "dom": "General",
 "desc": "11 Claude skills for day trading: scan thousands of charts, track breaking news, time every entry and exit, an",
 "cmd": "git clone https://github.com/Jakeschincariol/day-trader-skill.git"
+},
+{
+"repo": "alchaincyf/huashu-art-motion",
+"type": "skill",
+"dom": "Code",
+"desc": "艺术动画skill：35种艺术风格、9种解说语法，用代码让画动起来。",
+"cmd": "git clone https://github.com/alchaincyf/huashu-art-motion.git"
 },
 {
 "repo": "kaankiziltug/logo-design-skill",
@@ -619,7 +612,7 @@
 "repo": "ikaijua/Awesome-AITools",
 "type": "skill",
 "dom": "Code",
-"desc": "220+ AI tools across 37+ categories — chatbots, coding agents, AI video/image/voice, open-weight models. / 220",
+"desc": "This repo collects awesome AI tools. Welcome everyone to recommend more awesome AI tools together!",
 "cmd": "git clone https://github.com/ikaijua/Awesome-AITools.git"
 },
 {
@@ -670,6 +663,13 @@
 "dom": "Automation",
 "desc": "A real browser inside your terminal",
 "cmd": "git clone https://github.com/zenbu-labs/terminal-browser.git"
+},
+{
+"repo": "michael-denyer/pstack-claude",
+"type": "skill",
+"dom": "Code",
+"desc": "Antigravity, Claude Code, Codex, Copilot, Gemini, Muse, OpenCode, Pi, and Prime Agent versions of Poteto's pst",
+"cmd": "git clone https://github.com/michael-denyer/pstack-claude.git"
 },
 {
 "repo": "morluto/rea",
@@ -959,18 +959,18 @@
 "cmd": "git clone https://github.com/codewhale-hq/Codewhale.git"
 },
 {
-"repo": "CopilotKit/CopilotKit",
-"type": "agent",
-"dom": "Communication",
-"desc": "The Frontend Stack for Agents & Generative UI. React, Angular, Mobile, Slack, and more.  Makers of the AG-UI P",
-"cmd": "git clone https://github.com/CopilotKit/CopilotKit.git"
-},
-{
 "repo": "can1357/oh-my-pi",
 "type": "agent",
 "dom": "Code",
 "desc": "⌥ Coding agent with the IDE wired in. Built by Stencil Labs.",
 "cmd": "git clone https://github.com/can1357/oh-my-pi.git"
+},
+{
+"repo": "CopilotKit/CopilotKit",
+"type": "agent",
+"dom": "Communication",
+"desc": "The Frontend Stack for Agents & Generative UI. React, Angular, Mobile, Slack, and more.  Makers of the AG-UI P",
+"cmd": "git clone https://github.com/CopilotKit/CopilotKit.git"
 },
 {
 "repo": "HKUDS/Vibe-Trading",
@@ -1078,6 +1078,13 @@
 "cmd": "git clone https://github.com/1jehuang/jcode.git"
 },
 {
+"repo": "ccch1mneyyy/dsh-Go",
+"type": "agent",
+"dom": "Design",
+"desc": "dsh-go — DeepSeek Harness 装进口袋：手机本机运行，也能遥控你的电脑。",
+"cmd": "git clone https://github.com/ccch1mneyyy/dsh-Go.git"
+},
+{
 "repo": "browser-use/browser-harness",
 "type": "agent",
 "dom": "Automation",
@@ -1092,13 +1099,6 @@
 "cmd": "git clone https://github.com/emcie-co/parlant.git"
 },
 {
-"repo": "ccch1mneyyy/dsh-Go",
-"type": "agent",
-"dom": "Design",
-"desc": "dsh-go — DeepSeek Harness 装进口袋：手机本机运行，也能遥控你的电脑。",
-"cmd": "git clone https://github.com/ccch1mneyyy/dsh-Go.git"
-},
-{
 "repo": "leon-ai/leon",
 "type": "agent",
 "dom": "Automation",
@@ -1106,18 +1106,18 @@
 "cmd": "git clone https://github.com/leon-ai/leon.git"
 },
 {
-"repo": "xbtlin/ai-berkshire",
-"type": "agent",
-"dom": "Code",
-"desc": "AI 时代的伯克希尔：基于 Claude Code / Codex 的价值投资研究框架。巴菲特·芒格·段永平·李录四大师方法论 + 多Agent并行研究。| AI-era Berkshire: a value inves",
-"cmd": "git clone https://github.com/xbtlin/ai-berkshire.git"
-},
-{
 "repo": "opensandbox-group/OpenSandbox",
 "type": "agent",
 "dom": "General",
 "desc": "Secure, Fast, and Extensible Sandbox runtime for AI agents.",
 "cmd": "git clone https://github.com/opensandbox-group/OpenSandbox.git"
+},
+{
+"repo": "xbtlin/ai-berkshire",
+"type": "agent",
+"dom": "Code",
+"desc": "AI 时代的伯克希尔：基于 Claude Code / Codex 的价值投资研究框架。巴菲特·芒格·段永平·李录四大师方法论 + 多Agent并行研究。| AI-era Berkshire: a value inves",
+"cmd": "git clone https://github.com/xbtlin/ai-berkshire.git"
 },
 {
 "repo": "browser-use/web-ui",
