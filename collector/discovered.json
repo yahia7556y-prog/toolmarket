@@ -135,8 +135,8 @@
 {
 "repo": "czlonkowski/n8n-mcp",
 "type": "tool",
-"dom": "Code",
-"desc": "A MCP for Claude Desktop / Claude Code / Windsurf / Cursor to build n8n workflows for you ",
+"dom": "Communication",
+"desc": "MCP server that lets Claude, ChatGPT, Cursor and other AI assistants operate n8n: debug, edit, validate, test ",
 "cmd": "git clone https://github.com/czlonkowski/n8n-mcp.git"
 },
 {
@@ -210,18 +210,18 @@
 "cmd": "git clone https://github.com/budtmo/docker-android.git"
 },
 {
-"repo": "open-metadata/OpenMetadata",
-"type": "tool",
-"dom": "Data",
-"desc": "The Open Context Layer for Data and AI ,  OpenMetadata is the open platform for building trusted data context ",
-"cmd": "git clone https://github.com/open-metadata/OpenMetadata.git"
-},
-{
 "repo": "apify/apify-mcp-server",
 "type": "tool",
 "dom": "Data",
 "desc": "The Apify MCP server enables your AI agents to extract data from social media, search engines, maps, e-commerc",
 "cmd": "git clone https://github.com/apify/apify-mcp-server.git"
+},
+{
+"repo": "open-metadata/OpenMetadata",
+"type": "tool",
+"dom": "Data",
+"desc": "The Open Context Layer for Data and AI ,  OpenMetadata is the open platform for building trusted data context ",
+"cmd": "git clone https://github.com/open-metadata/OpenMetadata.git"
 },
 {
 "repo": "liketrek/TREK",
@@ -329,18 +329,18 @@
 "cmd": "git clone https://github.com/awslabs/mcp.git"
 },
 {
-"repo": "openstatusHQ/openstatus",
-"type": "tool",
-"dom": "Code",
-"desc": "Open-source status page, incident response and uptime monitoring",
-"cmd": "git clone https://github.com/openstatusHQ/openstatus.git"
-},
-{
 "repo": "Ryze-AI-Adgent/open-seo-mcp-skills",
 "type": "skill",
 "dom": "Data",
 "desc": "Free SEO MCP server + open-source SEO and GEO skills for Claude: keyword research, rank tracking, audits, back",
 "cmd": "git clone https://github.com/Ryze-AI-Adgent/open-seo-mcp-skills.git"
+},
+{
+"repo": "openstatusHQ/openstatus",
+"type": "tool",
+"dom": "Code",
+"desc": "Open-source status page, incident response and uptime monitoring",
+"cmd": "git clone https://github.com/openstatusHQ/openstatus.git"
 },
 {
 "repo": "homarr-labs/dashboard-icons",
@@ -539,6 +539,13 @@
 "cmd": "git clone https://github.com/SnailSploit/Claude-Red.git"
 },
 {
+"repo": "anbeime/skill",
+"type": "skill",
+"dom": "Docs",
+"desc": "收录最全、更新最快的技能Skills商店：精选原创技能包（涵盖文档处理、内容创作、编程开发、机器学习、自动化工作流），全部打包好可直接安装使用！同时自动抓取GitHub上万个Skills项目，按分类、更新时间、Star数",
+"cmd": "git clone https://github.com/anbeime/skill.git"
+},
+{
 "repo": "Jakeschincariol/replica-skill",
 "type": "skill",
 "dom": "Code",
@@ -574,18 +581,18 @@
 "cmd": "git clone https://github.com/gosom/google-maps-scraper.git"
 },
 {
-"repo": "alchaincyf/darwin-skill",
-"type": "skill",
-"dom": "Code",
-"desc": "达尔文.skill —— 一个让你的Skill无限进化的系统：评估→改进→测试→保留或回滚 | Autoresearch-inspired autonomous skill optimization for Claude",
-"cmd": "git clone https://github.com/alchaincyf/darwin-skill.git"
-},
-{
 "repo": "Jakeschincariol/day-trader-skill",
 "type": "skill",
 "dom": "General",
 "desc": "11 Claude skills for day trading: scan thousands of charts, track breaking news, time every entry and exit, an",
 "cmd": "git clone https://github.com/Jakeschincariol/day-trader-skill.git"
+},
+{
+"repo": "alchaincyf/darwin-skill",
+"type": "skill",
+"dom": "Code",
+"desc": "达尔文.skill —— 一个让你的Skill无限进化的系统：评估→改进→测试→保留或回滚 | Autoresearch-inspired autonomous skill optimization for Claude",
+"cmd": "git clone https://github.com/alchaincyf/darwin-skill.git"
 },
 {
 "repo": "alchaincyf/huashu-art-motion",
@@ -616,18 +623,18 @@
 "cmd": "git clone https://github.com/ikaijua/Awesome-AITools.git"
 },
 {
-"repo": "QingYunA/answer-me-with-html",
-"type": "skill",
-"dom": "Code",
-"desc": "Answer me with HTML — an agent skill that answers hard questions with a one-page HTML you can actually read. 让",
-"cmd": "git clone https://github.com/QingYunA/answer-me-with-html.git"
-},
-{
 "repo": "ScrapeCreators/social-media-research-skills",
 "type": "skill",
 "dom": "Data",
 "desc": "AI agent skills for social media research. Outlier posts, comment mining, competitor teardowns, ad libraries &",
 "cmd": "git clone https://github.com/ScrapeCreators/social-media-research-skills.git"
+},
+{
+"repo": "QingYunA/answer-me-with-html",
+"type": "skill",
+"dom": "Code",
+"desc": "Answer me with HTML — an agent skill that answers hard questions with a one-page HTML you can actually read. 让",
+"cmd": "git clone https://github.com/QingYunA/answer-me-with-html.git"
 },
 {
 "repo": "sergebulaev/linkedin-skills",
@@ -740,6 +747,13 @@
 "dom": "Code",
 "desc": "A hand-picked collection of the finest of resources for the most awesome of agents, Claude Code, the undispute",
 "cmd": "git clone https://github.com/hesreallyhim/awesome-claude-code.git"
+},
+{
+"repo": "emilkowalski/skills",
+"type": "skill",
+"dom": "Code",
+"desc": "Skills for Designers and Engineers.",
+"cmd": "git clone https://github.com/emilkowalski/skills.git"
 },
 {
 "repo": "VoltAgent/awesome-openclaw-skills",
@@ -875,13 +889,6 @@
 "cmd": "git clone https://github.com/AgriciDaniel/claude-obsidian.git"
 },
 {
-"repo": "alibaba/zvec",
-"type": "skill",
-"dom": "Data",
-"desc": "A lightweight, lightning-fast, in-process vector database",
-"cmd": "git clone https://github.com/alibaba/zvec.git"
-},
-{
 "repo": "NousResearch/hermes-agent",
 "type": "agent",
 "dom": "Code",
@@ -955,7 +962,7 @@
 "repo": "codewhale-hq/Codewhale",
 "type": "agent",
 "dom": "Code",
-"desc": "Open-source agent for the terminal written in Rust. Use any provider or model. Issues & PRs always welcome",
+"desc": "An open-source coding agent for your terminal, written in Rust. It works with any model, can split one task ac",
 "cmd": "git clone https://github.com/codewhale-hq/Codewhale.git"
 },
 {
@@ -987,13 +994,6 @@
 "cmd": "git clone https://github.com/agentscope-ai/QwenPaw.git"
 },
 {
-"repo": "esengine/DeepSeek-Reasonix",
-"type": "agent",
-"dom": "Code",
-"desc": "A reliable coding agent for complex software engineering tasks.",
-"cmd": "git clone https://github.com/esengine/DeepSeek-Reasonix.git"
-},
-{
 "repo": "Twigpine/openclaude",
 "type": "agent",
 "dom": "General",
@@ -1011,7 +1011,7 @@
 "repo": "feder-cr/Jobs_Applier_AI_Agent",
 "type": "agent",
 "dom": "Automation",
-"desc": "AI job application bot: automated job search and job hunting, auto-apply to resume-matching jobs while you sle",
+"desc": "AIHawk: AI job application bot, automated job search, job hunting, auto-apply to resume-matching jobs while yo",
 "cmd": "git clone https://github.com/feder-cr/Jobs_Applier_AI_Agent.git"
 },
 {
@@ -1181,5 +1181,12 @@
 "dom": "Docs",
 "desc": "Free, open-source AI Office suite: Docs, Sheets, Slides, PDF, Markdown and HTML editors with a built-in AI age",
 "cmd": "git clone https://github.com/genspark-ai/genoffice.git"
+},
+{
+"repo": "TencentCloud/Octop",
+"type": "agent",
+"dom": "General",
+"desc": "A smarter, self-hosted AI assistant — multi-user, multi-agent.",
+"cmd": "git clone https://github.com/TencentCloud/Octop.git"
 }
 ]
