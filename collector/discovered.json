@@ -168,18 +168,18 @@
 "cmd": "git clone https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep.git"
 },
 {
-"repo": "nukeop/nuclear",
-"type": "tool",
-"dom": "General",
-"desc": "Streaming music player that finds free music for you",
-"cmd": "git clone https://github.com/nukeop/nuclear.git"
-},
-{
 "repo": "xerj-org/xerj",
 "type": "tool",
 "dom": "Data",
 "desc": "AI search engine and MCP server for bots and agents. One Rust binary indexes code, docs, logs, JSONL/CSV and P",
 "cmd": "git clone https://github.com/xerj-org/xerj.git"
+},
+{
+"repo": "nukeop/nuclear",
+"type": "tool",
+"dom": "General",
+"desc": "Streaming music player that finds free music for you",
+"cmd": "git clone https://github.com/nukeop/nuclear.git"
 },
 {
 "repo": "microsoft/mcp-for-beginners",
@@ -236,6 +236,13 @@
 "dom": "Data",
 "desc": "Convert documentation websites, GitHub repositories, and PDFs into Claude AI skills with automatic conflict de",
 "cmd": "git clone https://github.com/yusufkaraaslan/Skill_Seekers.git"
+},
+{
+"repo": "tonhowtf/omniget",
+"type": "tool",
+"dom": "Code",
+"desc": "Free, open source video downloader for Windows, macOS and Linux that AI agents can drive. Downloads from YouTu",
+"cmd": "git clone https://github.com/tonhowtf/omniget.git"
 },
 {
 "repo": "modelcontextprotocol/typescript-sdk",
@@ -341,13 +348,6 @@
 "dom": "Code",
 "desc": "Open-source status page, incident response and uptime monitoring",
 "cmd": "git clone https://github.com/openstatusHQ/openstatus.git"
-},
-{
-"repo": "homarr-labs/dashboard-icons",
-"type": "tool",
-"dom": "Code",
-"desc": "3,400+ curated icons and logos for dashboards and AI agents. SVG, PNG and WEBP on a free CDN, plus an MCP serv",
-"cmd": "git clone https://github.com/homarr-labs/dashboard-icons.git"
 },
 {
 "repo": "thedotmack/claude-mem",
@@ -609,6 +609,13 @@
 "cmd": "git clone https://github.com/kaankiziltug/logo-design-skill.git"
 },
 {
+"repo": "ScrapeCreators/social-media-research-skills",
+"type": "skill",
+"dom": "Data",
+"desc": "AI agent skills for social media research. Outlier posts, comment mining, competitor teardowns, ad libraries &",
+"cmd": "git clone https://github.com/ScrapeCreators/social-media-research-skills.git"
+},
+{
 "repo": "browser-act/skills",
 "type": "skill",
 "dom": "Data",
@@ -621,13 +628,6 @@
 "dom": "Code",
 "desc": "This repo collects awesome AI tools. Welcome everyone to recommend more awesome AI tools together!",
 "cmd": "git clone https://github.com/ikaijua/Awesome-AITools.git"
-},
-{
-"repo": "ScrapeCreators/social-media-research-skills",
-"type": "skill",
-"dom": "Data",
-"desc": "AI agent skills for social media research. Outlier posts, comment mining, competitor teardowns, ad libraries &",
-"cmd": "git clone https://github.com/ScrapeCreators/social-media-research-skills.git"
 },
 {
 "repo": "QingYunA/answer-me-with-html",
@@ -1036,18 +1036,18 @@
 "cmd": "git clone https://github.com/TencentCloud/TencentDB-Agent-Memory.git"
 },
 {
-"repo": "op7418/guizang-ppt-skill",
-"type": "agent",
-"dom": "Code",
-"desc": "AI-agent Skill for generating polished HTML slide decks: editorial magazine and Swiss layouts, image prompts, ",
-"cmd": "git clone https://github.com/op7418/guizang-ppt-skill.git"
-},
-{
 "repo": "QwenLM/qwen-code",
 "type": "agent",
 "dom": "Code",
 "desc": "An open-source AI coding agent that lives in your terminal.",
 "cmd": "git clone https://github.com/QwenLM/qwen-code.git"
+},
+{
+"repo": "op7418/guizang-ppt-skill",
+"type": "agent",
+"dom": "Code",
+"desc": "AI-agent Skill for generating polished HTML slide decks: editorial magazine and Swiss layouts, image prompts, ",
+"cmd": "git clone https://github.com/op7418/guizang-ppt-skill.git"
 },
 {
 "repo": "walkinglabs/learn-harness-engineering",
@@ -1169,18 +1169,18 @@
 "cmd": "git clone https://github.com/helloianneo/ian-xiaohei-illustrations.git"
 },
 {
-"repo": "jo-inc/camofox-browser",
-"type": "agent",
-"dom": "Automation",
-"desc": "Stealth headless browser for AI agents — bypass Cloudflare, bot detection, and anti-scraping. Drop-in Puppetee",
-"cmd": "git clone https://github.com/jo-inc/camofox-browser.git"
-},
-{
 "repo": "genspark-ai/genoffice",
 "type": "agent",
 "dom": "Docs",
 "desc": "Free, open-source AI Office suite: Docs, Sheets, Slides, PDF, Markdown and HTML editors with a built-in AI age",
 "cmd": "git clone https://github.com/genspark-ai/genoffice.git"
+},
+{
+"repo": "jo-inc/camofox-browser",
+"type": "agent",
+"dom": "Automation",
+"desc": "Stealth headless browser for AI agents — bypass Cloudflare, bot detection, and anti-scraping. Drop-in Puppetee",
+"cmd": "git clone https://github.com/jo-inc/camofox-browser.git"
 },
 {
 "repo": "TencentCloud/Octop",
