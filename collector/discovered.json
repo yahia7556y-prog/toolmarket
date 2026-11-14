@@ -203,18 +203,18 @@
 "cmd": "git clone https://github.com/triggerdotdev/trigger.dev.git"
 },
 {
-"repo": "budtmo/docker-android",
-"type": "agent",
-"dom": "Automation",
-"desc": "Android in docker solution with noVNC supported, video recording, mcp server and AI-agent",
-"cmd": "git clone https://github.com/budtmo/docker-android.git"
-},
-{
 "repo": "apify/apify-mcp-server",
 "type": "tool",
 "dom": "Data",
 "desc": "The Apify MCP server enables your AI agents to extract data from social media, search engines, maps, e-commerc",
 "cmd": "git clone https://github.com/apify/apify-mcp-server.git"
+},
+{
+"repo": "budtmo/docker-android",
+"type": "agent",
+"dom": "Automation",
+"desc": "Android in docker solution with noVNC supported, video recording, mcp server and AI-agent",
+"cmd": "git clone https://github.com/budtmo/docker-android.git"
 },
 {
 "repo": "open-metadata/OpenMetadata",
@@ -241,7 +241,7 @@
 "repo": "tonhowtf/omniget",
 "type": "tool",
 "dom": "Code",
-"desc": "Free, open source video downloader for Windows, macOS and Linux that AI agents can drive. Downloads from YouTu",
+"desc": "A local MCP server that gives your coding agent a desktop toolbox: downloads from YouTube, torrents and every ",
 "cmd": "git clone https://github.com/tonhowtf/omniget.git"
 },
 {
@@ -525,18 +525,18 @@
 "cmd": "git clone https://github.com/Jeffallan/claude-skills.git"
 },
 {
-"repo": "alchaincyf/zhangxuefeng-skill",
-"type": "skill",
-"dom": "Code",
-"desc": "张雪峰.skill — 张雪峰的认知操作系统。高考志愿/考研/职业规划的实战思维框架。由女娲.skill生成。",
-"cmd": "git clone https://github.com/alchaincyf/zhangxuefeng-skill.git"
-},
-{
 "repo": "SnailSploit/Claude-Red",
 "type": "skill",
 "dom": "Security",
 "desc": "claude-red is a curated library of offensive security skills designed for the Claude skills system. Each skill",
 "cmd": "git clone https://github.com/SnailSploit/Claude-Red.git"
+},
+{
+"repo": "alchaincyf/zhangxuefeng-skill",
+"type": "skill",
+"dom": "Code",
+"desc": "张雪峰.skill — 张雪峰的认知操作系统。高考志愿/考研/职业规划的实战思维框架。由女娲.skill生成。",
+"cmd": "git clone https://github.com/alchaincyf/zhangxuefeng-skill.git"
 },
 {
 "repo": "anbeime/skill",
@@ -567,18 +567,18 @@
 "cmd": "git clone https://github.com/zenstory-ai/oh-story-claudecode.git"
 },
 {
-"repo": "deanpeters/Product-Manager-Skills",
-"type": "skill",
-"dom": "Code",
-"desc": "Product Management skills framework built on battle-tested methods for Claude Code, Cowork, Codex, and AI agen",
-"cmd": "git clone https://github.com/deanpeters/Product-Manager-Skills.git"
-},
-{
 "repo": "gosom/google-maps-scraper",
 "type": "skill",
 "dom": "Data",
 "desc": "scrape data  from Google Maps. Extracts data such as the name, address, phone number, website URL, rating,  re",
 "cmd": "git clone https://github.com/gosom/google-maps-scraper.git"
+},
+{
+"repo": "deanpeters/Product-Manager-Skills",
+"type": "skill",
+"dom": "Code",
+"desc": "Product Management skills framework built on battle-tested methods for Claude Code, Cowork, Codex, and AI agen",
+"cmd": "git clone https://github.com/deanpeters/Product-Manager-Skills.git"
 },
 {
 "repo": "Jakeschincariol/day-trader-skill",
@@ -595,18 +595,18 @@
 "cmd": "git clone https://github.com/alchaincyf/darwin-skill.git"
 },
 {
-"repo": "alchaincyf/huashu-art-motion",
-"type": "skill",
-"dom": "Code",
-"desc": "艺术动画skill：35种艺术风格、9种解说语法，用代码让画动起来。",
-"cmd": "git clone https://github.com/alchaincyf/huashu-art-motion.git"
-},
-{
 "repo": "kaankiziltug/logo-design-skill",
 "type": "skill",
 "dom": "Code",
 "desc": "A comprehensive logo-design skill for Claude, Gemini CLI, Codex and other AI agents: principles, process, SVG ",
 "cmd": "git clone https://github.com/kaankiziltug/logo-design-skill.git"
+},
+{
+"repo": "alchaincyf/huashu-art-motion",
+"type": "skill",
+"dom": "Code",
+"desc": "艺术动画skill：35种艺术风格、9种解说语法，用代码让画动起来。",
+"cmd": "git clone https://github.com/alchaincyf/huashu-art-motion.git"
 },
 {
 "repo": "ScrapeCreators/social-media-research-skills",
@@ -1057,6 +1057,13 @@
 "cmd": "git clone https://github.com/walkinglabs/learn-harness-engineering.git"
 },
 {
+"repo": "ccch1mneyyy/dsh-Go",
+"type": "agent",
+"dom": "Design",
+"desc": "dsh-go — DeepSeek Harness 装进口袋：手机本机运行，也能遥控你的电脑。",
+"cmd": "git clone https://github.com/ccch1mneyyy/dsh-Go.git"
+},
+{
 "repo": "liyupi/ai-guide",
 "type": "agent",
 "dom": "Code",
@@ -1076,13 +1083,6 @@
 "dom": "Code",
 "desc": "High performance coding agent harness written in Rust, built for heavy multi-agent dev workflows",
 "cmd": "git clone https://github.com/1jehuang/jcode.git"
-},
-{
-"repo": "ccch1mneyyy/dsh-Go",
-"type": "agent",
-"dom": "Design",
-"desc": "dsh-go — DeepSeek Harness 装进口袋：手机本机运行，也能遥控你的电脑。",
-"cmd": "git clone https://github.com/ccch1mneyyy/dsh-Go.git"
 },
 {
 "repo": "browser-use/browser-harness",
@@ -1134,18 +1134,18 @@
 "cmd": "git clone https://github.com/NanmiCoder/cc-haha.git"
 },
 {
-"repo": "waooAI/waoowaoo",
-"type": "agent",
-"dom": "Automation",
-"desc": "首家工业级全流程 AI 影视生产平台。Industry-first professional AI Agent platform for controllable film & video production. Fro",
-"cmd": "git clone https://github.com/waooAI/waoowaoo.git"
-},
-{
 "repo": "e2b-dev/E2B",
 "type": "agent",
 "dom": "Code",
 "desc": "Open-source, secure environment with real-world tools for enterprise-grade agents.",
 "cmd": "git clone https://github.com/e2b-dev/E2B.git"
+},
+{
+"repo": "waooAI/waoowaoo",
+"type": "agent",
+"dom": "Automation",
+"desc": "首家工业级全流程 AI 影视生产平台。Industry-first professional AI Agent platform for controllable film & video production. Fro",
+"cmd": "git clone https://github.com/waooAI/waoowaoo.git"
 },
 {
 "repo": "fathah/hermes-desktop",
