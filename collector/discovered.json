@@ -245,18 +245,18 @@
 "cmd": "git clone https://github.com/tonhowtf/omniget.git"
 },
 {
-"repo": "modelcontextprotocol/typescript-sdk",
-"type": "tool",
-"dom": "General",
-"desc": "The official TypeScript SDK for Model Context Protocol servers and clients",
-"cmd": "git clone https://github.com/modelcontextprotocol/typescript-sdk.git"
-},
-{
 "repo": "OpenByteInc/QuantDinger",
 "type": "tool",
 "dom": "Data",
 "desc": "The most complete open-source, self-hosted Agentic Trading OS—AI research, Python strategies, factor discovery",
 "cmd": "git clone https://github.com/OpenByteInc/QuantDinger.git"
+},
+{
+"repo": "modelcontextprotocol/typescript-sdk",
+"type": "tool",
+"dom": "General",
+"desc": "The official TypeScript SDK for Model Context Protocol servers and clients",
+"cmd": "git clone https://github.com/modelcontextprotocol/typescript-sdk.git"
 },
 {
 "repo": "0x4m4/hexstrike-ai",
@@ -404,6 +404,13 @@
 "dom": "Data",
 "desc": "Turn any AI agent into an AI Scientist. The #1 Agent Skills library for science, used by 250,000+ scientists w",
 "cmd": "git clone https://github.com/K-Dense-AI/scientific-agent-skills.git"
+},
+{
+"repo": "obsidianmd/obsidian-skills",
+"type": "skill",
+"dom": "Code",
+"desc": "Agent skills for Obsidian. Teach your agent to use Obsidian CLI and open formats including Markdown, Bases, JS",
+"cmd": "git clone https://github.com/obsidianmd/obsidian-skills.git"
 },
 {
 "repo": "wshobson/agents",
@@ -588,13 +595,6 @@
 "cmd": "git clone https://github.com/Jakeschincariol/day-trader-skill.git"
 },
 {
-"repo": "alchaincyf/darwin-skill",
-"type": "skill",
-"dom": "Code",
-"desc": "达尔文.skill —— 一个让你的Skill无限进化的系统：评估→改进→测试→保留或回滚 | Autoresearch-inspired autonomous skill optimization for Claude",
-"cmd": "git clone https://github.com/alchaincyf/darwin-skill.git"
-},
-{
 "repo": "kaankiziltug/logo-design-skill",
 "type": "skill",
 "dom": "Code",
@@ -607,6 +607,13 @@
 "dom": "Code",
 "desc": "艺术动画skill：35种艺术风格、9种解说语法，用代码让画动起来。",
 "cmd": "git clone https://github.com/alchaincyf/huashu-art-motion.git"
+},
+{
+"repo": "alchaincyf/darwin-skill",
+"type": "skill",
+"dom": "Code",
+"desc": "达尔文.skill —— 一个让你的Skill无限进化的系统：评估→改进→测试→保留或回滚 | Autoresearch-inspired autonomous skill optimization for Claude",
+"cmd": "git clone https://github.com/alchaincyf/darwin-skill.git"
 },
 {
 "repo": "ScrapeCreators/social-media-research-skills",
@@ -670,13 +677,6 @@
 "dom": "Automation",
 "desc": "A real browser inside your terminal",
 "cmd": "git clone https://github.com/zenbu-labs/terminal-browser.git"
-},
-{
-"repo": "michael-denyer/pstack-claude",
-"type": "skill",
-"dom": "Code",
-"desc": "Antigravity, Claude Code, Codex, Copilot, Gemini, Muse, OpenCode, Pi, and Prime Agent versions of Poteto's pst",
-"cmd": "git clone https://github.com/michael-denyer/pstack-claude.git"
 },
 {
 "repo": "morluto/rea",
