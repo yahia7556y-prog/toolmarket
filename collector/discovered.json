@@ -329,18 +329,18 @@
 "cmd": "git clone https://github.com/mobile-next/mobile-mcp.git"
 },
 {
-"repo": "awslabs/mcp",
-"type": "tool",
-"dom": "General",
-"desc": "Open source MCP Servers for AWS",
-"cmd": "git clone https://github.com/awslabs/mcp.git"
-},
-{
 "repo": "Ryze-AI-Adgent/open-seo-mcp-skills",
 "type": "skill",
 "dom": "Data",
 "desc": "Free SEO MCP server + open-source SEO and GEO skills for Claude: keyword research, rank tracking, audits, back",
 "cmd": "git clone https://github.com/Ryze-AI-Adgent/open-seo-mcp-skills.git"
+},
+{
+"repo": "awslabs/mcp",
+"type": "tool",
+"dom": "General",
+"desc": "Open source MCP Servers for AWS",
+"cmd": "git clone https://github.com/awslabs/mcp.git"
 },
 {
 "repo": "openstatusHQ/openstatus",
@@ -483,18 +483,18 @@
 "cmd": "git clone https://github.com/latent-spaces/brag.git"
 },
 {
-"repo": "teng-lin/notebooklm-py",
-"type": "skill",
-"dom": "Code",
-"desc": "Unofficial Python API and agentic skill for Google Gemini Notebook. Full programmatic access to Gemini Noteboo",
-"cmd": "git clone https://github.com/teng-lin/notebooklm-py.git"
-},
-{
 "repo": "Vincentwei1021/video-shotcraft",
 "type": "skill",
 "dom": "Code",
 "desc": "AI video skill for Claude Code & Codex — cinematic, editable product promos with Remotion: 124 shot recipe car",
 "cmd": "git clone https://github.com/Vincentwei1021/video-shotcraft.git"
+},
+{
+"repo": "teng-lin/notebooklm-py",
+"type": "skill",
+"dom": "Code",
+"desc": "Unofficial Python API and agentic skill for Google Gemini Notebook. Full programmatic access to Gemini Noteboo",
+"cmd": "git clone https://github.com/teng-lin/notebooklm-py.git"
 },
 {
 "repo": "google/elephant-goldfish-model",
@@ -581,18 +581,18 @@
 "cmd": "git clone https://github.com/gosom/google-maps-scraper.git"
 },
 {
-"repo": "deanpeters/Product-Manager-Skills",
-"type": "skill",
-"dom": "Code",
-"desc": "Product Management skills framework built on battle-tested methods for Claude Code, Cowork, Codex, and AI agen",
-"cmd": "git clone https://github.com/deanpeters/Product-Manager-Skills.git"
-},
-{
 "repo": "Jakeschincariol/day-trader-skill",
 "type": "skill",
 "dom": "General",
 "desc": "11 Claude skills for day trading: scan thousands of charts, track breaking news, time every entry and exit, an",
 "cmd": "git clone https://github.com/Jakeschincariol/day-trader-skill.git"
+},
+{
+"repo": "deanpeters/Product-Manager-Skills",
+"type": "skill",
+"dom": "Code",
+"desc": "Product Management skills framework built on battle-tested methods for Claude Code, Cowork, Codex, and AI agen",
+"cmd": "git clone https://github.com/deanpeters/Product-Manager-Skills.git"
 },
 {
 "repo": "kaankiziltug/logo-design-skill",
@@ -607,6 +607,13 @@
 "dom": "Code",
 "desc": "艺术动画skill：35种艺术风格、9种解说语法，用代码让画动起来。",
 "cmd": "git clone https://github.com/alchaincyf/huashu-art-motion.git"
+},
+{
+"repo": "elementalsouls/Claude-BugHunter",
+"type": "skill",
+"dom": "Security",
+"desc": "A Claude Code skill bundle for bug hunting and external red-team work - 82 skills, 15 slash commands, 681 disc",
+"cmd": "git clone https://github.com/elementalsouls/Claude-BugHunter.git"
 },
 {
 "repo": "alchaincyf/darwin-skill",
@@ -630,13 +637,6 @@
 "cmd": "git clone https://github.com/browser-act/skills.git"
 },
 {
-"repo": "ikaijua/Awesome-AITools",
-"type": "skill",
-"dom": "Code",
-"desc": "This repo collects awesome AI tools. Welcome everyone to recommend more awesome AI tools together!",
-"cmd": "git clone https://github.com/ikaijua/Awesome-AITools.git"
-},
-{
 "repo": "QingYunA/answer-me-with-html",
 "type": "skill",
 "dom": "Code",
@@ -644,18 +644,18 @@
 "cmd": "git clone https://github.com/QingYunA/answer-me-with-html.git"
 },
 {
+"repo": "ikaijua/Awesome-AITools",
+"type": "skill",
+"dom": "Code",
+"desc": "This repo collects awesome AI tools. Welcome everyone to recommend more awesome AI tools together!",
+"cmd": "git clone https://github.com/ikaijua/Awesome-AITools.git"
+},
+{
 "repo": "sergebulaev/linkedin-skills",
 "type": "skill",
 "dom": "Automation",
 "desc": "Claude skills for LinkedIn. 12 Claude Code and Codex skills that write human-sounding LinkedIn posts, craft co",
 "cmd": "git clone https://github.com/sergebulaev/linkedin-skills.git"
-},
-{
-"repo": "elementalsouls/Claude-BugHunter",
-"type": "skill",
-"dom": "Security",
-"desc": "A Claude Code skill bundle for bug hunting and external red-team work - 82 skills, 15 slash commands, 681 disc",
-"cmd": "git clone https://github.com/elementalsouls/Claude-BugHunter.git"
 },
 {
 "repo": "Appllama/appllama-skills",
@@ -875,18 +875,18 @@
 "cmd": "git clone https://github.com/kubesphere/kubesphere.git"
 },
 {
+"repo": "lemomo-ai/lemo-opuscar",
+"type": "skill",
+"dom": "Code",
+"desc": "A toolbox of film styles made in code for Claude Code: 99 ready to use, and your own. Each style is a style pr",
+"cmd": "git clone https://github.com/lemomo-ai/lemo-opuscar.git"
+},
+{
 "repo": "dreammis/social-auto-upload",
 "type": "skill",
 "dom": "General",
 "desc": "自动化上传视频到社交媒体：抖音、小红书、视频号、tiktok、youtube、bilibili",
 "cmd": "git clone https://github.com/dreammis/social-auto-upload.git"
-},
-{
-"repo": "AgriciDaniel/claude-obsidian",
-"type": "skill",
-"dom": "Code",
-"desc": "Self-organizing AI second brain for Obsidian + Claude Code. Drop any source and Claude reads, links, and files",
-"cmd": "git clone https://github.com/AgriciDaniel/claude-obsidian.git"
 },
 {
 "repo": "NousResearch/hermes-agent",
