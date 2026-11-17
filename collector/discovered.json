@@ -490,18 +490,18 @@
 "cmd": "git clone https://github.com/Vincentwei1021/video-shotcraft.git"
 },
 {
-"repo": "teng-lin/notebooklm-py",
-"type": "skill",
-"dom": "Code",
-"desc": "Unofficial Python API and agentic skill for Google Gemini Notebook. Full programmatic access to Gemini Noteboo",
-"cmd": "git clone https://github.com/teng-lin/notebooklm-py.git"
-},
-{
 "repo": "google/elephant-goldfish-model",
 "type": "skill",
 "dom": "Code",
 "desc": "Open-source plugin for designing and reviewing software with agents",
 "cmd": "git clone https://github.com/google/elephant-goldfish-model.git"
+},
+{
+"repo": "teng-lin/notebooklm-py",
+"type": "skill",
+"dom": "Code",
+"desc": "Unofficial Python API and agentic skill for Google Gemini Notebook. Full programmatic access to Gemini Noteboo",
+"cmd": "git clone https://github.com/teng-lin/notebooklm-py.git"
 },
 {
 "repo": "nidhinjs/prompt-master",
@@ -546,18 +546,18 @@
 "cmd": "git clone https://github.com/alchaincyf/zhangxuefeng-skill.git"
 },
 {
-"repo": "anbeime/skill",
-"type": "skill",
-"dom": "Docs",
-"desc": "收录最全、更新最快的技能Skills商店：精选原创技能包（涵盖文档处理、内容创作、编程开发、机器学习、自动化工作流），全部打包好可直接安装使用！同时自动抓取GitHub上万个Skills项目，按分类、更新时间、Star数",
-"cmd": "git clone https://github.com/anbeime/skill.git"
-},
-{
 "repo": "Jakeschincariol/replica-skill",
 "type": "skill",
 "dom": "Code",
 "desc": "Eleven free Claude skills that clone any app: reverse-engineer it, rebuild it, test it for bugs, then fix what",
 "cmd": "git clone https://github.com/Jakeschincariol/replica-skill.git"
+},
+{
+"repo": "anbeime/skill",
+"type": "skill",
+"dom": "Docs",
+"desc": "收录最全、更新最快的技能Skills商店：精选原创技能包（涵盖文档处理、内容创作、编程开发、机器学习、自动化工作流），全部打包好可直接安装使用！同时自动抓取GitHub上万个Skills项目，按分类、更新时间、Star数",
+"cmd": "git clone https://github.com/anbeime/skill.git"
 },
 {
 "repo": "WenyuChiou/awesome-agentic-ai-zh",
@@ -574,13 +574,6 @@
 "cmd": "git clone https://github.com/zenstory-ai/oh-story-claudecode.git"
 },
 {
-"repo": "gosom/google-maps-scraper",
-"type": "skill",
-"dom": "Data",
-"desc": "scrape data  from Google Maps. Extracts data such as the name, address, phone number, website URL, rating,  re",
-"cmd": "git clone https://github.com/gosom/google-maps-scraper.git"
-},
-{
 "repo": "Jakeschincariol/day-trader-skill",
 "type": "skill",
 "dom": "General",
@@ -588,11 +581,25 @@
 "cmd": "git clone https://github.com/Jakeschincariol/day-trader-skill.git"
 },
 {
+"repo": "gosom/google-maps-scraper",
+"type": "skill",
+"dom": "Data",
+"desc": "scrape data  from Google Maps. Extracts data such as the name, address, phone number, website URL, rating,  re",
+"cmd": "git clone https://github.com/gosom/google-maps-scraper.git"
+},
+{
 "repo": "deanpeters/Product-Manager-Skills",
 "type": "skill",
 "dom": "Code",
 "desc": "Product Management skills framework built on battle-tested methods for Claude Code, Cowork, Codex, and AI agen",
 "cmd": "git clone https://github.com/deanpeters/Product-Manager-Skills.git"
+},
+{
+"repo": "elementalsouls/Claude-BugHunter",
+"type": "skill",
+"dom": "Security",
+"desc": "A Claude Code skill bundle for bug hunting and external red-team work - 82 skills, 15 slash commands, 681 disc",
+"cmd": "git clone https://github.com/elementalsouls/Claude-BugHunter.git"
 },
 {
 "repo": "kaankiziltug/logo-design-skill",
@@ -609,13 +616,6 @@
 "cmd": "git clone https://github.com/alchaincyf/huashu-art-motion.git"
 },
 {
-"repo": "elementalsouls/Claude-BugHunter",
-"type": "skill",
-"dom": "Security",
-"desc": "A Claude Code skill bundle for bug hunting and external red-team work - 82 skills, 15 slash commands, 681 disc",
-"cmd": "git clone https://github.com/elementalsouls/Claude-BugHunter.git"
-},
-{
 "repo": "alchaincyf/darwin-skill",
 "type": "skill",
 "dom": "Code",
@@ -630,18 +630,18 @@
 "cmd": "git clone https://github.com/ScrapeCreators/social-media-research-skills.git"
 },
 {
-"repo": "browser-act/skills",
-"type": "skill",
-"dom": "Data",
-"desc": "Browser automation CLI built for AI agents. Break through anti-bot walls, hand off to humans across platforms ",
-"cmd": "git clone https://github.com/browser-act/skills.git"
-},
-{
 "repo": "QingYunA/answer-me-with-html",
 "type": "skill",
 "dom": "Code",
 "desc": "Answer me with HTML — an agent skill that answers hard questions with a one-page HTML you can actually read. 让",
 "cmd": "git clone https://github.com/QingYunA/answer-me-with-html.git"
+},
+{
+"repo": "browser-act/skills",
+"type": "skill",
+"dom": "Data",
+"desc": "Browser automation CLI built for AI agents. Break through anti-bot walls, hand off to humans across platforms ",
+"cmd": "git clone https://github.com/browser-act/skills.git"
 },
 {
 "repo": "ikaijua/Awesome-AITools",
@@ -868,18 +868,18 @@
 "cmd": "git clone https://github.com/microsoft/SkillOpt.git"
 },
 {
-"repo": "kubesphere/kubesphere",
-"type": "skill",
-"dom": "Data",
-"desc": "The container platform tailored for Kubernetes multi-cloud, datacenter, and edge management ⎈ 🖥 ☁️",
-"cmd": "git clone https://github.com/kubesphere/kubesphere.git"
-},
-{
 "repo": "lemomo-ai/lemo-opuscar",
 "type": "skill",
 "dom": "Code",
 "desc": "A toolbox of film styles made in code for Claude Code: 99 ready to use, and your own. Each style is a style pr",
 "cmd": "git clone https://github.com/lemomo-ai/lemo-opuscar.git"
+},
+{
+"repo": "kubesphere/kubesphere",
+"type": "skill",
+"dom": "Data",
+"desc": "The container platform tailored for Kubernetes multi-cloud, datacenter, and edge management ⎈ 🖥 ☁️",
+"cmd": "git clone https://github.com/kubesphere/kubesphere.git"
 },
 {
 "repo": "dreammis/social-auto-upload",
@@ -1050,18 +1050,18 @@
 "cmd": "git clone https://github.com/op7418/guizang-ppt-skill.git"
 },
 {
-"repo": "walkinglabs/learn-harness-engineering",
-"type": "agent",
-"dom": "General",
-"desc": "Harness engineering beginner tutorial, from 0 to 1",
-"cmd": "git clone https://github.com/walkinglabs/learn-harness-engineering.git"
-},
-{
 "repo": "ccch1mneyyy/dsh-Go",
 "type": "agent",
 "dom": "Design",
 "desc": "dsh-go — DeepSeek Harness 装进口袋：手机本机运行，也能遥控你的电脑。",
 "cmd": "git clone https://github.com/ccch1mneyyy/dsh-Go.git"
+},
+{
+"repo": "walkinglabs/learn-harness-engineering",
+"type": "agent",
+"dom": "General",
+"desc": "Harness engineering beginner tutorial, from 0 to 1",
+"cmd": "git clone https://github.com/walkinglabs/learn-harness-engineering.git"
 },
 {
 "repo": "liyupi/ai-guide",
