@@ -196,18 +196,18 @@
 "cmd": "git clone https://github.com/xpzouying/xiaohongshu-mcp.git"
 },
 {
-"repo": "triggerdotdev/trigger.dev",
-"type": "tool",
-"dom": "Automation",
-"desc": "Trigger.dev – build and deploy durable AI agents and workflows",
-"cmd": "git clone https://github.com/triggerdotdev/trigger.dev.git"
-},
-{
 "repo": "apify/apify-mcp-server",
 "type": "tool",
 "dom": "Data",
 "desc": "The Apify MCP server enables your AI agents to extract data from social media, search engines, maps, e-commerc",
 "cmd": "git clone https://github.com/apify/apify-mcp-server.git"
+},
+{
+"repo": "triggerdotdev/trigger.dev",
+"type": "tool",
+"dom": "Automation",
+"desc": "Trigger.dev – build and deploy durable AI agents and workflows",
+"cmd": "git clone https://github.com/triggerdotdev/trigger.dev.git"
 },
 {
 "repo": "budtmo/docker-android",
@@ -266,18 +266,18 @@
 "cmd": "git clone https://github.com/0x4m4/hexstrike-ai.git"
 },
 {
-"repo": "ccfos/nightingale",
-"type": "tool",
-"dom": "Data",
-"desc": "Open-source, self-hosted alerting for metrics, logs, and databases. Includes a built-in AI agent and MCP serve",
-"cmd": "git clone https://github.com/ccfos/nightingale.git"
-},
-{
 "repo": "mrexodia/ida-pro-mcp",
 "type": "tool",
 "dom": "General",
 "desc": "AI-powered reverse engineering assistant that bridges IDA Pro with language models through MCP.",
 "cmd": "git clone https://github.com/mrexodia/ida-pro-mcp.git"
+},
+{
+"repo": "ccfos/nightingale",
+"type": "tool",
+"dom": "Data",
+"desc": "Open-source, self-hosted alerting for metrics, logs, and databases. Includes a built-in AI agent and MCP serve",
+"cmd": "git clone https://github.com/ccfos/nightingale.git"
 },
 {
 "repo": "JoeanAmier/XHS-Downloader",
@@ -436,8 +436,8 @@
 {
 "repo": "nanocoai/nanoclaw",
 "type": "skill",
-"dom": "Security",
-"desc": "A lightweight alternative to OpenClaw that runs in containers for security. Connects to WhatsApp, Telegram, Sl",
+"dom": "Code",
+"desc": "Your own always-on AI assistant: self-hosted, open source, lightweight. Each agent runs in its own container o",
 "cmd": "git clone https://github.com/nanocoai/nanoclaw.git"
 },
 {
@@ -511,18 +511,18 @@
 "cmd": "git clone https://github.com/nidhinjs/prompt-master.git"
 },
 {
-"repo": "NevaMind-AI/memU",
-"type": "skill",
-"dom": "General",
-"desc": "Personal memory across agents",
-"cmd": "git clone https://github.com/NevaMind-AI/memU.git"
-},
-{
 "repo": "Orchestra-Research/AI-Research-SKILLs",
 "type": "skill",
 "dom": "Code",
 "desc": "Comprehensive open-source library of AI research and engineering skills for any AI model. Package the skills a",
 "cmd": "git clone https://github.com/Orchestra-Research/AI-Research-SKILLs.git"
+},
+{
+"repo": "NevaMind-AI/memU",
+"type": "skill",
+"dom": "General",
+"desc": "Personal memory across agents",
+"cmd": "git clone https://github.com/NevaMind-AI/memU.git"
 },
 {
 "repo": "Jeffallan/claude-skills",
@@ -544,6 +544,13 @@
 "dom": "Code",
 "desc": "张雪峰.skill — 张雪峰的认知操作系统。高考志愿/考研/职业规划的实战思维框架。由女娲.skill生成。",
 "cmd": "git clone https://github.com/alchaincyf/zhangxuefeng-skill.git"
+},
+{
+"repo": "elementalsouls/Claude-BugHunter",
+"type": "skill",
+"dom": "Security",
+"desc": "A Claude Code skill bundle for bug hunting and external red-team work - 82 skills, 15 slash commands, 681 disc",
+"cmd": "git clone https://github.com/elementalsouls/Claude-BugHunter.git"
 },
 {
 "repo": "Jakeschincariol/replica-skill",
@@ -593,13 +600,6 @@
 "dom": "Code",
 "desc": "Product Management skills framework built on battle-tested methods for Claude Code, Cowork, Codex, and AI agen",
 "cmd": "git clone https://github.com/deanpeters/Product-Manager-Skills.git"
-},
-{
-"repo": "elementalsouls/Claude-BugHunter",
-"type": "skill",
-"dom": "Security",
-"desc": "A Claude Code skill bundle for bug hunting and external red-team work - 82 skills, 15 slash commands, 681 disc",
-"cmd": "git clone https://github.com/elementalsouls/Claude-BugHunter.git"
 },
 {
 "repo": "kaankiziltug/logo-design-skill",
@@ -756,6 +756,13 @@
 "cmd": "git clone https://github.com/emilkowalski/skills.git"
 },
 {
+"repo": "alibaba/open-code-review",
+"type": "skill",
+"dom": "Data",
+"desc": "Secure, fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic",
+"cmd": "git clone https://github.com/alibaba/open-code-review.git"
+},
+{
 "repo": "VoltAgent/awesome-openclaw-skills",
 "type": "skill",
 "dom": "General",
@@ -768,13 +775,6 @@
 "dom": "General",
 "desc": "Your AI workspace for models, agents, and productivity.",
 "cmd": "git clone https://github.com/CherryHQ/cherry-studio.git"
-},
-{
-"repo": "alibaba/open-code-review",
-"type": "skill",
-"dom": "Data",
-"desc": "Secure, fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic",
-"cmd": "git clone https://github.com/alibaba/open-code-review.git"
 },
 {
 "repo": "sickn33/agentic-awesome-skills",
