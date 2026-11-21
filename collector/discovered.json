@@ -45,7 +45,7 @@
 "repo": "sansan0/TrendRadar",
 "type": "tool",
 "dom": "Data",
-"desc": "⭐AI-driven public opinion & trend monitor with multi-platform aggregation, RSS, and smart alerts.🎯 告别信息过载，你的 A",
+"desc": "⭐AI-driven public opinion & trend monitor with multi-platform aggregation, RSS, web search, MCP & smart alerts",
 "cmd": "git clone https://github.com/sansan0/TrendRadar.git"
 },
 {
@@ -112,18 +112,18 @@
 "cmd": "git clone https://github.com/yikart/AiToEarn.git"
 },
 {
-"repo": "pascalorg/editor",
-"type": "skill",
-"dom": "Automation",
-"desc": "Open-source 3D architecture software for AECO, scan-to-BIM. Agent-friendly, browser-first, MCP, CLI.",
-"cmd": "git clone https://github.com/pascalorg/editor.git"
-},
-{
 "repo": "activepieces/activepieces",
 "type": "agent",
 "dom": "Automation",
 "desc": "AI Agents & MCPs & AI Workflow Automation • (~400 MCP servers for AI agents) • AI Automation / AI Agent with M",
 "cmd": "git clone https://github.com/activepieces/activepieces.git"
+},
+{
+"repo": "pascalorg/editor",
+"type": "skill",
+"dom": "Automation",
+"desc": "Open-source 3D architecture software for AECO, scan-to-BIM. Agent-friendly, browser-first, MCP, CLI.",
+"cmd": "git clone https://github.com/pascalorg/editor.git"
 },
 {
 "repo": "modelcontextprotocol/python-sdk",
@@ -247,8 +247,8 @@
 {
 "repo": "tonhowtf/omniget",
 "type": "tool",
-"dom": "Code",
-"desc": "A local MCP server that gives your coding agent a desktop toolbox: downloads from YouTube, torrents and every ",
+"dom": "Automation",
+"desc": "Local MCP server that lets Claude Code, Codex, Cursor and Gemini CLI use your own computer and your own logged",
 "cmd": "git clone https://github.com/tonhowtf/omniget.git"
 },
 {
@@ -259,18 +259,18 @@
 "cmd": "git clone https://github.com/OpenByteInc/QuantDinger.git"
 },
 {
-"repo": "modelcontextprotocol/typescript-sdk",
-"type": "tool",
-"dom": "General",
-"desc": "The official TypeScript SDK for Model Context Protocol servers and clients",
-"cmd": "git clone https://github.com/modelcontextprotocol/typescript-sdk.git"
-},
-{
 "repo": "0x4m4/hexstrike-ai",
 "type": "tool",
 "dom": "Security",
 "desc": "HexStrike AI MCP Agents is an advanced MCP server that lets AI agents (Claude, GPT, Copilot, etc.) autonomousl",
 "cmd": "git clone https://github.com/0x4m4/hexstrike-ai.git"
+},
+{
+"repo": "modelcontextprotocol/typescript-sdk",
+"type": "tool",
+"dom": "General",
+"desc": "The official TypeScript SDK for Model Context Protocol servers and clients",
+"cmd": "git clone https://github.com/modelcontextprotocol/typescript-sdk.git"
 },
 {
 "repo": "mrexodia/ida-pro-mcp",
@@ -301,18 +301,18 @@
 "cmd": "git clone https://github.com/0xJacky/nginx-ui.git"
 },
 {
-"repo": "xinnan-tech/xiaozhi-esp32-server",
-"type": "tool",
-"dom": "Code",
-"desc": "本项目为xiaozhi-esp32提供后端服务，帮助您快速搭建ESP32设备控制服务器。Backend service for xiaozhi-esp32, helps you quickly build an ESP3",
-"cmd": "git clone https://github.com/xinnan-tech/xiaozhi-esp32-server.git"
-},
-{
 "repo": "trailhq/Trail-Code",
 "type": "tool",
 "dom": "Code",
 "desc": "One shared memory for every coding agent on your team. Claude Code, Cursor and Codex get a map of your code an",
 "cmd": "git clone https://github.com/trailhq/Trail-Code.git"
+},
+{
+"repo": "xinnan-tech/xiaozhi-esp32-server",
+"type": "tool",
+"dom": "Code",
+"desc": "本项目为xiaozhi-esp32提供后端服务，帮助您快速搭建ESP32设备控制服务器。Backend service for xiaozhi-esp32, helps you quickly build an ESP3",
+"cmd": "git clone https://github.com/xinnan-tech/xiaozhi-esp32-server.git"
 },
 {
 "repo": "mcp-use/mcp-use",
@@ -409,7 +409,7 @@
 "repo": "obsidianmd/obsidian-skills",
 "type": "skill",
 "dom": "Code",
-"desc": "Agent skills for Obsidian. Teach your agent to use Obsidian CLI and open formats including Markdown, Bases, JS",
+"desc": "Teach your agent to use Obsidian and open formats including Markdown, Bases, JSON Canvas.",
 "cmd": "git clone https://github.com/obsidianmd/obsidian-skills.git"
 },
 {
@@ -451,7 +451,7 @@
 "repo": "alchaincyf/huashu-design",
 "type": "skill",
 "dom": "Code",
-"desc": "Huashu Design 3.0 · 在 agent 里打一句话，拿回能交付的设计：网页 / App 原型 / 可编辑 PPTX / 动画 / 信息图 · 六个候选挑三个方向 · 84 种带样张的风格库 · 越用越懂你",
+"desc": "Huashu Design 3.4 · 在 agent 里打一句话，拿回能交付的设计：网页 / App 原型 / App Store 宣传图 / 小红书图文 / 可编辑 PPTX / 动画 / 信息图 · 六个候选挑三个",
 "cmd": "git clone https://github.com/alchaincyf/huashu-design.git"
 },
 {
@@ -511,6 +511,13 @@
 "cmd": "git clone https://github.com/nidhinjs/prompt-master.git"
 },
 {
+"repo": "elementalsouls/Claude-BugHunter",
+"type": "skill",
+"dom": "Security",
+"desc": "A Claude Code skill bundle for bug hunting and external red-team work - 82 skills, 15 slash commands, 681 disc",
+"cmd": "git clone https://github.com/elementalsouls/Claude-BugHunter.git"
+},
+{
 "repo": "Orchestra-Research/AI-Research-SKILLs",
 "type": "skill",
 "dom": "Code",
@@ -523,13 +530,6 @@
 "dom": "General",
 "desc": "Personal memory across agents",
 "cmd": "git clone https://github.com/NevaMind-AI/memU.git"
-},
-{
-"repo": "elementalsouls/Claude-BugHunter",
-"type": "skill",
-"dom": "Security",
-"desc": "A Claude Code skill bundle for bug hunting and external red-team work - 82 skills, 15 slash commands, 681 disc",
-"cmd": "git clone https://github.com/elementalsouls/Claude-BugHunter.git"
 },
 {
 "repo": "Jeffallan/claude-skills",
@@ -693,18 +693,18 @@
 "cmd": "git clone https://github.com/DietrichGebert/ponytail.git"
 },
 {
-"repo": "addyosmani/agent-skills",
-"type": "skill",
-"dom": "Code",
-"desc": "Production-grade engineering skills for AI coding agents.",
-"cmd": "git clone https://github.com/addyosmani/agent-skills.git"
-},
-{
 "repo": "Leonxlnx/taste-skill",
 "type": "skill",
 "dom": "Automation",
 "desc": "Agent skills that give coding agents taste: art direction, reference images and a browser check instead of gen",
 "cmd": "git clone https://github.com/Leonxlnx/taste-skill.git"
+},
+{
+"repo": "addyosmani/agent-skills",
+"type": "skill",
+"dom": "Code",
+"desc": "Production-grade engineering skills for AI coding agents.",
+"cmd": "git clone https://github.com/addyosmani/agent-skills.git"
 },
 {
 "repo": "pbakaus/impeccable",
@@ -742,18 +742,18 @@
 "cmd": "git clone https://github.com/cathrynlavery/diagram-design.git"
 },
 {
-"repo": "hesreallyhim/awesome-claude-code",
-"type": "skill",
-"dom": "Code",
-"desc": "A hand-picked collection of the finest of resources for the most awesome of agents, Claude Code, the undispute",
-"cmd": "git clone https://github.com/hesreallyhim/awesome-claude-code.git"
-},
-{
 "repo": "emilkowalski/skills",
 "type": "skill",
 "dom": "Code",
 "desc": "Skills for Designers and Engineers.",
 "cmd": "git clone https://github.com/emilkowalski/skills.git"
+},
+{
+"repo": "hesreallyhim/awesome-claude-code",
+"type": "skill",
+"dom": "Code",
+"desc": "A hand-picked collection of the finest of resources for the most awesome of agents, Claude Code, the undispute",
+"cmd": "git clone https://github.com/hesreallyhim/awesome-claude-code.git"
 },
 {
 "repo": "alibaba/open-code-review",
@@ -868,18 +868,18 @@
 "cmd": "git clone https://github.com/eclipse-theia/theia.git"
 },
 {
-"repo": "microsoft/SkillOpt",
-"type": "skill",
-"dom": "General",
-"desc": "SkillOpt is a text-space optimizer that trains reusable natural-language skills for frozen LLM agents through ",
-"cmd": "git clone https://github.com/microsoft/SkillOpt.git"
-},
-{
 "repo": "lemomo-ai/lemo-opuscar",
 "type": "skill",
 "dom": "Code",
 "desc": "A toolbox of film styles made in code for Claude Code: 99 ready to use, and your own. Each style is a style pr",
 "cmd": "git clone https://github.com/lemomo-ai/lemo-opuscar.git"
+},
+{
+"repo": "microsoft/SkillOpt",
+"type": "skill",
+"dom": "General",
+"desc": "SkillOpt is a text-space optimizer that trains reusable natural-language skills for frozen LLM agents through ",
+"cmd": "git clone https://github.com/microsoft/SkillOpt.git"
 },
 {
 "repo": "kubesphere/kubesphere",
@@ -1176,17 +1176,17 @@
 "cmd": "git clone https://github.com/genspark-ai/genoffice.git"
 },
 {
+"repo": "zhouxiaoka/autoclip",
+"type": "agent",
+"dom": "Code",
+"desc": "AutoClip｜一个链接，一键出片。开源 AI 视频剪辑桌面工具，将播客、访谈、课程等长视频自动剪成短视频，生成字幕、封面和发布文案，适配抖音、小红书、TikTok、Reels 与 YouTube Shorts。Ope",
+"cmd": "git clone https://github.com/zhouxiaoka/autoclip.git"
+},
+{
 "repo": "jo-inc/camofox-browser",
 "type": "agent",
 "dom": "Automation",
 "desc": "Stealth headless browser for AI agents — bypass Cloudflare, bot detection, and anti-scraping. Drop-in Puppetee",
 "cmd": "git clone https://github.com/jo-inc/camofox-browser.git"
-},
-{
-"repo": "TencentCloud/Octop",
-"type": "agent",
-"dom": "General",
-"desc": "A smarter, self-hosted AI assistant — multi-user, multi-agent.",
-"cmd": "git clone https://github.com/TencentCloud/Octop.git"
 }
 ]
