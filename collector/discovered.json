@@ -112,18 +112,18 @@
 "cmd": "git clone https://github.com/yikart/AiToEarn.git"
 },
 {
-"repo": "activepieces/activepieces",
-"type": "agent",
-"dom": "Automation",
-"desc": "AI Agents & MCPs & AI Workflow Automation • (~400 MCP servers for AI agents) • AI Automation / AI Agent with M",
-"cmd": "git clone https://github.com/activepieces/activepieces.git"
-},
-{
 "repo": "pascalorg/editor",
 "type": "skill",
 "dom": "Automation",
 "desc": "Open-source 3D architecture software for AECO, scan-to-BIM. Agent-friendly, browser-first, MCP, CLI.",
 "cmd": "git clone https://github.com/pascalorg/editor.git"
+},
+{
+"repo": "activepieces/activepieces",
+"type": "agent",
+"dom": "Automation",
+"desc": "AI Agents & MCPs & AI Workflow Automation • (~400 MCP servers for AI agents) • AI Automation / AI Agent with M",
+"cmd": "git clone https://github.com/activepieces/activepieces.git"
 },
 {
 "repo": "modelcontextprotocol/python-sdk",
@@ -196,18 +196,18 @@
 "cmd": "git clone https://github.com/microsoft/mcp-for-beginners.git"
 },
 {
-"repo": "xpzouying/xiaohongshu-mcp",
-"type": "tool",
-"dom": "General",
-"desc": "MCP for xiaohongshu.com",
-"cmd": "git clone https://github.com/xpzouying/xiaohongshu-mcp.git"
-},
-{
 "repo": "apify/apify-mcp-server",
 "type": "tool",
 "dom": "Data",
 "desc": "The Apify MCP server enables your AI agents to extract data from social media, search engines, maps, e-commerc",
 "cmd": "git clone https://github.com/apify/apify-mcp-server.git"
+},
+{
+"repo": "xpzouying/xiaohongshu-mcp",
+"type": "tool",
+"dom": "General",
+"desc": "MCP for xiaohongshu.com",
+"cmd": "git clone https://github.com/xpzouying/xiaohongshu-mcp.git"
 },
 {
 "repo": "triggerdotdev/trigger.dev",
@@ -385,18 +385,18 @@
 "cmd": "git clone https://github.com/code-yeongyu/oh-my-openagent.git"
 },
 {
-"repo": "ayghri/i-have-adhd",
-"type": "skill",
-"dom": "Code",
-"desc": "A skill to stop your coding agent from burying the answer. ADHD-friendly output.",
-"cmd": "git clone https://github.com/ayghri/i-have-adhd.git"
-},
-{
 "repo": "coreyhaines31/marketingskills",
 "type": "skill",
 "dom": "Automation",
 "desc": "Marketing skills for Claude Code and AI agents. CRO, copywriting, SEO, analytics, and growth engineering.",
 "cmd": "git clone https://github.com/coreyhaines31/marketingskills.git"
+},
+{
+"repo": "ayghri/i-have-adhd",
+"type": "skill",
+"dom": "Code",
+"desc": "A skill to stop your coding agent from burying the answer. ADHD-friendly output.",
+"cmd": "git clone https://github.com/ayghri/i-have-adhd.git"
 },
 {
 "repo": "K-Dense-AI/scientific-agent-skills",
@@ -441,18 +441,18 @@
 "cmd": "git clone https://github.com/nanocoai/nanoclaw.git"
 },
 {
-"repo": "alirezarezvani/claude-skills",
-"type": "skill",
-"dom": "Code",
-"desc": "410 Claude Code skills & agent skills & plugins (120+ Agents, custom commands, 410+ skills, customizable refer",
-"cmd": "git clone https://github.com/alirezarezvani/claude-skills.git"
-},
-{
 "repo": "alchaincyf/huashu-design",
 "type": "skill",
 "dom": "Code",
 "desc": "Huashu Design 3.4 · 在 agent 里打一句话，拿回能交付的设计：网页 / App 原型 / App Store 宣传图 / 小红书图文 / 可编辑 PPTX / 动画 / 信息图 · 六个候选挑三个",
 "cmd": "git clone https://github.com/alchaincyf/huashu-design.git"
+},
+{
+"repo": "alirezarezvani/claude-skills",
+"type": "skill",
+"dom": "Code",
+"desc": "410 Claude Code skills & agent skills & plugins (120+ Agents, custom commands, 410+ skills, customizable refer",
+"cmd": "git clone https://github.com/alirezarezvani/claude-skills.git"
 },
 {
 "repo": "OthmanAdi/planning-with-files",
@@ -504,18 +504,18 @@
 "cmd": "git clone https://github.com/teng-lin/notebooklm-py.git"
 },
 {
-"repo": "nidhinjs/prompt-master",
-"type": "skill",
-"dom": "General",
-"desc": "A Claude skill that writes the accurate prompts for any AI tool. Zero tokens or credits wasted. Full context a",
-"cmd": "git clone https://github.com/nidhinjs/prompt-master.git"
-},
-{
 "repo": "elementalsouls/Claude-BugHunter",
 "type": "skill",
 "dom": "Security",
 "desc": "A Claude Code skill bundle for bug hunting and external red-team work - 82 skills, 15 slash commands, 681 disc",
 "cmd": "git clone https://github.com/elementalsouls/Claude-BugHunter.git"
+},
+{
+"repo": "nidhinjs/prompt-master",
+"type": "skill",
+"dom": "General",
+"desc": "A Claude skill that writes the accurate prompts for any AI tool. Zero tokens or credits wasted. Full context a",
+"cmd": "git clone https://github.com/nidhinjs/prompt-master.git"
 },
 {
 "repo": "Orchestra-Research/AI-Research-SKILLs",
@@ -1094,8 +1094,8 @@
 {
 "repo": "emcie-co/parlant",
 "type": "agent",
-"dom": "Communication",
-"desc": "Parlant is an open platform for building customer-facing chat agents with AI. Describe how the agent should be",
+"dom": "Design",
+"desc": "Parlant lets you build and operate reliable CX and support agents from your own AI coding agents.",
 "cmd": "git clone https://github.com/emcie-co/parlant.git"
 },
 {
@@ -1169,18 +1169,18 @@
 "cmd": "git clone https://github.com/helloianneo/ian-xiaohei-illustrations.git"
 },
 {
-"repo": "genspark-ai/genoffice",
-"type": "agent",
-"dom": "Docs",
-"desc": "Free, open-source AI Office suite: Docs, Sheets, Slides, PDF, Markdown and HTML editors with a built-in AI age",
-"cmd": "git clone https://github.com/genspark-ai/genoffice.git"
-},
-{
 "repo": "zhouxiaoka/autoclip",
 "type": "agent",
 "dom": "Code",
 "desc": "AutoClip｜一个链接，一键出片。开源 AI 视频剪辑桌面工具，将播客、访谈、课程等长视频自动剪成短视频，生成字幕、封面和发布文案，适配抖音、小红书、TikTok、Reels 与 YouTube Shorts。Ope",
 "cmd": "git clone https://github.com/zhouxiaoka/autoclip.git"
+},
+{
+"repo": "genspark-ai/genoffice",
+"type": "agent",
+"dom": "Docs",
+"desc": "Free, open-source AI Office suite: Docs, Sheets, Slides, PDF, Markdown and HTML editors with a built-in AI age",
+"cmd": "git clone https://github.com/genspark-ai/genoffice.git"
 },
 {
 "repo": "jo-inc/camofox-browser",
