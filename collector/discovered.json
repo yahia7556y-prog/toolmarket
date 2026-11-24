@@ -210,6 +210,13 @@
 "cmd": "git clone https://github.com/xpzouying/xiaohongshu-mcp.git"
 },
 {
+"repo": "MODSetter/SurfSense",
+"type": "tool",
+"dom": "Docs",
+"desc": "Air-gapped, private AI for confidential documents. Open-source NotebookLM alternative that runs on your comput",
+"cmd": "git clone https://github.com/MODSetter/SurfSense.git"
+},
+{
 "repo": "triggerdotdev/trigger.dev",
 "type": "tool",
 "dom": "Automation",
@@ -341,13 +348,6 @@
 "dom": "Data",
 "desc": "Free SEO MCP server + open-source SEO and GEO skills for Claude: keyword research, rank tracking, audits, back",
 "cmd": "git clone https://github.com/Ryze-AI-Adgent/open-seo-mcp-skills.git"
-},
-{
-"repo": "kajisho5/ffmpeg-skill",
-"type": "tool",
-"dom": "Code",
-"desc": "Local video editor for coding agents: 42 FFmpeg tools with a machine-readable contract and an MCP server, for ",
-"cmd": "git clone https://github.com/kajisho5/ffmpeg-skill.git"
 },
 {
 "repo": "thedotmack/claude-mem",
@@ -497,18 +497,18 @@
 "cmd": "git clone https://github.com/Vincentwei1021/video-shotcraft.git"
 },
 {
+"repo": "elementalsouls/Claude-BugHunter",
+"type": "skill",
+"dom": "Security",
+"desc": "A Claude Code skill bundle for bug hunting and external red-team work - 84 skills, 15 slash commands, 681 disc",
+"cmd": "git clone https://github.com/elementalsouls/Claude-BugHunter.git"
+},
+{
 "repo": "teng-lin/notebooklm-py",
 "type": "skill",
 "dom": "Code",
 "desc": "Unofficial Python API and agentic skill for Google Gemini Notebook. Full programmatic access to Gemini Noteboo",
 "cmd": "git clone https://github.com/teng-lin/notebooklm-py.git"
-},
-{
-"repo": "elementalsouls/Claude-BugHunter",
-"type": "skill",
-"dom": "Security",
-"desc": "A Claude Code skill bundle for bug hunting and external red-team work - 82 skills, 15 slash commands, 681 disc",
-"cmd": "git clone https://github.com/elementalsouls/Claude-BugHunter.git"
 },
 {
 "repo": "nidhinjs/prompt-master",
@@ -535,7 +535,7 @@
 "repo": "Jeffallan/claude-skills",
 "type": "skill",
 "dom": "Code",
-"desc": "67 Specialized Skills for Full-Stack Developers. Transform Claude Code into your expert pair programmer.",
+"desc": "71 Specialized Skills for Full-Stack Developers. Transform Claude Code into your expert pair programmer.",
 "cmd": "git clone https://github.com/Jeffallan/claude-skills.git"
 },
 {
@@ -574,18 +574,18 @@
 "cmd": "git clone https://github.com/Jakeschincariol/day-trader-skill.git"
 },
 {
-"repo": "WenyuChiou/awesome-agentic-ai-zh",
-"type": "skill",
-"dom": "Code",
-"desc": "A trilingual (繁中 / English / 简中) learning roadmap for agentic AI: from LLM basics to multi-agent systems, with",
-"cmd": "git clone https://github.com/WenyuChiou/awesome-agentic-ai-zh.git"
-},
-{
 "repo": "zenstory-ai/oh-story-claudecode",
 "type": "skill",
 "dom": "Code",
 "desc": "网文写作 Agent 技能包：扫榜、拆文、大纲细纲、长短篇连载、伏笔追踪、去AI味与封面生成，适配 Claude Code / Codex 等 ｜ Agent skills for writing web novels",
 "cmd": "git clone https://github.com/zenstory-ai/oh-story-claudecode.git"
+},
+{
+"repo": "WenyuChiou/awesome-agentic-ai-zh",
+"type": "skill",
+"dom": "Code",
+"desc": "A trilingual (繁中 / English / 简中) learning roadmap for agentic AI: from LLM basics to multi-agent systems, with",
+"cmd": "git clone https://github.com/WenyuChiou/awesome-agentic-ai-zh.git"
 },
 {
 "repo": "gosom/google-maps-scraper",
@@ -609,6 +609,13 @@
 "cmd": "git clone https://github.com/kaomei/stickman-video-director.git"
 },
 {
+"repo": "ScrapeCreators/social-media-research-skills",
+"type": "skill",
+"dom": "Data",
+"desc": "AI agent skills for social media research. Outlier posts, comment mining, competitor teardowns, ad libraries &",
+"cmd": "git clone https://github.com/ScrapeCreators/social-media-research-skills.git"
+},
+{
 "repo": "kaankiziltug/logo-design-skill",
 "type": "skill",
 "dom": "Code",
@@ -621,13 +628,6 @@
 "dom": "Code",
 "desc": "艺术动画skill：35种艺术风格、9种解说语法，用代码让画动起来。",
 "cmd": "git clone https://github.com/alchaincyf/huashu-art-motion.git"
-},
-{
-"repo": "ScrapeCreators/social-media-research-skills",
-"type": "skill",
-"dom": "Data",
-"desc": "AI agent skills for social media research. Outlier posts, comment mining, competitor teardowns, ad libraries &",
-"cmd": "git clone https://github.com/ScrapeCreators/social-media-research-skills.git"
 },
 {
 "repo": "alchaincyf/darwin-skill",
@@ -1029,6 +1029,13 @@
 "cmd": "git clone https://github.com/jackwener/OpenCLI.git"
 },
 {
+"repo": "ccch1mneyyy/dsh-Go",
+"type": "agent",
+"dom": "Design",
+"desc": "dsh-go — DeepSeek Harness 装进口袋：手机本机运行，也能遥控你的电脑。",
+"cmd": "git clone https://github.com/ccch1mneyyy/dsh-Go.git"
+},
+{
 "repo": "TencentCloud/TencentDB-Agent-Memory",
 "type": "agent",
 "dom": "Code",
@@ -1041,13 +1048,6 @@
 "dom": "Code",
 "desc": "An open-source AI coding agent that lives in your terminal.",
 "cmd": "git clone https://github.com/QwenLM/qwen-code.git"
-},
-{
-"repo": "ccch1mneyyy/dsh-Go",
-"type": "agent",
-"dom": "Design",
-"desc": "dsh-go — DeepSeek Harness 装进口袋：手机本机运行，也能遥控你的电脑。",
-"cmd": "git clone https://github.com/ccch1mneyyy/dsh-Go.git"
 },
 {
 "repo": "op7418/guizang-ppt-skill",
@@ -1071,18 +1071,18 @@
 "cmd": "git clone https://github.com/liyupi/ai-guide.git"
 },
 {
-"repo": "teableio/teable",
-"type": "agent",
-"dom": "Data",
-"desc": "✨ AI Spreadsheet for Business",
-"cmd": "git clone https://github.com/teableio/teable.git"
-},
-{
 "repo": "1jehuang/jcode",
 "type": "agent",
 "dom": "Code",
 "desc": "High performance coding agent harness written in Rust, built for heavy multi-agent dev workflows",
 "cmd": "git clone https://github.com/1jehuang/jcode.git"
+},
+{
+"repo": "teableio/teable",
+"type": "agent",
+"dom": "Data",
+"desc": "✨ AI Spreadsheet for Business",
+"cmd": "git clone https://github.com/teableio/teable.git"
 },
 {
 "repo": "browser-use/browser-harness",
@@ -1134,6 +1134,13 @@
 "cmd": "git clone https://github.com/NanmiCoder/cc-haha.git"
 },
 {
+"repo": "zhouxiaoka/autoclip",
+"type": "agent",
+"dom": "Code",
+"desc": "AutoClip｜一个链接，一键出片。开源 AI 视频剪辑桌面工具，将播客、访谈、课程等长视频自动剪成短视频，生成字幕、封面和发布文案，适配抖音、小红书、TikTok、Reels 与 YouTube Shorts。Ope",
+"cmd": "git clone https://github.com/zhouxiaoka/autoclip.git"
+},
+{
 "repo": "e2b-dev/E2B",
 "type": "agent",
 "dom": "Code",
@@ -1160,13 +1167,6 @@
 "dom": "Automation",
 "desc": "Self-evolving agent: grows skill tree from 3.3K-line seed, achieving full system control with 6x less token co",
 "cmd": "git clone https://github.com/lsdefine/GenericAgent.git"
-},
-{
-"repo": "zhouxiaoka/autoclip",
-"type": "agent",
-"dom": "Code",
-"desc": "AutoClip｜一个链接，一键出片。开源 AI 视频剪辑桌面工具，将播客、访谈、课程等长视频自动剪成短视频，生成字幕、封面和发布文案，适配抖音、小红书、TikTok、Reels 与 YouTube Shorts。Ope",
-"cmd": "git clone https://github.com/zhouxiaoka/autoclip.git"
 },
 {
 "repo": "helloianneo/ian-xiaohei-illustrations",
