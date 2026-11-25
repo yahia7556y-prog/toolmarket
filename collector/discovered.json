@@ -154,18 +154,18 @@
 "cmd": "git clone https://github.com/Evil0ctal/Douyin_TikTok_Download_API.git"
 },
 {
-"repo": "modelscope/FunASR",
-"type": "tool",
-"dom": "General",
-"desc": "Open-source speech recognition toolkit for training, inference, streaming ASR, VAD, punctuation, speaker diari",
-"cmd": "git clone https://github.com/modelscope/FunASR.git"
-},
-{
 "repo": "xerj-org/xerj",
 "type": "tool",
 "dom": "Data",
 "desc": "AI search engine and MCP server for bots and agents. One Rust binary indexes code, docs, logs, JSONL/CSV and P",
 "cmd": "git clone https://github.com/xerj-org/xerj.git"
+},
+{
+"repo": "modelscope/FunASR",
+"type": "tool",
+"dom": "General",
+"desc": "Open-source speech recognition toolkit for training, inference, streaming ASR, VAD, punctuation, speaker diari",
+"cmd": "git clone https://github.com/modelscope/FunASR.git"
 },
 {
 "repo": "rocketride-org/rocketride-server",
@@ -189,18 +189,18 @@
 "cmd": "git clone https://github.com/nukeop/nuclear.git"
 },
 {
-"repo": "microsoft/mcp-for-beginners",
-"type": "tool",
-"dom": "Security",
-"desc": "This open-source curriculum introduces the fundamentals of Model Context Protocol (MCP) through real-world, cr",
-"cmd": "git clone https://github.com/microsoft/mcp-for-beginners.git"
-},
-{
 "repo": "apify/apify-mcp-server",
 "type": "tool",
 "dom": "Data",
 "desc": "The Apify MCP server enables your AI agents to extract data from social media, search engines, maps, e-commerc",
 "cmd": "git clone https://github.com/apify/apify-mcp-server.git"
+},
+{
+"repo": "microsoft/mcp-for-beginners",
+"type": "tool",
+"dom": "Security",
+"desc": "This open-source curriculum introduces the fundamentals of Model Context Protocol (MCP) through real-world, cr",
+"cmd": "git clone https://github.com/microsoft/mcp-for-beginners.git"
 },
 {
 "repo": "xpzouying/xiaohongshu-mcp",
@@ -226,7 +226,7 @@
 {
 "repo": "budtmo/docker-android",
 "type": "agent",
-"dom": "Automation",
+"dom": "Code",
 "desc": "Android in docker solution with noVNC supported, video recording, mcp server and AI-agent",
 "cmd": "git clone https://github.com/budtmo/docker-android.git"
 },
@@ -336,18 +336,18 @@
 "cmd": "git clone https://github.com/Agents365-ai/drawio-skill.git"
 },
 {
+"repo": "kajisho5/ffmpeg-skill",
+"type": "tool",
+"dom": "Code",
+"desc": "Local video editor for coding agents: 42 FFmpeg tools with a machine-readable contract and an MCP server, for ",
+"cmd": "git clone https://github.com/kajisho5/ffmpeg-skill.git"
+},
+{
 "repo": "mobile-next/mobile-mcp",
 "type": "tool",
 "dom": "Automation",
 "desc": "Mobile MCP: let AI agents drive your iOS and Android apps. MCP server for simulators, emulators and real devic",
 "cmd": "git clone https://github.com/mobile-next/mobile-mcp.git"
-},
-{
-"repo": "Ryze-AI-Adgent/open-seo-mcp-skills",
-"type": "skill",
-"dom": "Data",
-"desc": "Free SEO MCP server + open-source SEO and GEO skills for Claude: keyword research, rank tracking, audits, back",
-"cmd": "git clone https://github.com/Ryze-AI-Adgent/open-seo-mcp-skills.git"
 },
 {
 "repo": "thedotmack/claude-mem",
@@ -553,6 +553,13 @@
 "cmd": "git clone https://github.com/alchaincyf/zhangxuefeng-skill.git"
 },
 {
+"repo": "Ryze-AI-Adgent/open-seo-mcp-skills",
+"type": "skill",
+"dom": "Data",
+"desc": "Free SEO MCP server + open-source SEO and GEO skills for Claude: keyword research, rank tracking, audits, back",
+"cmd": "git clone https://github.com/Ryze-AI-Adgent/open-seo-mcp-skills.git"
+},
+{
 "repo": "Jakeschincariol/replica-skill",
 "type": "skill",
 "dom": "Code",
@@ -595,18 +602,18 @@
 "cmd": "git clone https://github.com/gosom/google-maps-scraper.git"
 },
 {
-"repo": "deanpeters/Product-Manager-Skills",
-"type": "skill",
-"dom": "Code",
-"desc": "Product Management skills framework built on battle-tested methods for Claude Code, Cowork, Codex, and AI agen",
-"cmd": "git clone https://github.com/deanpeters/Product-Manager-Skills.git"
-},
-{
 "repo": "kaomei/stickman-video-director",
 "type": "skill",
 "dom": "Automation",
 "desc": "AI Agent Skill (Claude Code, Codex & more): Turn any script into animated stickman videos for faceless YouTube",
 "cmd": "git clone https://github.com/kaomei/stickman-video-director.git"
+},
+{
+"repo": "deanpeters/Product-Manager-Skills",
+"type": "skill",
+"dom": "Code",
+"desc": "Product Management skills framework built on battle-tested methods for Claude Code, Cowork, Codex, and AI agen",
+"cmd": "git clone https://github.com/deanpeters/Product-Manager-Skills.git"
 },
 {
 "repo": "ScrapeCreators/social-media-research-skills",
@@ -672,11 +679,11 @@
 "cmd": "git clone https://github.com/Appllama/appllama-skills.git"
 },
 {
-"repo": "liustack/modlens",
+"repo": "backnotprop/pstack",
 "type": "skill",
 "dom": "Code",
-"desc": "The first vision plugin for DeepSeek Harness, and the vision bridge for every text-only coding agent. Paste an",
-"cmd": "git clone https://github.com/liustack/modlens.git"
+"desc": "Use pstack with claude, codex, pi - Skills and principles for rigorous AI-assisted engineering",
+"cmd": "git clone https://github.com/backnotprop/pstack.git"
 },
 {
 "repo": "morluto/rea",
@@ -829,7 +836,7 @@
 "repo": "googleworkspace/cli",
 "type": "agent",
 "dom": "Automation",
-"desc": "Google Workspace CLI — one command-line tool for Drive, Gmail, Calendar, Sheets, Docs, Chat, Admin, and more. ",
+"desc": " Community CLI for Google Workspace APIs.",
 "cmd": "git clone https://github.com/googleworkspace/cli.git"
 },
 {
@@ -962,7 +969,7 @@
 "repo": "codewhale-hq/Codewhale",
 "type": "agent",
 "dom": "Code",
-"desc": "An open-source coding agent for your terminal, written in Rust. It works with any model, can split one task ac",
+"desc": "Open-source Rust coding agent for terminal, web, and desktop. Any model, multi-agent fleets, MCP & plugins, OS",
 "cmd": "git clone https://github.com/codewhale-hq/Codewhale.git"
 },
 {
@@ -1022,18 +1029,18 @@
 "cmd": "git clone https://github.com/feder-cr/Jobs_Applier_AI_Agent.git"
 },
 {
-"repo": "jackwener/OpenCLI",
-"type": "agent",
-"dom": "Automation",
-"desc": "Make Any Website into CLI & Use your logged-in browser by AI agent. ",
-"cmd": "git clone https://github.com/jackwener/OpenCLI.git"
-},
-{
 "repo": "ccch1mneyyy/dsh-Go",
 "type": "agent",
 "dom": "Design",
 "desc": "dsh-go — DeepSeek Harness 装进口袋：手机本机运行，也能遥控你的电脑。",
 "cmd": "git clone https://github.com/ccch1mneyyy/dsh-Go.git"
+},
+{
+"repo": "jackwener/OpenCLI",
+"type": "agent",
+"dom": "Automation",
+"desc": "Make Any Website into CLI & Use your logged-in browser by AI agent. ",
+"cmd": "git clone https://github.com/jackwener/OpenCLI.git"
 },
 {
 "repo": "TencentCloud/TencentDB-Agent-Memory",
@@ -1127,18 +1134,18 @@
 "cmd": "git clone https://github.com/browser-use/web-ui.git"
 },
 {
-"repo": "NanmiCoder/cc-haha",
-"type": "agent",
-"dom": "Code",
-"desc": "本地优先的跨平台 Claude Code / AI Agent 桌面工作台：多 Agent 协作、Git Worktree、代码 Diff、技能市场、多模型、Computer Use、桌面宠物；支持微信、飞书、钉钉及 H",
-"cmd": "git clone https://github.com/NanmiCoder/cc-haha.git"
-},
-{
 "repo": "zhouxiaoka/autoclip",
 "type": "agent",
 "dom": "Code",
 "desc": "AutoClip｜一个链接，一键出片。开源 AI 视频剪辑桌面工具，将播客、访谈、课程等长视频自动剪成短视频，生成字幕、封面和发布文案，适配抖音、小红书、TikTok、Reels 与 YouTube Shorts。Ope",
 "cmd": "git clone https://github.com/zhouxiaoka/autoclip.git"
+},
+{
+"repo": "NanmiCoder/cc-haha",
+"type": "agent",
+"dom": "Code",
+"desc": "本地优先的跨平台 Claude Code / AI Agent 桌面工作台：多 Agent 协作、Git Worktree、代码 Diff、技能市场、多模型、Computer Use、桌面宠物；支持微信、飞书、钉钉及 H",
+"cmd": "git clone https://github.com/NanmiCoder/cc-haha.git"
 },
 {
 "repo": "e2b-dev/E2B",
@@ -1183,10 +1190,10 @@
 "cmd": "git clone https://github.com/genspark-ai/genoffice.git"
 },
 {
-"repo": "jo-inc/camofox-browser",
+"repo": "TencentCloud/Octop",
 "type": "agent",
-"dom": "Automation",
-"desc": "Stealth headless browser for AI agents — bypass Cloudflare, bot detection, and anti-scraping. Drop-in Puppetee",
-"cmd": "git clone https://github.com/jo-inc/camofox-browser.git"
+"dom": "General",
+"desc": "A smarter, self-hosted AI assistant — multi-user, multi-agent.",
+"cmd": "git clone https://github.com/TencentCloud/Octop.git"
 }
 ]
