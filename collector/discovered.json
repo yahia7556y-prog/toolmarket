@@ -322,6 +322,13 @@
 "cmd": "git clone https://github.com/xinnan-tech/xiaozhi-esp32-server.git"
 },
 {
+"repo": "kajisho5/ffmpeg-skill",
+"type": "tool",
+"dom": "Code",
+"desc": "Local video editor for coding agents: 42 FFmpeg tools with a machine-readable contract and an MCP server, for ",
+"cmd": "git clone https://github.com/kajisho5/ffmpeg-skill.git"
+},
+{
 "repo": "mcp-use/mcp-use",
 "type": "tool",
 "dom": "Code",
@@ -334,13 +341,6 @@
 "dom": "Data",
 "desc": "Agent skill that turns natural language, code, Terraform/K8s, SQL, OpenAPI, AsyncAPI, Protobuf and GraphQL sou",
 "cmd": "git clone https://github.com/Agents365-ai/drawio-skill.git"
-},
-{
-"repo": "kajisho5/ffmpeg-skill",
-"type": "tool",
-"dom": "Code",
-"desc": "Local video editor for coding agents: 42 FFmpeg tools with a machine-readable contract and an MCP server, for ",
-"cmd": "git clone https://github.com/kajisho5/ffmpeg-skill.git"
 },
 {
 "repo": "mobile-next/mobile-mcp",
@@ -367,7 +367,7 @@
 "repo": "tt-a1i/archify",
 "type": "skill",
 "dom": "Code",
-"desc": "Turn any idea, plan, or codebase into a beautiful interactive diagram. An agent skill for Claude Code, Codex, ",
+"desc": "Turn any idea, plan, or codebase into an interactive diagram or one-page answer: 10 diagram types, Architectur",
 "cmd": "git clone https://github.com/tt-a1i/archify.git"
 },
 {
@@ -476,18 +476,18 @@
 "cmd": "git clone https://github.com/titanwings/distilly.git"
 },
 {
+"repo": "elementalsouls/Claude-BugHunter",
+"type": "skill",
+"dom": "Security",
+"desc": "A Claude Code skill bundle for bug hunting and external red-team work - 85 skills, 16 slash commands, 681 disc",
+"cmd": "git clone https://github.com/elementalsouls/Claude-BugHunter.git"
+},
+{
 "repo": "google/elephant-goldfish-model",
 "type": "skill",
 "dom": "Code",
 "desc": "Open-source plugin for designing and reviewing software with agents",
 "cmd": "git clone https://github.com/google/elephant-goldfish-model.git"
-},
-{
-"repo": "latent-spaces/brag",
-"type": "skill",
-"dom": "Code",
-"desc": "You built it. Now brag. Turn the project you just created into a short, shareable launch video with one comman",
-"cmd": "git clone https://github.com/latent-spaces/brag.git"
 },
 {
 "repo": "Vincentwei1021/video-shotcraft",
@@ -497,11 +497,11 @@
 "cmd": "git clone https://github.com/Vincentwei1021/video-shotcraft.git"
 },
 {
-"repo": "elementalsouls/Claude-BugHunter",
+"repo": "latent-spaces/brag",
 "type": "skill",
-"dom": "Security",
-"desc": "A Claude Code skill bundle for bug hunting and external red-team work - 84 skills, 15 slash commands, 681 disc",
-"cmd": "git clone https://github.com/elementalsouls/Claude-BugHunter.git"
+"dom": "Code",
+"desc": "You built it. Now brag. Turn the project you just created into a short, shareable launch video with one comman",
+"cmd": "git clone https://github.com/latent-spaces/brag.git"
 },
 {
 "repo": "teng-lin/notebooklm-py",
@@ -553,18 +553,18 @@
 "cmd": "git clone https://github.com/alchaincyf/zhangxuefeng-skill.git"
 },
 {
-"repo": "Ryze-AI-Adgent/open-seo-mcp-skills",
-"type": "skill",
-"dom": "Data",
-"desc": "Free SEO MCP server + open-source SEO and GEO skills for Claude: keyword research, rank tracking, audits, back",
-"cmd": "git clone https://github.com/Ryze-AI-Adgent/open-seo-mcp-skills.git"
-},
-{
 "repo": "Jakeschincariol/replica-skill",
 "type": "skill",
 "dom": "Code",
 "desc": "Eleven free Claude skills that clone any app: reverse-engineer it, rebuild it, test it for bugs, then fix what",
 "cmd": "git clone https://github.com/Jakeschincariol/replica-skill.git"
+},
+{
+"repo": "Ryze-AI-Adgent/open-seo-mcp-skills",
+"type": "skill",
+"dom": "Data",
+"desc": "Free SEO MCP server + open-source SEO and GEO skills for Claude: keyword research, rank tracking, audits, back",
+"cmd": "git clone https://github.com/Ryze-AI-Adgent/open-seo-mcp-skills.git"
 },
 {
 "repo": "anbeime/skill",
@@ -847,13 +847,6 @@
 "cmd": "git clone https://github.com/phuryn/pm-skills.git"
 },
 {
-"repo": "agentskills/agentskills",
-"type": "skill",
-"dom": "Docs",
-"desc": "Specification and documentation for Agent Skills",
-"cmd": "git clone https://github.com/agentskills/agentskills.git"
-},
-{
 "repo": "NVIDIA/SkillSpector",
 "type": "skill",
 "dom": "Security",
@@ -861,11 +854,11 @@
 "cmd": "git clone https://github.com/NVIDIA/SkillSpector.git"
 },
 {
-"repo": "nocobase/nocobase",
-"type": "agent",
-"dom": "Code",
-"desc": "NocoBase is the open-source platform for building, running, and evolving business systems with AI. Agents writ",
-"cmd": "git clone https://github.com/nocobase/nocobase.git"
+"repo": "agentskills/agentskills",
+"type": "skill",
+"dom": "Docs",
+"desc": "Specification and documentation for Agent Skills",
+"cmd": "git clone https://github.com/agentskills/agentskills.git"
 },
 {
 "repo": "citrolabs/ego-lite",
@@ -894,6 +887,13 @@
 "dom": "Code",
 "desc": "A toolbox of film styles made in code for Claude Code: 99 ready to use, and your own. Each style is a style pr",
 "cmd": "git clone https://github.com/lemomo-ai/lemo-opuscar.git"
+},
+{
+"repo": "microsoft/SkillOpt",
+"type": "skill",
+"dom": "General",
+"desc": "SkillOpt is a text-space optimizer that trains reusable natural-language skills for frozen LLM agents through ",
+"cmd": "git clone https://github.com/microsoft/SkillOpt.git"
 },
 {
 "repo": "NousResearch/hermes-agent",
@@ -1195,5 +1195,12 @@
 "dom": "General",
 "desc": "A smarter, self-hosted AI assistant — multi-user, multi-agent.",
 "cmd": "git clone https://github.com/TencentCloud/Octop.git"
+},
+{
+"repo": "jo-inc/camofox-browser",
+"type": "agent",
+"dom": "Automation",
+"desc": "Stealth headless browser for AI agents — bypass Cloudflare, bot detection, and anti-scraping. Drop-in Puppetee",
+"cmd": "git clone https://github.com/jo-inc/camofox-browser.git"
 }
 ]
