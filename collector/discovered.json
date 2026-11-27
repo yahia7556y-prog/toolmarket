@@ -147,18 +147,18 @@
 "cmd": "git clone https://github.com/1Panel-dev/MaxKB.git"
 },
 {
-"repo": "Evil0ctal/Douyin_TikTok_Download_API",
-"type": "tool",
-"dom": "Data",
-"desc": "🚀 自托管的抖音、TikTok、B 站数据采集与无水印视频下载 API，支持 AI agent 通过 MCP 调用与离线语音转文字，Docker 一键部署。| Self-hosted TikTok, Douyin & B",
-"cmd": "git clone https://github.com/Evil0ctal/Douyin_TikTok_Download_API.git"
-},
-{
 "repo": "xerj-org/xerj",
 "type": "tool",
 "dom": "Data",
 "desc": "AI search engine and MCP server for bots and agents. One Rust binary indexes code, docs, logs, JSONL/CSV and P",
 "cmd": "git clone https://github.com/xerj-org/xerj.git"
+},
+{
+"repo": "Evil0ctal/Douyin_TikTok_Download_API",
+"type": "tool",
+"dom": "Data",
+"desc": "🚀 自托管的抖音、TikTok、B 站数据采集与无水印视频下载 API，支持 AI agent 通过 MCP 调用与离线语音转文字，Docker 一键部署。| Self-hosted TikTok, Douyin & B",
+"cmd": "git clone https://github.com/Evil0ctal/Douyin_TikTok_Download_API.git"
 },
 {
 "repo": "modelscope/FunASR",
@@ -168,18 +168,18 @@
 "cmd": "git clone https://github.com/modelscope/FunASR.git"
 },
 {
-"repo": "rocketride-org/rocketride-server",
-"type": "tool",
-"dom": "Docs",
-"desc": "RocketRide is an open source AI meta-harness with the only enterprise-grade runtime built on C++. Build, test ",
-"cmd": "git clone https://github.com/rocketride-org/rocketride-server.git"
-},
-{
 "repo": "wanshuiyin/Auto-claude-code-research-in-sleep",
 "type": "tool",
 "dom": "Automation",
 "desc": "ARIS ⚔️ (Auto-Research-In-Sleep) — Lightweight Markdown-only skills for autonomous ML research: cross-model re",
 "cmd": "git clone https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep.git"
+},
+{
+"repo": "rocketride-org/rocketride-server",
+"type": "tool",
+"dom": "Docs",
+"desc": "RocketRide is an open source AI meta-harness with the only enterprise-grade runtime built on C++. Build, test ",
+"cmd": "git clone https://github.com/rocketride-org/rocketride-server.git"
 },
 {
 "repo": "nukeop/nuclear",
@@ -208,6 +208,13 @@
 "dom": "General",
 "desc": "MCP for xiaohongshu.com",
 "cmd": "git clone https://github.com/xpzouying/xiaohongshu-mcp.git"
+},
+{
+"repo": "zhouxiaoka/autoclip",
+"type": "agent",
+"dom": "Code",
+"desc": "AutoClip｜The open-source OpusClip alternative — local-first AI clipping & MCP server, zero subscriptions. 一个链接",
+"cmd": "git clone https://github.com/zhouxiaoka/autoclip.git"
 },
 {
 "repo": "MODSetter/SurfSense",
@@ -308,6 +315,13 @@
 "cmd": "git clone https://github.com/0xJacky/nginx-ui.git"
 },
 {
+"repo": "kajisho5/ffmpeg-skill",
+"type": "tool",
+"dom": "Code",
+"desc": "Local video editor for coding agents: 42 FFmpeg tools with a machine-readable contract and an MCP server, for ",
+"cmd": "git clone https://github.com/kajisho5/ffmpeg-skill.git"
+},
+{
 "repo": "trailhq/Trail-Code",
 "type": "tool",
 "dom": "Code",
@@ -322,13 +336,6 @@
 "cmd": "git clone https://github.com/xinnan-tech/xiaozhi-esp32-server.git"
 },
 {
-"repo": "kajisho5/ffmpeg-skill",
-"type": "tool",
-"dom": "Code",
-"desc": "Local video editor for coding agents: 42 FFmpeg tools with a machine-readable contract and an MCP server, for ",
-"cmd": "git clone https://github.com/kajisho5/ffmpeg-skill.git"
-},
-{
 "repo": "mcp-use/mcp-use",
 "type": "tool",
 "dom": "Code",
@@ -341,13 +348,6 @@
 "dom": "Data",
 "desc": "Agent skill that turns natural language, code, Terraform/K8s, SQL, OpenAPI, AsyncAPI, Protobuf and GraphQL sou",
 "cmd": "git clone https://github.com/Agents365-ai/drawio-skill.git"
-},
-{
-"repo": "mobile-next/mobile-mcp",
-"type": "tool",
-"dom": "Automation",
-"desc": "Mobile MCP: let AI agents drive your iOS and Android apps. MCP server for simulators, emulators and real devic",
-"cmd": "git clone https://github.com/mobile-next/mobile-mcp.git"
 },
 {
 "repo": "thedotmack/claude-mem",
@@ -595,18 +595,18 @@
 "cmd": "git clone https://github.com/WenyuChiou/awesome-agentic-ai-zh.git"
 },
 {
-"repo": "gosom/google-maps-scraper",
-"type": "skill",
-"dom": "Data",
-"desc": "scrape data  from Google Maps. Extracts data such as the name, address, phone number, website URL, rating,  re",
-"cmd": "git clone https://github.com/gosom/google-maps-scraper.git"
-},
-{
 "repo": "kaomei/stickman-video-director",
 "type": "skill",
 "dom": "Automation",
 "desc": "AI Agent Skill (Claude Code, Codex & more): Turn any script into animated stickman videos for faceless YouTube",
 "cmd": "git clone https://github.com/kaomei/stickman-video-director.git"
+},
+{
+"repo": "gosom/google-maps-scraper",
+"type": "skill",
+"dom": "Data",
+"desc": "scrape data  from Google Maps. Extracts data such as the name, address, phone number, website URL, rating,  re",
+"cmd": "git clone https://github.com/gosom/google-maps-scraper.git"
 },
 {
 "repo": "deanpeters/Product-Manager-Skills",
@@ -749,18 +749,18 @@
 "cmd": "git clone https://github.com/mvanhorn/last30days-skill.git"
 },
 {
-"repo": "blader/humanizer",
-"type": "skill",
-"dom": "Code",
-"desc": "Agent skill that removes signs of AI-generated writing from text",
-"cmd": "git clone https://github.com/blader/humanizer.git"
-},
-{
 "repo": "cathrynlavery/diagram-design",
 "type": "skill",
 "dom": "Data",
 "desc": "Editorial diagram design for Claude Code, Codex, GitHub Copilot, Cursor, Factory Droid, Qoder, and Pi. 52 diag",
 "cmd": "git clone https://github.com/cathrynlavery/diagram-design.git"
+},
+{
+"repo": "blader/humanizer",
+"type": "skill",
+"dom": "Code",
+"desc": "Agent skill that removes signs of AI-generated writing from text",
+"cmd": "git clone https://github.com/blader/humanizer.git"
 },
 {
 "repo": "emilkowalski/skills",
@@ -875,18 +875,18 @@
 "cmd": "git clone https://github.com/KKKKhazix/khazix-skills.git"
 },
 {
-"repo": "eclipse-theia/theia",
-"type": "skill",
-"dom": "Automation",
-"desc": "Eclipse Theia is an open-source platform for building custom IDEs and tools for browser and desktop. It includ",
-"cmd": "git clone https://github.com/eclipse-theia/theia.git"
-},
-{
 "repo": "lemomo-ai/lemo-opuscar",
 "type": "skill",
 "dom": "Code",
 "desc": "A toolbox of film styles made in code for Claude Code: 99 ready to use, and your own. Each style is a style pr",
 "cmd": "git clone https://github.com/lemomo-ai/lemo-opuscar.git"
+},
+{
+"repo": "eclipse-theia/theia",
+"type": "skill",
+"dom": "Automation",
+"desc": "Eclipse Theia is an open-source platform for building custom IDEs and tools for browser and desktop. It includ",
+"cmd": "git clone https://github.com/eclipse-theia/theia.git"
 },
 {
 "repo": "microsoft/SkillOpt",
@@ -924,18 +924,18 @@
 "cmd": "git clone https://github.com/hugohe3/ppt-master.git"
 },
 {
-"repo": "thedaviddias/Front-End-Checklist",
-"type": "agent",
-"dom": "Code",
-"desc": "🗂 The essential checklist for modern web development, for humans and AI agents",
-"cmd": "git clone https://github.com/thedaviddias/Front-End-Checklist.git"
-},
-{
 "repo": "ZhuLinsen/daily_stock_analysis",
 "type": "agent",
 "dom": "Data",
 "desc": "LLM 驱动的多市场股票智能分析系统：多源行情、实时新闻、决策看板与自动推送，支持零成本定时运行。  LLM-powered multi-market stock analysis system with multi-s",
 "cmd": "git clone https://github.com/ZhuLinsen/daily_stock_analysis.git"
+},
+{
+"repo": "thedaviddias/Front-End-Checklist",
+"type": "agent",
+"dom": "Code",
+"desc": "🗂 The essential checklist for modern web development, for humans and AI agents",
+"cmd": "git clone https://github.com/thedaviddias/Front-End-Checklist.git"
 },
 {
 "repo": "bojieli/ai-agent-book",
@@ -980,18 +980,18 @@
 "cmd": "git clone https://github.com/can1357/oh-my-pi.git"
 },
 {
-"repo": "CopilotKit/CopilotKit",
-"type": "agent",
-"dom": "Communication",
-"desc": "The Frontend Stack for Agents & Generative UI. React, Angular, Mobile, Slack, and more.  Makers of the AG-UI P",
-"cmd": "git clone https://github.com/CopilotKit/CopilotKit.git"
-},
-{
 "repo": "HKUDS/Vibe-Trading",
 "type": "agent",
 "dom": "General",
 "desc": "\"Vibe-Trading: Your Personal Trading Agent\"",
 "cmd": "git clone https://github.com/HKUDS/Vibe-Trading.git"
+},
+{
+"repo": "CopilotKit/CopilotKit",
+"type": "agent",
+"dom": "Communication",
+"desc": "The Frontend Stack for Agents & Generative UI. React, Angular, Mobile, Slack, and more.  Makers of the AG-UI P",
+"cmd": "git clone https://github.com/CopilotKit/CopilotKit.git"
 },
 {
 "repo": "agentscope-ai/QwenPaw",
@@ -1022,18 +1022,18 @@
 "cmd": "git clone https://github.com/trycua/cua.git"
 },
 {
-"repo": "feder-cr/Jobs_Applier_AI_Agent",
-"type": "agent",
-"dom": "Automation",
-"desc": "AIHawk: AI job application bot, automated job search, job hunting, auto-apply to resume-matching jobs while yo",
-"cmd": "git clone https://github.com/feder-cr/Jobs_Applier_AI_Agent.git"
-},
-{
 "repo": "ccch1mneyyy/dsh-Go",
 "type": "agent",
 "dom": "Design",
 "desc": "dsh-go — DeepSeek Harness 装进口袋：手机本机运行，也能遥控你的电脑。",
 "cmd": "git clone https://github.com/ccch1mneyyy/dsh-Go.git"
+},
+{
+"repo": "feder-cr/Jobs_Applier_AI_Agent",
+"type": "agent",
+"dom": "Automation",
+"desc": "AIHawk: AI job application bot, automated job search, job hunting, auto-apply to resume-matching jobs while yo",
+"cmd": "git clone https://github.com/feder-cr/Jobs_Applier_AI_Agent.git"
 },
 {
 "repo": "jackwener/OpenCLI",
@@ -1132,13 +1132,6 @@
 "dom": "Automation",
 "desc": "🖥️ Run AI Agent in your browser.",
 "cmd": "git clone https://github.com/browser-use/web-ui.git"
-},
-{
-"repo": "zhouxiaoka/autoclip",
-"type": "agent",
-"dom": "Code",
-"desc": "AutoClip｜一个链接，一键出片。开源 AI 视频剪辑桌面工具，将播客、访谈、课程等长视频自动剪成短视频，生成字幕、封面和发布文案，适配抖音、小红书、TikTok、Reels 与 YouTube Shorts。Ope",
-"cmd": "git clone https://github.com/zhouxiaoka/autoclip.git"
 },
 {
 "repo": "NanmiCoder/cc-haha",
