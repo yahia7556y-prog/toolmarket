@@ -196,6 +196,13 @@
 "cmd": "git clone https://github.com/apify/apify-mcp-server.git"
 },
 {
+"repo": "zhouxiaoka/autoclip",
+"type": "agent",
+"dom": "Code",
+"desc": "AutoClip｜The open-source OpusClip alternative — local-first AI clipping & MCP server, zero subscriptions. 一个链接",
+"cmd": "git clone https://github.com/zhouxiaoka/autoclip.git"
+},
+{
 "repo": "microsoft/mcp-for-beginners",
 "type": "tool",
 "dom": "Security",
@@ -208,13 +215,6 @@
 "dom": "General",
 "desc": "MCP for xiaohongshu.com",
 "cmd": "git clone https://github.com/xpzouying/xiaohongshu-mcp.git"
-},
-{
-"repo": "zhouxiaoka/autoclip",
-"type": "agent",
-"dom": "Code",
-"desc": "AutoClip｜The open-source OpusClip alternative — local-first AI clipping & MCP server, zero subscriptions. 一个链接",
-"cmd": "git clone https://github.com/zhouxiaoka/autoclip.git"
 },
 {
 "repo": "MODSetter/SurfSense",
@@ -308,18 +308,18 @@
 "cmd": "git clone https://github.com/JoeanAmier/XHS-Downloader.git"
 },
 {
-"repo": "0xJacky/nginx-ui",
-"type": "tool",
-"dom": "Code",
-"desc": "Yet another WebUI for Nginx",
-"cmd": "git clone https://github.com/0xJacky/nginx-ui.git"
-},
-{
 "repo": "kajisho5/ffmpeg-skill",
 "type": "tool",
 "dom": "Code",
 "desc": "Local video editor for coding agents: 42 FFmpeg tools with a machine-readable contract and an MCP server, for ",
 "cmd": "git clone https://github.com/kajisho5/ffmpeg-skill.git"
+},
+{
+"repo": "0xJacky/nginx-ui",
+"type": "tool",
+"dom": "Code",
+"desc": "Yet another WebUI for Nginx",
+"cmd": "git clone https://github.com/0xJacky/nginx-ui.git"
 },
 {
 "repo": "trailhq/Trail-Code",
@@ -546,18 +546,18 @@
 "cmd": "git clone https://github.com/SnailSploit/Claude-Red.git"
 },
 {
-"repo": "alchaincyf/zhangxuefeng-skill",
-"type": "skill",
-"dom": "Code",
-"desc": "张雪峰.skill — 张雪峰的认知操作系统。高考志愿/考研/职业规划的实战思维框架。由女娲.skill生成。",
-"cmd": "git clone https://github.com/alchaincyf/zhangxuefeng-skill.git"
-},
-{
 "repo": "Jakeschincariol/replica-skill",
 "type": "skill",
 "dom": "Code",
 "desc": "Eleven free Claude skills that clone any app: reverse-engineer it, rebuild it, test it for bugs, then fix what",
 "cmd": "git clone https://github.com/Jakeschincariol/replica-skill.git"
+},
+{
+"repo": "alchaincyf/zhangxuefeng-skill",
+"type": "skill",
+"dom": "Code",
+"desc": "张雪峰.skill — 张雪峰的认知操作系统。高考志愿/考研/职业规划的实战思维框架。由女娲.skill生成。",
+"cmd": "git clone https://github.com/alchaincyf/zhangxuefeng-skill.git"
 },
 {
 "repo": "Ryze-AI-Adgent/open-seo-mcp-skills",
@@ -605,15 +605,8 @@
 "repo": "gosom/google-maps-scraper",
 "type": "skill",
 "dom": "Data",
-"desc": "scrape data  from Google Maps. Extracts data such as the name, address, phone number, website URL, rating,  re",
+"desc": "Open-source Google Maps scraper for business listings. Export phone numbers, websites, ratings, and reviews to",
 "cmd": "git clone https://github.com/gosom/google-maps-scraper.git"
-},
-{
-"repo": "deanpeters/Product-Manager-Skills",
-"type": "skill",
-"dom": "Code",
-"desc": "Product Management skills framework built on battle-tested methods for Claude Code, Cowork, Codex, and AI agen",
-"cmd": "git clone https://github.com/deanpeters/Product-Manager-Skills.git"
 },
 {
 "repo": "ScrapeCreators/social-media-research-skills",
@@ -621,6 +614,13 @@
 "dom": "Data",
 "desc": "AI agent skills for social media research. Outlier posts, comment mining, competitor teardowns, ad libraries &",
 "cmd": "git clone https://github.com/ScrapeCreators/social-media-research-skills.git"
+},
+{
+"repo": "deanpeters/Product-Manager-Skills",
+"type": "skill",
+"dom": "Code",
+"desc": "Product Management skills framework built on battle-tested methods for Claude Code, Cowork, Codex, and AI agen",
+"cmd": "git clone https://github.com/deanpeters/Product-Manager-Skills.git"
 },
 {
 "repo": "kaankiziltug/logo-design-skill",
@@ -1015,18 +1015,18 @@
 "cmd": "git clone https://github.com/iOfficeAI/AionUi.git"
 },
 {
-"repo": "trycua/cua",
-"type": "agent",
-"dom": "Data",
-"desc": "Scale computer-use 2.0 with open-source drivers, cross-OS sandboxes, and benchmarks for training, evaluation, ",
-"cmd": "git clone https://github.com/trycua/cua.git"
-},
-{
 "repo": "ccch1mneyyy/dsh-Go",
 "type": "agent",
 "dom": "Design",
 "desc": "dsh-go — DeepSeek Harness 装进口袋：手机本机运行，也能遥控你的电脑。",
 "cmd": "git clone https://github.com/ccch1mneyyy/dsh-Go.git"
+},
+{
+"repo": "trycua/cua",
+"type": "agent",
+"dom": "Data",
+"desc": "Scale computer-use 2.0 with open-source drivers, cross-OS sandboxes, and benchmarks for training, evaluation, ",
+"cmd": "git clone https://github.com/trycua/cua.git"
 },
 {
 "repo": "feder-cr/Jobs_Applier_AI_Agent",
